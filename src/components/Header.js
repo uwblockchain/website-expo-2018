@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import HeaderImg from './header-img.png';
-import './Header.css';
+import HeaderImg from '../img/header-img.png';
+import '../css/Header.css';
 
 export default class Header extends Component {
     render() {
