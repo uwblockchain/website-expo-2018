@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import HeaderImg from '../img/header-img.png';
+import Navigation from './Navigation';
 import '../css/Header.css';
 
 export default class Header extends Component {
@@ -15,6 +16,7 @@ export default class Header extends Component {
                   <i>Connecting students and industry in blockchain</i>
                 </h3>
               </div>
+              <Navigation/>
             </header>
         )
     }
