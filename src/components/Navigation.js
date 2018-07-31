@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar'
-import Toolbar from '@material-ui/core/Toolbar'
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography'
+import Typography from '@material-ui/core/Typography';
 
 function TabContainer(props) {
   return (
@@ -21,7 +21,10 @@ const styles = {
   },
   flex: {
     flexGrow: 1
-    }
+    },
+  menu: {
+    marginLeft: '60%'
+  }
   };
   
 
@@ -41,11 +44,11 @@ class Navigation extends Component {
     return (
       <div className={classes.root}>
         <AppBar position="static">
-          <Toolbar>
+          <Toolbar variant="regular">
             <Typography variant="title" color="inherit">
               UW Blockchain Expo
             </Typography>
-            <Button variant="outlined" color="inherit">
+            <Button className={classes.menu} variant="outlined" color="inherit">
               Get Tickets
             </Button>
             <Tabs value={value} onChange={this.handleChange}>
