@@ -56,10 +56,10 @@ class Navigation extends Component {
             </Tabs>
           </Toolbar>
         </AppBar>
-        {value === 0 && <TabContainer>Item One</TabContainer>}
-        {value === 1 && <TabContainer>Item Two</TabContainer>}
-        {value === 2 && <TabContainer>Item Three</TabContainer>}
-        {value === 3 && <TabContainer>Item Four</TabContainer>}
+        {value === 0 && <TabContainer>Speaker Information</TabContainer>}
+        {value === 1 && <TabContainer>Workshop Information</TabContainer>}
+        {value === 2 && <TabContainer>Sponsor Information</TabContainer>}
+        {value === 3 && <TabContainer>Contact Information</TabContainer>}
       </div>
     );
   }
