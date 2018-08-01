@@ -9,7 +9,7 @@ import Typography from '@material-ui/core/Typography';
 
 function TabContainer(props) {
   return (
-    <Typography component="div" style={{ padding: 8 * 3 }}>
+    <Typography component="div" style={{ padding: 8 }}>
       {props.children}
     </Typography>
     );
@@ -23,7 +23,7 @@ const styles = {
     flexGrow: 1
     },
   menu: {
-    marginLeft: '60%'
+    marginLeft: '40%'
   }
   };
   
