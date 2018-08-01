@@ -48,6 +48,11 @@ class Navigation extends Component {
             <Typography variant="title" color="inherit">
               UW Blockchain Expo
             </Typography>
+            <Typography variant="subheading" color="inherit">
+              Oct 13
+              <br />
+              2018
+            </Typography>
             <Button className={classes.menu} variant="outlined" color="inherit">
               Get Tickets
             </Button>
