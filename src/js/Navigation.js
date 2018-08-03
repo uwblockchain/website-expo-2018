@@ -30,6 +30,10 @@ const styles = {
   
 
 class Navigation extends Component {
+  constructor() {
+    super();
+    this.handleChange = this.handleChange.bind(this);
+  }
   state = {
     value: 0,
   };
