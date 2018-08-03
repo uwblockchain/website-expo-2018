@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Navigation from '../components/Navigation';
+import App from './App';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<Navigation />, div);
+  ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
