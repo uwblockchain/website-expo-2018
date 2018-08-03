@@ -62,10 +62,10 @@ class Navigation extends Component {
               Get Tickets
             </Button>
             <Tabs value={value} onChange={this.handleChange}>
-              <Tab label="Speakers" />
-              <Tab label="Workshops" />
-              <Tab label="Sponsors" />
-              <Tab label="Contact" />
+              <Tab className="tab" label="Speakers" />
+              <Tab className="tab" label="Workshops" />
+              <Tab className="tab" label="Sponsors" />
+              <Tab className="tab" label="Contact" />
             </Tabs>
           </Toolbar>
         </AppBar>
