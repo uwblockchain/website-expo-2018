@@ -1,29 +1,42 @@
 import React from 'react';
+import speakerImg from '../../img/ahmad-alkabra.jpg';
 
 const Speaker1 = () => (
   <div className="speaker">
-    <img src="" alt="Speaker 1"/>
-    <div className="occupation">
-      Global Director of Product,
+    <img src={speakerImg} alt="Speaker 1"/>
+    <div className="text">
+      <div className="occupation">
+        <h3>
+          Global Director of Product,
+          <br />
+          Appsolutely
+        </h3>
+      </div>
+      <div className="name">
+        <h2>
+          Ahmad Alkabra
+        </h2>
+      </div>
+      <div className="description">
+      Ahmad Alkabra is the Global Director of Product at Appsolutely, a company that is 
+      disrupting and reimagining the customer loyalty space and ecosystem with LoyalCoin 
+      - the next-generation customer loyalty solution on the blockchain. At Appsolutely,
+      Ahmad guides LoyalCoin's product strategy and spearheads the delivery of apps,
+      services, and solutions related to the LoyalCoin ecosystem.
       <br />
-      Appsolutely
-    </div>
-    <div className="name">
-      Ahmad Alkabra
-    </div>
-    <div className="description">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. 
-      Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. 
-      Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. 
-      Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. 
-      Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. 
-      Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. 
-      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. 
-      Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. 
-      Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. 
-      Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. 
-      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. 
-      In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec.
+      <br />
+      Prior to joining Appsolutely, Ahmad had a stellar run at T-Mobile where he co-
+      started, built and launched T-Mobile Tuesdays – an innovative customer
+      engagement, and industry first customer loyalty app and platform that has been an
+      instant success since its launch in 2016.
+      <br />
+      <br />
+      He sees blockchain as the next evolution in the loyalty space and LoyalCoin as a
+      universal and interoperable solution that utilizes the power of cryptocurrency and
+      blockchain technology to incentivize customers into becoming more engaged and
+      satisfied with loyalty/rewards programs, driving customer acquisition and retention
+      for merchants and brands.
+      </div>
     </div>
   </div>
 

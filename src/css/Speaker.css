@@ -1,0 +1,12 @@
+.occupation {
+  color: blue
+}
+.text {
+  font-weight: bold;
+  margin-right: 10%;
+  overflow: hidden;
+}
+img {
+  float: left;
+  margin-top: 2%;
+}

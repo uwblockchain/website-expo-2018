@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../css/Speaker.css';
 import Speaker1 from './Speaker-1';
 
 const Speakers = () => (
