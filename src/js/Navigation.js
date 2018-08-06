@@ -58,7 +58,7 @@ class Navigation extends Component {
               <br />
               2018
             </Typography>
-            <Button className={classes.menu} variant="outlined" color="inherit">
+            <Button className={classes.menu} variant="outlined" color="inherit" href="https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604">
               Get Tickets
             </Button>
             <Tabs value={value} onChange={this.handleChange}>
