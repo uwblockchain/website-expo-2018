@@ -1,21 +1,19 @@
 import React from 'react';
 import speakerImg from '../../img/mark_cooley.jpg';
+import { Media } from 'react-bootstrap';
 
 const Speaker2 = () => (
-  <div className="speaker">
-    <img src={speakerImg} alt="Speaker 1"/>
-    <div className="text">
-      <div className="occupation">
-        <h3>
-          Blockchain Strategist
-        </h3>
-      </div>
-      <div className="name">
-        <h2>
-          Mark Cooley
-        </h2>
-      </div>
-      <div className="description">
+  <Media>
+    <Media.Left>
+      <img src={speakerImg} alt="Speaker 2"/>
+    </Media.Left>
+    <Media.Body>
+      <Media.Heading>        
+        Blockchain Strategist
+        <br />
+        Mark Cooley
+      </Media.Heading>
+      <p>
         Mark is a seasoned executive, consultant and educator having held various executive
         leadership positions in technology over the last 18 years. He specializes in business
         strategy and the application of blockchain technologies. He is on the founding team
@@ -23,10 +21,9 @@ const Speaker2 = () => (
         The latter of which is supporting blockchain innovation with projects across the
         community.  Mark is a speaker,  professor and advisor, supporting institutions such
         as Seattle University, University of Washington, and General Assembly. 
-      </div>
-    </div>
-  </div>
-
+      </p>
+    </Media.Body>
+  </Media>
 );
 
 export default Speaker2;

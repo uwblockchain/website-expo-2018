@@ -3,10 +3,11 @@ import '../../css/Speaker.css';
 import Speaker1 from './Speaker-1';
 import Speaker2 from './Speaker-2';
 import Speaker3 from './Speaker-3';
+import { PageHeader } from 'react-bootstrap';
 
 const Speakers = () => (
   <div>
-    <h1>Speakers</h1>
+    <PageHeader>Speakers</PageHeader>
     <Speaker1 />
     <Speaker2 />
     <Speaker3 />

@@ -1,23 +1,21 @@
 import React from 'react';
 import speakerImg from '../../img/ahmad-alkabra.jpg';
+import { Media } from 'react-bootstrap';
 
 const Speaker1 = () => (
-  <div className="speaker">
-    <img src={speakerImg} alt="Speaker 1"/>
-    <div className="text">
-      <div className="occupation">
-        <h3>
-          Global Director of Product,
-          <br />
-          Appsolutely
-        </h3>
-      </div>
-      <div className="name">
-        <h2>
-          Ahmad Alkabra
-        </h2>
-      </div>
-      <div className="description">
+  <Media>
+    <Media.Left align="middle">
+      <img src={speakerImg} alt="Speaker 1"/>
+    </Media.Left>
+    <Media.Body>
+      <Media.Heading>
+        Global Director of Product,
+        <br />
+        Appsolutely
+        <br />
+        Ahmad Alkabra
+      </Media.Heading>
+      <p>
         Ahmad Alkabra is the Global Director of Product at Appsolutely, a company that is 
         disrupting and reimagining the customer loyalty space and ecosystem with LoyalCoin 
         - the next-generation customer loyalty solution on the blockchain. At Appsolutely,
@@ -36,10 +34,9 @@ const Speaker1 = () => (
         blockchain technology to incentivize customers into becoming more engaged and
         satisfied with loyalty/rewards programs, driving customer acquisition and retention
         for merchants and brands.
-      </div>
-    </div>
-  </div>
-
+      </p>
+    </Media.Body>
+  </Media>
 );
 
 export default Speaker1;
