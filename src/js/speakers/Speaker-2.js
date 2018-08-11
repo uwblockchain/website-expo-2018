@@ -11,7 +11,7 @@ const Speaker2 = () => (
       <Media.Heading>        
         Blockchain Strategist
         <br />
-        Mark Cooley
+        <b>Mark Cooley</b>
       </Media.Heading>
       <p>
         Mark is a seasoned executive, consultant and educator having held various executive

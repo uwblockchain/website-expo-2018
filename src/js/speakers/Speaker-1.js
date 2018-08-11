@@ -9,11 +9,9 @@ const Speaker1 = () => (
     </Media.Left>
     <Media.Body>
       <Media.Heading>
-        Global Director of Product,
+        Global Director of Product, Appsolutely
         <br />
-        Appsolutely
-        <br />
-        Ahmad Alkabra
+        <b>Ahmad Alkabra</b>
       </Media.Heading>
       <p>
         Ahmad Alkabra is the Global Director of Product at Appsolutely, a company that is 

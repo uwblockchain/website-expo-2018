@@ -9,11 +9,9 @@ const Speaker3 = () => (
     </Media.Left>
     <Media.Body>
       <Media.Heading>        
-        Chief Marketing Officer,
+        Chief Marketing Officer, lifeID
         <br />
-        lifeID
-        <br />
-        Joshua Shane
+        <b>Joshua Shane</b>
       </Media.Heading>
       <p>
         Over the past 25 years, Joshua has built and run marketing organizations for Silicon
