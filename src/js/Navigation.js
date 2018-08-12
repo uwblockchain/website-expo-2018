@@ -17,16 +17,16 @@ const Navigation = () => (
       <NavItem>
         <Button>Get Tickets</Button>
       </NavItem>
-      <NavItem eventKey={1} href="#">
+      <NavItem className="tab" eventKey={1} href="#">
         Speakers
       </NavItem>
-      <NavItem eventKey={2} href="#">
+      <NavItem className="tab" eventKey={2} href="#">
         Workshops
       </NavItem>
-      <NavItem eventKey={3} href="#">
+      <NavItem className="tab" eventKey={3} href="#">
         Sponsors
       </NavItem>
-      <NavItem eventKey={4} href="#">
+      <NavItem className="tab" eventKey={4} href="#">
         Contact
       </NavItem>
     </Nav>
