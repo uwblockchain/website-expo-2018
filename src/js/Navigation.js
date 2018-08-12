@@ -1,33 +1,60 @@
 import React from 'react';
-import { Navbar, Nav, NavItem, Tabs, Tab, Button } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, Button } from 'react-bootstrap';
+
+const navigation = {
+  background: 'inherit',
+  border: 'none',
+};
+
+const text = {
+  color: 'white',
+};
+
+const date = {
+  color: 'white',
+  textAlign: 'center',
+}
+
+const button = {
+  background: 'inherit', 
+  color: 'white',
+};
 
 const Navigation = () => (
-  <Navbar>
+  <Navbar style={navigation}>
     <Navbar.Header>
-      <Navbar.Brand>
-        <a>UW Blockchain Expo</a>
+      <Navbar.Brand style={text}>
+        UW Blockchain Expo
       </Navbar.Brand>
     </Navbar.Header>
-    <Navbar.Text>
+    <Navbar.Text style={date}>
       Oct 13
       <br />
-      2018  
+      2018
     </Navbar.Text>
     <Nav pullRight>
       <NavItem>
-        <Button>Get Tickets</Button>
+        <Button style={button}>Get Tickets</Button>
       </NavItem>
       <NavItem className="tab" eventKey={1} href="#">
-        Speakers
+        <div style={text}>
+          Speakers
+        </div>
       </NavItem>
       <NavItem className="tab" eventKey={2} href="#">
-        Workshops
+        <div style={text}>
+          Workshops
+        </div>
       </NavItem>
       <NavItem className="tab" eventKey={3} href="#">
-        Sponsors
+        <div style={text}>
+          Sponsors
+        </div>
       </NavItem>
       <NavItem className="tab" eventKey={4} href="#">
-        Contact
+        <div style={text}>
+          Contact
+        </div>
       </NavItem>
     </Nav>
   </Navbar>
