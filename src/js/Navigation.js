@@ -21,42 +21,45 @@ const button = {
 };
 
 const Navigation = () => (
-  <Navbar style={navigation}>
+  <Navbar style={navigation} inverse collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand style={text}>
         UW Blockchain Expo
       </Navbar.Brand>
+      <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Text style={date}>
       Oct 13
       <br />
       2018
     </Navbar.Text>
-    <Nav pullRight>
-      <NavItem>
-        <Button style={button}>Get Tickets</Button>
-      </NavItem>
-      <NavItem className="tab" eventKey={1} href="#">
-        <div style={text}>
-          Speakers
-        </div>
-      </NavItem>
-      <NavItem className="tab" eventKey={2} href="#">
-        <div style={text}>
-          Workshops
-        </div>
-      </NavItem>
-      <NavItem className="tab" eventKey={3} href="#">
-        <div style={text}>
-          Sponsors
-        </div>
-      </NavItem>
-      <NavItem className="tab" eventKey={4} href="#">
-        <div style={text}>
-          Contact
-        </div>
-      </NavItem>
-    </Nav>
+    <Navbar.Collapse>
+      <Nav pullRight>
+        <NavItem href="https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604">
+          <Button style={button}>Get Tickets</Button>
+        </NavItem>
+        <NavItem className="tab" eventKey={1} href="#">
+          <div style={text}>
+            Speakers
+          </div>
+        </NavItem>
+        <NavItem className="tab" eventKey={2} href="#">
+          <div style={text}>
+            Workshops
+          </div>
+        </NavItem>
+        <NavItem className="tab" eventKey={3} href="#">
+          <div style={text}>
+            Sponsors
+          </div>
+        </NavItem>
+        <NavItem className="tab" eventKey={4} href="#">
+          <div style={text}>
+            Contact
+          </div>
+        </NavItem>
+      </Nav>
+    </Navbar.Collapse>
   </Navbar>
 );
 
