@@ -5,6 +5,7 @@ import { Navbar, Nav, NavItem, Button } from 'react-bootstrap';
 const navigation = {
   background: 'inherit',
   border: 'none',
+  textAlign: 'center',
 };
 
 const title = {
