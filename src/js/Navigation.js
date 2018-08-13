@@ -7,6 +7,11 @@ const navigation = {
   border: 'none',
 };
 
+const title = {
+  color: 'white',
+  fontWeight: 'bold',
+}
+
 const text = {
   color: 'white',
 };
@@ -14,6 +19,10 @@ const text = {
 const date = {
   color: 'white',
   textAlign: 'center',
+}
+
+const year = {
+  fontSize: '150%',
 }
 
 const button = {
@@ -47,15 +56,15 @@ function handleSelect(selectedKey) {
 const Navigation = () => (
   <Navbar style={navigation} inverse collapseOnSelect>
     <Navbar.Header>
-      <Navbar.Brand style={text}>
-        UW Blockchain Expo
+      <Navbar.Brand style={title}>
+        UW BLOCKCHAIN EXPO
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Text style={date}>
       Oct 13
       <br />
-      2018
+      <span style={year}>2018</span>
     </Navbar.Text>
     <Navbar.Collapse>
       <Nav pullRight>
