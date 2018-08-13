@@ -58,19 +58,19 @@ function handleSelect(selectedKey) {
 const Navigation = () => (
   <Navbar style={navigation} inverse collapseOnSelect>
     <Navbar.Header>
-      <Navbar.Brand style={title}>
+      <Navbar.Brand className="title" style={title}>
         UW BLOCKCHAIN EXPO
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
-    <Navbar.Text style={date}>
+    <Navbar.Text className="date" style={date}>
       Oct 13
       <br />
       <span style={year}>2018</span>
     </Navbar.Text>
     <Navbar.Collapse>
       <Nav pullRight>
-        <NavItem href="https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604">
+        <NavItem className="button" href="https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604">
           <Button style={button}>Get Tickets</Button>
         </NavItem>
         <Nav onSelect={handleSelect}>
