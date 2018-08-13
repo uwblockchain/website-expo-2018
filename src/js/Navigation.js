@@ -11,6 +11,7 @@ const navigation = {
 const title = {
   color: 'white',
   fontWeight: 'bold',
+  letterSpacing: '2px',
 }
 
 const text = {
