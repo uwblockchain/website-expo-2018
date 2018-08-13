@@ -4,5 +4,5 @@ html, .App {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: Avenir;
+  font-family: 'Open Sans', sans-serif;
 }
