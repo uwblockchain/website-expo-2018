@@ -7,6 +7,47 @@ html, .App {
   font-family: 'Open Sans', sans-serif;
 }
 
+
 .navbar-toggle {
   position: relative;
+}
+
+.App button {
+  background: inherit;
+  color: white;
+}
+
+.App #nav-brand {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: .18em
+}
+
+.App .main-navbar {
+  background: inherit;
+  border: none;
+  text-align: center;
+}
+
+.App #nav-date {
+  color: white;
+  text-align: center;
+  margin-top: 0.80em;
+}
+
+.App #nav-year {
+  font-size: 150%;
+  line-height: 70%;
+  color: white;
+}
+
+.App #nav-text {
+  color: white;
+  margin-top: 0.5em;
+};
+
+.App #nav-text:hover {
+  text-decoration: underline;
+  color: black;
 }
