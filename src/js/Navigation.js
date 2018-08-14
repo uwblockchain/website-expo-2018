@@ -6,31 +6,38 @@ const navigation = {
   background: 'inherit',
   border: 'none',
   textAlign: 'center',
+  
 };
 
 const title = {
   color: 'white',
   fontWeight: 'bold',
   letterSpacing: '2px',
+  marginTop: '.18em',
 }
 
 const text = {
   color: 'white',
+  marginTop: '0.5em',
 };
 
 const date = {
   color: 'white',
   textAlign: 'center',
+  marginTop: '0.80em',
 }
 
 const year = {
   fontSize: '150%',
+  lineHeight: '70%',
 }
 
 const button = {
   background: 'inherit', 
   color: 'white',
 };
+
+
 
 function handleSelect(selectedKey) {
   var renderContent; //Used as the out parameter
@@ -56,18 +63,20 @@ function handleSelect(selectedKey) {
 }
 
 const Navigation = () => (
-  <Navbar style={navigation} inverse collapseOnSelect>
-    <Navbar.Header>
+  <Navbar style={navigation} inverse fluid collapseOnSelect>
+    <Navbar.Header left >
       <Navbar.Brand className="title" style={title}>
-        UW BLOCKCHAIN EXPO
+          UW BLOCKCHAIN EXPO
       </Navbar.Brand>
-      <Navbar.Toggle />
+      <div className="pull-left">
+      <Navbar.Text pullLeft className="date" style={date}>
+        Oct 13
+        <br />
+        <span style={year}>2018</span>
+      </Navbar.Text>
+      </div>
     </Navbar.Header>
-    <Navbar.Text className="date" style={date}>
-      Oct 13
-      <br />
-      <span style={year}>2018</span>
-    </Navbar.Text>
+    <Navbar.Toggle />
     <Navbar.Collapse>
       <Nav pullRight>
         <NavItem className="button" href="https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604">

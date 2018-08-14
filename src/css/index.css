@@ -6,3 +6,7 @@ html, .App {
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
 }
+
+.navbar-toggle {
+  position: relative;
+}
