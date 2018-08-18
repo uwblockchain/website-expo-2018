@@ -29,6 +29,8 @@ const button = {
   color: 'white',
 };
 
+const buttonLink = "https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604";
+
 const Navigation = () => (
   <Navbar style={navigation} inverse collapseOnSelect>
     <Navbar.Header>
@@ -44,7 +46,7 @@ const Navigation = () => (
     </Navbar.Text>
     <Navbar.Collapse>
       <Nav pullRight>
-        <NavItem className="button" href="https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604">
+        <NavItem className="button" href={buttonLink}>
           <Button style={button}>Get Tickets</Button>
         </NavItem>
         <NavTabs />
