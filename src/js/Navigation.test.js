@@ -10,6 +10,10 @@ beforeEach(() => {
 
 it('renders without crashing', () => {});
 
+it('renders 4 tabs', () => {
+  expect(wrapper.find('.tab').length === 4).toBe(true);
+});
+
 it('renders the button', () => {
   expect(wrapper.find('.button').length == 1).toBe(true);
 });

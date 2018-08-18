@@ -1,6 +1,6 @@
 import '../css/App.css';
 import React from 'react';
-import Navigation from './navigation/Navigation';
+import Navigation from './Navigation';
 import Head from './Head';
 
 const App = () => (
