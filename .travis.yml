@@ -11,4 +11,4 @@ cache:
 install:
   - npm install
 script:
-  - npm test
+  - yarn test
