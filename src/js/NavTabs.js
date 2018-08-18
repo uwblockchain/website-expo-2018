@@ -33,21 +33,19 @@ function handleSelect(selectedKey) {
 var keys = 1;
 
 const NavTab = (props) => (
-  <Nav onSelect={handleSelect}>
-  <NavItem className="tab" eventKey={keys++} href="#">
+  <NavItem eventKey={keys++} href="#">
     <div style={textStyle}>
       {props.text}
     </div>
   </NavItem>
-  </Nav>
 );
 
 const NavTabs = () => (
   <Nav onSelect={handleSelect}>
-    <NavTab text="Speakers" />
-    <NavTab text="Workshops" />
-    <NavTab text="Sponsors" />
-    <NavTab text="Contact" />
+    <NavTab className="tab" text="Speakers" />
+    <NavTab className="tab" text="Workshops" />
+    <NavTab className="tab" text="Sponsors" />
+    <NavTab className="tab" text="Contact" />
   </Nav>
 );
 
