@@ -22,4 +22,6 @@ it('renders the date', () => {
   expect(wrapper.find('.date').length == 1).toBe(true);
 });
 
+it('renders the tabs', () => {
+  expect(wrapper.find('.tabs').length == 1).toBe(true);  
 });
