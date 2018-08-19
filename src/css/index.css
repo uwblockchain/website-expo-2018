@@ -1,5 +1,53 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+html, .App {
+  background: linear-gradient(to top right, #3023AE, #C86DD7) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.navbar-toggle {
+  position: relative;
+}
+
+.App button {
+  background: inherit;
+  color: white;
+}
+
+.App #nav-brand {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: .18em
+}
+
+.App .main-navbar {
+  background: inherit;
+  border: none;
+  text-align: center;
+}
+
+.App #nav-date {
+  color: white;
+  text-align: center;
+  margin-top: 0.80em;
+}
+
+.App #nav-year {
+  font-size: 150%;
+  line-height: 70%;
+  color: white;
+}
+
+.App #nav-text {
+  color: white;
+  margin-top: 0.5em;
+};
+
+.App #nav-text:hover {
+  text-decoration: underline;
+  color: black;
 }
