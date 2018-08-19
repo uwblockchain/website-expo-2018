@@ -2,11 +2,6 @@ import React from 'react';
 import { NavItem, Nav } from 'react-bootstrap';
 import ReactDOM from 'react-dom';
 
-// Styles 
-// const textStyle = {
-//   color: 'white',
-// };
-
 function handleSelect(selectedKey) {
   var renderContent; //Used as the out parameter
   switch(selectedKey) {
