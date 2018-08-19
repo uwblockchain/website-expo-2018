@@ -4,27 +4,39 @@ import NavTabs from './NavTabs';
 
 const buttonLink = "https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604";
 
+const NavButton = () => (
+  <NavItem href={buttonLink}>
+    <Button>Get Tickets</Button>
+  </NavItem>
+);
+
+const NavDate = () => (
+  <div className="pull-left">
+    <Navbar.Text pullLeft id="nav-date">
+      Oct 13
+      <br />
+      <span id="nav-year">2018</span>
+    </Navbar.Text>
+  </div>
+);
+
+const NavTitle = () => (
+  <Navbar.Brand>
+    <p id="nav-brand">UW BLOCKCHAIN EXPO</p>
+  </Navbar.Brand>
+);
+
 const Navigation = () => (
   <Navbar className="main-navbar" inverse fluid collapseOnSelect>
     <Navbar.Header left="true">
-      <Navbar.Brand className="title">
-        <p id="nav-brand">UW BLOCKCHAIN EXPO</p>
-      </Navbar.Brand>
+      <NavTitle className="title" />
       <Navbar.Toggle />
     </Navbar.Header>
-      <div className="pull-left">
-        <Navbar.Text pullLeft id="nav-date">
-          Oct 13
-          <br />
-          <span id="nav-year">2018</span>
-        </Navbar.Text>
-      </div>
+    <NavDate className="date" />
     <Navbar.Collapse>
       <Nav pullRight>
-        <NavItem className="button" href={buttonLink}>
-          <Button>Get Tickets</Button>
-        </NavItem>
-        <NavTabs />
+        <NavButton className="button" />
+        <NavTabs className="tabs" />
       </Nav> 
     </Navbar.Collapse>
   </Navbar>

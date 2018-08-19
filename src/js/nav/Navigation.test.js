@@ -19,5 +19,7 @@ it('renders the title', () => {
 });
 
 it('renders the date', () => {
-  expect(wrapper.find('#nav-date').length == 1).toBe(true);
+  expect(wrapper.find('.date').length == 1).toBe(true);
+});
+
 });
