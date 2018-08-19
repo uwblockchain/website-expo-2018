@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
 import '../css/App.css';
+import React from 'react';
+import Navigation from './nav/Navigation';
+import Head from './Head';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossOrigin="anonymous" />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className="App">
+    <Head />
+    <Navigation />
+    <div id="content" />
+  </div>
+);
 
 export default App;
