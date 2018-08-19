@@ -3,9 +3,9 @@ import { NavItem, Nav } from 'react-bootstrap';
 import ReactDOM from 'react-dom';
 
 // Styles 
-const textStyle = {
-  color: 'white',
-};
+// const textStyle = {
+//   color: 'white',
+// };
 
 function handleSelect(selectedKey) {
   var renderContent; //Used as the out parameter
@@ -35,7 +35,7 @@ var keys = 1;
 const NavTab = (props) => (
   <Nav onSelect={handleSelect}>
     <NavItem eventKey={keys++} href="#">
-      <div style={textStyle}>
+      <div id="nav-text">
         {props.text}
       </div>
     </NavItem>
