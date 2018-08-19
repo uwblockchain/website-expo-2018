@@ -11,5 +11,5 @@ beforeEach(() => {
 it('renders without crashing', () => {});
 
 it('renders 4 tabs', () => {
-  expect(wrapper.find('.tab').length === 4).toBe(true);
+  expect(wrapper.find('.tab').length === 5).toBe(true);
 });

@@ -1,20 +1,24 @@
 import React from 'react';
 import { NavItem, Nav } from 'react-bootstrap';
 import ReactDOM from 'react-dom';
+import Schedule from '../Schedule';
 
 function handleSelect(selectedKey) {
   var renderContent; //Used as the out parameter
   switch(selectedKey) {
     case 1:
-      renderContent = <div>Speaker Content</div>;
+      renderContent = <Schedule />;
       break;
     case 2:
-      renderContent = <div>Workshop Content</div>;
+      renderContent = <div>Speaker Content</div>;
       break;
     case 3:
-      renderContent = <div>Sponsor Content</div>;
+      renderContent = <div>Workshop Content</div>;
       break;
     case 4:
+      renderContent = <div>Sponsor Content</div>;
+      break;
+    case 5:
       renderContent = <div>Contact Content</div>;
       break;
     default:
@@ -39,6 +43,7 @@ const NavTab = (props) => (
 
 const NavTabs = () => (
   <Nav>
+    <NavTab className="tab" text="Schedule" />
     <NavTab className="tab" text="Speakers" />
     <NavTab className="tab" text="Workshops" />
     <NavTab className="tab" text="Sponsors" />
