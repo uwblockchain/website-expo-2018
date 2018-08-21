@@ -7,7 +7,7 @@
     "enzyme": "^3.4.4",
     "enzyme-adapter-react-16": "^1.2.0",
     "react": "^16.4.2",
-    "react-bootstrap": "^0.32.1",
+    "react-bootstrap": "^0.32.3",
     "react-dom": "^16.4.2",
     "react-helmet": "^5.2.0",
     "react-scripts": "1.1.4",
