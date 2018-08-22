@@ -7,10 +7,10 @@ import { PageHeader } from 'react-bootstrap';
 
 const Speakers = () => (
   <div>
-    <PageHeader>Speakers</PageHeader>
-    <Speaker1 />
-    <Speaker2 />
-    <Speaker3 />
+    <PageHeader className="speakers-header">Speakers</PageHeader>
+    <Speaker1 className="speaker" />
+    <Speaker2 className="speaker" />
+    <Speaker3 className="speaker" />
   </div>
 );
 
