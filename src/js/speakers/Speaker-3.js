@@ -2,12 +2,9 @@ import React from 'react';
 import speakerImg from '../../img/joshua_shane.jpg';
 import Speaker from './Speaker';
 
-const head =
-  <p>
-    Chief Marketing Officer, lifeID
-    <br />
-    <b>Joshua Shane</b>
-  </p>;
+const job = <p>Chief Marketing Officer, lifeID</p>;
+
+const name = <b>Joshua Shane</b>;
 
 const body =
   <p>
@@ -20,7 +17,7 @@ const body =
   </p>;
 
 const Speaker3 = () => (
-  <Speaker img={speakerImg} head={head} body={body} /> 
+  <Speaker img={speakerImg} job={job} name={name} body={body} /> 
 );
 
 export default Speaker3;

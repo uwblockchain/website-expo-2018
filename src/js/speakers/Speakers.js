@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/Speaker.css';
+import '../../css/Speakers.css';
 import Speaker1 from './Speaker-1';
 import Speaker2 from './Speaker-2';
 import Speaker3 from './Speaker-3';
