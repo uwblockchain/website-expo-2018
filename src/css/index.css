@@ -4,7 +4,7 @@ html, .App {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', cursive, sans-serif;
 }
 
 
@@ -50,4 +50,21 @@ html, .App {
 .App #nav-text:hover {
   text-decoration: underline;
   color: black;
+}
+
+.App div.card-title {
+  margin-top: -1em;
+}
+
+.App .panel-default {
+  border-color: #ddd;
+  padding: 3em;
+}
+
+h4.card-fee {
+  margin-top: 1.65em;
+}
+
+div.card-button {
+  padding-top: 1.5em;
 }
