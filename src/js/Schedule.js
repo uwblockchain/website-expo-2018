@@ -6,50 +6,57 @@ const textStyle = {
   color: 'white'
 }
 
-const leftStyle = {
-  marginLeft: '50%'
-}
+// const leftStyle = {
+//   marginLeft: '50%'
+// }
 
-const rigthStyle = {
+const itemStyle = {
   marginRight: '50%',
   marginLeft: '35%'
 }
 
-var switchStyling = false;
+// var switchStyling = false;
 
-function determineAlignment() {
-  if(switchStyling) {
-    switchStyling = false;
-  } else {
-    switchStyling = true;
-  }
-  return switchStyling;
-}
+// function determineAlignment() {
+//   if(switchStyling) {
+//     switchStyling = false;
+//   } else {
+//     switchStyling = true;
+//   }
+//   return switchStyling;
+// }
 
-const LeftItem = (props) => (
-  <Media style={leftStyle}>
-    <Media.Left align="middle">
-      <Image width={64} height={64} src={cube} />
-    </Media.Left>
-    <Media.Body>
+// const LeftItem = (props) => (
+//   <Media style={leftStyle}>
+//     <Media.Left align="middle">
+//       <Image width={64} height={64} src={cube} />
+//     </Media.Left>
+//     <Media.Body>
+//       <p style={textStyle}>{props.text}</p>
+//     </Media.Body>
+//   </Media>
+// );
+
+// const RightItem = (props) => (
+//   <Media style={rigthStyle}>
+//     <Media.Body>
+//       <p style={textStyle}>{props.text}</p>
+//     </Media.Body>
+//     <Media.Right align="middle">
+//       <Image width={64} height={64} src={cube} />
+//     </Media.Right>
+//   </Media>
+// );
+
+const Item = (props) => (
+  <Media style={itemStyle}>
+    <Media.Body align="middle">
       <p style={textStyle}>{props.text}</p>
     </Media.Body>
-  </Media>
-);
-
-const RightItem = (props) => (
-  <Media style={rigthStyle}>
-    <Media.Body>
-      <p style={textStyle}>{props.text}</p>
-    </Media.Body>
-    <Media.Right align="middle">
+    <Media.Right>
       <Image width={64} height={64} src={cube} />
     </Media.Right>
   </Media>
-);
-
-const Item = (props) => (
-  determineAlignment() ? <LeftItem text={props.text} /> : <RightItem text={props.text} />
 );
 
 const Schedule = () => (
