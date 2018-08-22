@@ -12,7 +12,7 @@ const Speaker = (props) => (
     </Media.Left>
     <Media.Body>
       <Media.Heading>        
-        <p style={jobStyle}>{props.job}</p>
+        <div style={jobStyle}>{props.job}</div>
         {props.name}
       </Media.Heading>
       {props.body}
