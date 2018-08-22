@@ -1,62 +1,70 @@
 import React from 'react';
-import { Image, Grid, Row, Col } from 'react-bootstrap';
+import { Image, Media } from 'react-bootstrap';
 import cube from '../img/cube.png'; 
 
-const col = {
-  display: 'block',
-  textAlign: 'center',
-};
-
-const leftAlign = {
-  color: 'white',
-  marginLeft: '150px',
-};
-
-const rightAlign = {
-  color: 'white',
-  marginRight: '150px',
+const textStyle = {
+  color: 'white'
 }
 
-const rightText = {
-  textAlign: 'center',
-};
+const leftStyle = {
+  marginLeft: '50%'
+}
+
+const rigthStyle = {
+  marginRight: '50%',
+  marginLeft: '35%'
+}
 
 var switchStyling = false;
 
-function handleStyling() {
-  var out;
+function determineAlignment() {
   if(switchStyling) {
     switchStyling = false;
-    out = rightAlign;
   } else {
     switchStyling = true;
-    out = leftAlign;
   }
-  return out;
-};
+  return switchStyling;
+}
+
+const LeftItem = (props) => (
+  <Media style={leftStyle}>
+    <Media.Left align="middle">
+      <Image width={64} height={64} src={cube} />
+    </Media.Left>
+    <Media.Body>
+      <p style={textStyle}>{props.text}</p>
+    </Media.Body>
+  </Media>
+);
+
+const RightItem = (props) => (
+  <Media style={rigthStyle}>
+    <Media.Body>
+      <p style={textStyle}>{props.text}</p>
+    </Media.Body>
+    <Media.Right align="middle">
+      <Image width={64} height={64} src={cube} />
+    </Media.Right>
+  </Media>
+);
 
 const Item = (props) => (
-  <Row style={rightText}>
-    <Image width={64} height={64} src={cube} />
-    <p style={handleStyling()}>{props.text}</p>
-  </Row>
+  determineAlignment() ? <LeftItem text={props.text} /> : <RightItem text={props.text} />
 );
 
 const Schedule = () => (
-  <Grid>
-    <Col style={col}>
-      <Item text="Introduction" />
-      <Item text="Ethics of Blockchain" />
-      <Item text="Investment Panel" />
-      <Item text="Panel: Diversity in Blockchain" />
-      <Item text="Debate: 'Is Bitcoin a Fad'" />
-      <Item text="Speaker: 'Reinventing Customer Loyalty'" />
-      <Item text="Food Provenance" />
-      <Item text="Big Panel: 'Cryptos'" />
-      <Item text="Keynote TBD" />
-      <Item text="Closing Remarks" />
-    </Col>
-  </Grid>
+  <div>
+    <Item text="Introduction" />
+    <Item text="Ethics of Blockchain" />
+    <Item text="Investment Panel" />
+    <Item text="Panel: Diversity in Blockchain" />
+    <Item text="Debate: 'Is Bitcoin a Fad'" />
+    <Item text="Speaker: 'Reinventing Customer Loyalty'" />
+    <Item text="Food Provenance" />
+    <Item text="Big Panel: 'Cryptos'" />
+    <Item text="Keynote TBD" />
+    <Item text="Closing Remarks" />
+  </div>
 );
 
 export default Schedule;
