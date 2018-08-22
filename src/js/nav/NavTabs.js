@@ -7,10 +7,10 @@ function handleSelect(selectedKey) {
   var renderContent; //Used as the out parameter
   switch(selectedKey) {
     case 1:
-      renderContent = <Schedule />;
+      renderContent = <div>Speaker Content</div>;
       break;
     case 2:
-      renderContent = <div>Speaker Content</div>;
+      renderContent = <Schedule />;
       break;
     case 3:
       renderContent = <div>Workshop Content</div>;
@@ -43,8 +43,8 @@ const NavTab = (props) => (
 
 const NavTabs = () => (
   <Nav>
-    <NavTab className="tab" text="Schedule" />
     <NavTab className="tab" text="Speakers" />
+    <NavTab className="tab" text="Schedule" />
     <NavTab className="tab" text="Workshops" />
     <NavTab className="tab" text="Sponsors" />
     <NavTab className="tab" text="Contact" />
