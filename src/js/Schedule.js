@@ -7,47 +7,10 @@ const textStyle = {
   color: 'white'
 }
 
-// const leftStyle = {
-//   marginLeft: '50%'
-// }
-
 const itemStyle = {
   marginRight: '50%',
   marginLeft: '35%'
 }
-
-// var switchStyling = false;
-
-// function determineAlignment() {
-//   if(switchStyling) {
-//     switchStyling = false;
-//   } else {
-//     switchStyling = true;
-//   }
-//   return switchStyling;
-// }
-
-// const LeftItem = (props) => (
-//   <Media style={leftStyle}>
-//     <Media.Left align="middle">
-//       <Image width={64} height={64} src={cube} />
-//     </Media.Left>
-//     <Media.Body>
-//       <p style={textStyle}>{props.text}</p>
-//     </Media.Body>
-//   </Media>
-// );
-
-// const RightItem = (props) => (
-//   <Media style={rigthStyle}>
-//     <Media.Body>
-//       <p style={textStyle}>{props.text}</p>
-//     </Media.Body>
-//     <Media.Right align="middle">
-//       <Image width={64} height={64} src={cube} />
-//     </Media.Right>
-//   </Media>
-// );
 
 const Item = (props) => (
   <Media style={itemStyle}>
