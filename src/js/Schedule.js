@@ -4,12 +4,13 @@ import cube from '../img/cube.png';
 import LineTo from 'react-lineto';
 
 const textStyle = {
-  color: 'white'
+  color: 'white',
+  marginLeft: '70%'
 }
 
 const itemStyle = {
-  marginRight: '50%',
-  marginLeft: '35%',
+  width: '50%',
+  marginRight: 'auto',
   marginBottom: '8em'
 }
 
