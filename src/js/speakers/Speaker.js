@@ -3,30 +3,34 @@ import { Image, Media, Row, Col } from 'react-bootstrap';
 
 const jobStyle = {
   color: '#572AAF',
-  paddingTop: '1em',
+  paddingTop: '0.7em',
   fontWeight: '400',
   fontSize: 'medium',
 };
 
 const Speaker = (props) => (
-    <Media className="speaker-entry">
-      <Media.Left>
+    <Row className="speaker-entry">
+      <Col sm={5}>
         <div className="speaker-image">
-          <Image rounded src={props.img}/>
+          <Image rounded responsive src={props.img}/>
         </div>
-      </Media.Left>
-      <Media.Body>
+        <div className="speaker-icons">
+          <a className="fab fa-linkedin" href={props.linkedIn}></a>
+          <a className="fas fa-envelope" href={"mailto:" + props.email}></a>
+        </div>
+      </Col>
+      <Col sm={7}>
         <Row>
           <Col md={9} mdOffset={1}>
-            <Media.Heading>        
+            <div>        
               <div className="pt-4" style={jobStyle}>{props.job}</div>
               <h2 className="speaker-name">{props.name}</h2>
-            </Media.Heading>
+            </div>
             <div className="speaker-body">{props.body}</div>
           </Col>
         </Row>
-      </Media.Body>
-    </Media>
+      </Col>
+    </Row>
 );
 
 export default Speaker;

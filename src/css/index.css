@@ -75,3 +75,9 @@ h2.speaker-name {
   font-weight: 600;
   font-size: small;
 }
+
+.fab,
+.fas {
+  padding: 0.2em;
+  font-size: xx-large;
+}
