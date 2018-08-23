@@ -9,7 +9,8 @@ const textStyle = {
 
 const itemStyle = {
   marginRight: '50%',
-  marginLeft: '35%'
+  marginLeft: '35%',
+  marginBottom: '8em'
 }
 
 const Item = (props) => (
