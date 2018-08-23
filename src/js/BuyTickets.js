@@ -12,7 +12,7 @@ class BuyTickets extends React.Component {
                         <BuyTicketCard className="" title="Students" price="$5" fee="$2.00"/>
                     </Col>
                     <Col xs={4}>
-                        <BuyTicketCard title="General Admission" price="$99" fee="$7.57"/>
+                        <BuyTicketCard title="General Admission" sub="(Early Bird)" price="$99" fee="$7.57"/>
                     </Col>
                     <Col xs={4}>
                         <BuyTicketCard title="General Admission" price="$149" fee="$13.15"/>

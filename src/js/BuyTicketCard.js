@@ -9,13 +9,14 @@ class BuyTicketCard extends React.Component {
     render() {
         return(
             <Panel>
-                <div className="card-title">
-                    <h3 className="pl-4">{this.props.title}</h3>
+                <div className="card-title pl-4">
+                    <h3 className="card-title">{this.props.title}</h3>
+                    <h3 className="card-sub">{this.props.sub && this.props.sub} </h3>
                 </div>
-                <div className="cardPrice text-center">
+                <div className="text-center">
                     <Row>
                         <Col xs={6}>
-                            <h1 className="text-right">{this.props.price}</h1>
+                            <h1 className="card-price text-right">{this.props.price}</h1>
                         </Col>
                         <Col xs={6}>
                             <h4 className="card-fee text-left py-4"> + {this.props.fee} fee</h4>

@@ -54,6 +54,7 @@ html, .App {
 
 .App div.card-title {
   margin-top: -1em;
+  font-weight: bolder !important;
 }
 
 .App .panel-default {
@@ -63,8 +64,38 @@ html, .App {
 
 h4.card-fee {
   margin-top: 1.65em;
+  color: #7F7F7F;
+  font-weight: bolder;
+}
+
+h3.card-sub {
+  font-weight: 700;
+  margin-top: 0.1em;
+  margin-bottom: 1em;
+  height: 0.1em;
+}
+
+h1.card-price {
+  font-weight: bolder !important;
+}
+
+h3.card-title {
+  font-weight: 800 ;
+  margin-bottom: 0;
 }
 
 div.card-button {
   padding-top: 1.5em;
+  
+}
+
+div.card-button a {
+  background-color: #6F62B8;
+  border-radius: 50em;
+  padding: 0.7em 1.5em;
+  font-weight: 600;
+}
+
+div.card-button a:hover {
+  background-color: #5b4dab
 }
