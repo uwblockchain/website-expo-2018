@@ -29,25 +29,33 @@ function handleSelect(selectedKey) {
   ReactDOM.render(renderContent, document.getElementById('content'));
 }
 
-var keys = 1;
-
-const NavTab = (props) => (
+const NavTabs = () => (
   <Nav onSelect={handleSelect}>
-    <NavItem eventKey={keys++} href="#">
+    <NavItem eventKey={1} href="#">
       <div id="nav-text">
-        {props.text}
+        Speakers
       </div>
     </NavItem>
-  </Nav>
-);
-
-const NavTabs = () => (
-  <Nav>
-    <NavTab className="tab" text="Speakers" />
-    <NavTab className="tab" text="Schedule" />
-    <NavTab className="tab" text="Workshops" />
-    <NavTab className="tab" text="Sponsors" />
-    <NavTab className="tab" text="Contact" />
+    <NavItem eventKey={2} href="#">
+      <div id="nav-text">
+        Schedule
+      </div>
+    </NavItem>
+    <NavItem eventKey={3} href="#">
+      <div id="nav-text">
+        Workshops
+      </div>
+    </NavItem>
+    <NavItem eventKey={4} href="#">
+      <div id="nav-text">
+        Sponsors
+      </div>
+    </NavItem>
+    <NavItem eventKey={5} href="#">
+      <div id="nav-text">
+        Contact
+      </div>
+    </NavItem>
   </Nav>
 );
 
