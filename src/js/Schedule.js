@@ -25,17 +25,17 @@ const Item = (props) => (
 
 const Schedule = () => (
   <div>
-    <Item text="Introduction" classImg="start" />
-    <Item text="Ethics of Blockchain" />
-    <Item text="Investment Panel" />
-    <Item text="Panel: Diversity in Blockchain" />
-    <Item text="Debate: 'Is Bitcoin a Fad'" />
-    <Item text="Speaker: 'Reinventing Customer Loyalty'" />
-    <Item text="Food Provenance" />
-    <Item text="Big Panel: 'Cryptos'" />
-    <Item text="Keynote TBD" />
-    <Item text="Closing Remarks" classImg="end" />
-    <LineTo from="start" to="end" borderColor="white" borderWidth={3} zIndex={-1} delay={0} />
+    <Item className="item" text="Introduction" classImg="start" />
+    <Item className="item" text="Ethics of Blockchain" />
+    <Item className="item" text="Investment Panel" />
+    <Item className="item" text="Panel: Diversity in Blockchain" />
+    <Item className="item" text="Debate: 'Is Bitcoin a Fad'" />
+    <Item className="item" text="Speaker: 'Reinventing Customer Loyalty'" />
+    <Item className="item" text="Food Provenance" />
+    <Item className="item" text="Big Panel: 'Cryptos'" />
+    <Item className="item" text="Keynote TBD" />
+    <Item className="item" text="Closing Remarks" classImg="end" />
+    <LineTo className="line" from="start" to="end" borderColor="white" borderWidth={3} zIndex={-1} delay={0} />
   </div>
 );
 
