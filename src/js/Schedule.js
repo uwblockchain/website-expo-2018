@@ -1,6 +1,7 @@
 import React from 'react';
 import { Image, Media } from 'react-bootstrap';
 import cube from '../img/cube.png'; 
+import LineTo from 'react-lineto';
 
 const textStyle = {
   color: 'white'
@@ -54,14 +55,14 @@ const Item = (props) => (
       <p style={textStyle}>{props.text}</p>
     </Media.Body>
     <Media.Right>
-      <Image width={64} height={64} src={cube} />
+      <Image className={props.classImg}width={64} height={64} src={cube} />
     </Media.Right>
   </Media>
 );
 
 const Schedule = () => (
   <div>
-    <Item text="Introduction" />
+    <Item text="Introduction" classImg="start" />
     <Item text="Ethics of Blockchain" />
     <Item text="Investment Panel" />
     <Item text="Panel: Diversity in Blockchain" />
@@ -70,7 +71,8 @@ const Schedule = () => (
     <Item text="Food Provenance" />
     <Item text="Big Panel: 'Cryptos'" />
     <Item text="Keynote TBD" />
-    <Item text="Closing Remarks" />
+    <Item text="Closing Remarks" classImg="end" />
+    <LineTo from="start" to="end" borderColor="white" borderWidth={3} zIndex={-1} delay={0} />
   </div>
 );
 
