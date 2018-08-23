@@ -96,6 +96,14 @@ div.card-button a {
   font-weight: 600;
 }
 
-div.card-button a:hover {
-  background-color: #5b4dab
+div.card-button a:hover, 
+div.card-button a:active
+ {
+  background-color: #5b4dab; 
+}
+
+div.card-button a:active:focus, 
+div.card-button a:focus {
+  background-color: #6F62B8;
+  border-color: #6F62B8;
 }

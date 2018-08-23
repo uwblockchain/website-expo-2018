@@ -24,7 +24,7 @@ class BuyTicketCard extends React.Component {
                     </Row>
                 </div>
                 <div className="card-button text-center">
-                    <a href="#" className="btn btn-primary">PURCHASE</a>
+                    <a href="https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604" target="#" className="btn btn-primary">PURCHASE</a>
                 </div>
             </Panel>
         )
