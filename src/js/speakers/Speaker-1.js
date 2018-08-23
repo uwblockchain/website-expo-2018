@@ -2,7 +2,7 @@ import React from 'react';
 import speakerImg from '../../img/ahmad-alkabra.jpg';
 import Speaker from './Speaker';
 
-const job = <p>Global Director of Product, <br />Appsolutely</p>;
+const job = <p>GLOBAL DIRECTOR OF PRODUCT, <br />APPSOLUTELY</p>;
 
 const name = <b>Ahmad Alkabra</b>;
 

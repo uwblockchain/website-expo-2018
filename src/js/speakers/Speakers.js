@@ -6,8 +6,10 @@ import Speaker2 from './Speaker-2';
 import Speaker3 from './Speaker-3';
 
 const Speakers = () => (
-  <div>
-    <PageHeader className="speakers-header">Speakers</PageHeader>
+  <div className="container">
+    <h1 className="speaker-header">
+      SPEAKERS
+    </h1>
     <Speaker1 className="speaker" />
     <Speaker2 className="speaker" />
     <Speaker3 className="speaker" />

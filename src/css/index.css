@@ -51,3 +51,27 @@ html, .App {
   text-decoration: underline;
   color: black;
 }
+
+.speaker-image {
+  padding-right: 1em;
+}
+
+.speaker-entry {
+  margin-bottom: 5em
+}
+
+h1.speaker-header {
+  font-weight: bolder;
+  padding-bottom: 1.3em;
+}
+
+h2.speaker-name {
+  margin-top: -0.2em;
+  margin-bottom: 1em;
+  font-weight: 600 !important;
+}
+
+.speaker-body {
+  font-weight: 600;
+  font-size: small;
+}

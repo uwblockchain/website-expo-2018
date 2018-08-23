@@ -2,7 +2,7 @@ import React from 'react';
 import speakerImg from '../../img/mark_cooley.jpg';
 import Speaker from './Speaker';
 
-const job = <p>Blockchain Strategist</p>;
+const job = <p>BLOCKCHAIN STRATEGIST</p>;
 
 const name = <b>Mark Cooley</b>;
 
