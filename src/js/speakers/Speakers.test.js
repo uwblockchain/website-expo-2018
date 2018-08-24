@@ -11,7 +11,7 @@ beforeEach(() => {
 it('renders without crashing', () => {});
 
 it('renders the page header', () => {
-  expect(wrapper.find('.speakers-header').length == 1).toBe(true);
+  expect(wrapper.find('.speaker-header').length == 1).toBe(true);
 });
 
 it('renders all speakers', () => {
