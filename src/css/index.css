@@ -80,4 +80,10 @@ h2.speaker-name {
 .fas {
   padding: 0.2em;
   font-size: xx-large;
+  color: #572AAF;
+}
+
+.fab:hover,
+.fas:hover {
+  color: #572AAF;
 }
