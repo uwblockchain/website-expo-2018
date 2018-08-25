@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Media, Row, Col } from 'react-bootstrap';
+import { Image, Row, Col } from 'react-bootstrap';
 
 const jobStyle = {
   color: '#572AAF',
