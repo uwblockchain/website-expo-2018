@@ -1,12 +1,13 @@
 import React from 'react';
 import { NavItem, Nav } from 'react-bootstrap';
 import ReactDOM from 'react-dom';
+import Speakers from '../speakers/Speakers';
 
 function handleSelect(selectedKey) {
   var renderContent; //Used as the out parameter
   switch(selectedKey) {
     case 1:
-      renderContent = <div>Speaker Content</div>;
+      renderContent = <Speakers />;
       break;
     case 2:
       renderContent = <div>Workshop Content</div>;
