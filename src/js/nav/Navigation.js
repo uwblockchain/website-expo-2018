@@ -27,7 +27,7 @@ const NavTitle = () => (
 );
 
 const Navigation = () => (
-  <Navbar className="main-navbar" inverse fluid collapseOnSelect>
+  <Navbar className="main-navbar" fluid collapseOnSelect>
     <Navbar.Header left="true">
       <NavTitle className="title" />
       <Navbar.Toggle />

@@ -1,11 +1,11 @@
-/* html, .App {
-  background: linear-gradient(to top right, #3023AE, #C86DD7) no-repeat center center fixed;
+html, .App {
+  /* background: linear-gradient(to top right, #3023AE, #C86DD7) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
   font-family: 'Open Sans', sans-serif;
-} */
+} 
 
 
 .navbar-toggle {
@@ -14,11 +14,11 @@
 
 .App button {
   background: inherit;
-  color: white;
+  /* color: white; */
 }
 
 .App #nav-brand {
-  color: white;
+  /* color: white; */
   font-weight: bold;
   letter-spacing: 2px;
   margin-top: .18em
@@ -31,7 +31,7 @@
 }
 
 .App #nav-date {
-  color: white;
+  /* color: white; */
   text-align: center;
   margin-top: 0.80em;
 }
@@ -39,11 +39,11 @@
 .App #nav-year {
   font-size: 150%;
   line-height: 70%;
-  color: white;
+  /* color: white; */
 }
 
 .App #nav-text {
-  color: white;
+  /* color: white; */
   margin-top: 0.5em;
 };
 
@@ -52,6 +52,42 @@
   color: black;
 }
 
+.speaker-image {
+  padding-right: 1em;
+}
+
+.speaker-entry {
+  margin-bottom: 5em
+}
+
+h1.speaker-header {
+  font-weight: bolder;
+  padding-bottom: 1.3em;
+}
+
+h2.speaker-name {
+  margin-top: -0.2em;
+  margin-bottom: 1em;
+  font-weight: 600 !important;
+}
+
+.speaker-body {
+  font-weight: 600;
+  font-size: small;
+}
+
+.fab,
+.fas {
+  padding: 0.2em;
+  font-size: xx-large;
+  color: #572AAF;
+}
+
+.fab:hover,
+.fas:hover {
+  color: #572AAF;
+}
+  
 .App div.card-title {
   margin-top: -1em;
   font-weight: bolder !important;
