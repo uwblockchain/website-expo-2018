@@ -1,6 +1,7 @@
 import React from 'react';
 import speakerImg from '../../img/joshua_shane.jpg';
 import Speaker from './Speaker';
+import SpeakerPreview from './SpeakerPreview';
 
 const Speaker3 = () => (
   <Speaker 
@@ -26,5 +27,19 @@ const Speaker3 = () => (
     }
   /> 
 );
+
+export const Speaker3Preview = () => (
+  <SpeakerPreview 
+    img={speakerImg} 
+    job=
+    {
+      <p>CHIEF MARKETING OFFICER, <br/>LIFEID</p>
+    } 
+    name=
+    {
+      <b>Joshua Shane</b>
+    }
+  />
+)
 
 export default Speaker3;

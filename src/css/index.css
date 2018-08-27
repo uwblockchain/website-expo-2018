@@ -143,3 +143,16 @@ div.card-button a:focus {
   background-color: #6F62B8;
   border-color: #6F62B8;
 }
+
+#col {
+  padding: 0em 5.5em 2em 5.5em;
+}
+
+.speaker-preview-name {
+  color: #474747;
+}
+
+.speaker-preview-job {
+  color: #805CA8;
+  font-weight: 700;
+}
