@@ -15,5 +15,5 @@ it('renders the page header', () => {
 });
 
 it('renders all speakers', () => {
-  expect(wrapper.find('.speaker').length == 3).toBe(true);
+  expect(wrapper.find('.speaker').length == 8).toBe(true);
 });

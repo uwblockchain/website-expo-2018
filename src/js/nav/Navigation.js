@@ -22,7 +22,7 @@ const NavDate = () => (
 
 const NavTitle = () => (
   <Navbar.Brand>
-    <p id="nav-brand">UW BLOCKCHAIN EXPO</p>
+    <a href="http://www.uwbce.com" id="nav-brand">UW BLOCKCHAIN EXPO</a>
   </Navbar.Brand>
 );
 
