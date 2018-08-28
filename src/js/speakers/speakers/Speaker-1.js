@@ -1,7 +1,7 @@
 import React from 'react';
-import speakerImg from '../../img/ahmad-alkabra.jpg';
-import Speaker from './Speaker';
-import SpeakerPreview from './SpeakerPreview';
+import speakerImg from '../../../img/speakers/ahmad-alkabra.jpg';
+import Speaker from '../Speaker';
+import SpeakerPreview from '../SpeakerPreview';
 
 const Speaker1 = () => (
   <Speaker 

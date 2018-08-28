@@ -1,7 +1,7 @@
 import React from 'react';
-import speakerImg from '../../img/mark_cooley.jpg';
-import Speaker from './Speaker';
-import SpeakerPreview from './SpeakerPreview';
+import speakerImg from '../../../img/speakers/mark_cooley.jpg';
+import Speaker from '../Speaker';
+import SpeakerPreview from '../SpeakerPreview';
 
 const Speaker2 = () => (
   <Speaker 

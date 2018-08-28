@@ -1,8 +1,13 @@
 import React from 'react';
 import { Image, Row, Col } from 'react-bootstrap';
-import { Speaker1Preview } from './Speaker-1';
-import { Speaker2Preview } from './Speaker-2';
-import { Speaker3Preview } from './Speaker-3';
+import { Speaker1Preview } from './speakers/Speaker-1';
+import { Speaker2Preview } from './speakers/Speaker-2';
+import { Speaker3Preview } from './speakers/Speaker-3';
+import { Speaker4Preview } from './speakers/Speaker-4';
+import { Speaker5Preview } from './speakers/Speaker-5';
+import { Speaker6Preview } from './speakers/Speaker-6';
+import { Speaker7Preview } from './speakers/Speaker-7';
+import { Speaker8Preview } from './speakers/Speaker-8';
 
 const previewTitle = {
     fontWeight: 700,
@@ -39,13 +44,24 @@ const SpeakerPreviews = () => (
         </Row>
         <Row>
             <Col md={4} id="col">
-                <Speaker1Preview />
+                <Speaker4Preview />
             </Col>
             <Col md={4} id="col">
-                <Speaker2Preview />
+                <Speaker5Preview />
             </Col>
             <Col md={4} id="col">
-                <Speaker3Preview />
+                <Speaker6Preview />
+            </Col>
+        </Row>
+        <Row>
+            <Col md={4} id="col">
+                <Speaker7Preview />
+            </Col>
+            <Col md={4} id="col">
+                <Speaker8Preview />
+            </Col>
+            <Col md={4} id="col">
+                
             </Col>
         </Row>
     </div>
