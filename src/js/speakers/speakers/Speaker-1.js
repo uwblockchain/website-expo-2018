@@ -8,7 +8,7 @@ const Speaker1 = () => (
     img={speakerImg} 
     job=
     {
-      <p>GLOBAL DIRECTOR OF PRODUCT, <br />APPSOLUTELY</p>
+      <p>CHIEF TECHNOLOGY OFFICER, <br />APPSOLUTELY</p>
     } 
     name=
     {
@@ -45,7 +45,7 @@ export const Speaker1Preview = () => (
     img={speakerImg}
     job=
     {
-      <p>GLOBAL DIRECTOR OF PRODUCT, <br />APPSOLUTELY</p>
+      <p>CHIEF TECHNOLOGY OFFICER, <br />APPSOLUTELY</p>
     } 
     name=
     {
