@@ -15,7 +15,7 @@ it('renders the image', () => {
 });
 
 it('renders the icons', () => {
-  expect(wrapper.find('.speaker-icons').length == 1).toBe(true);
+  expect(wrapper.find('.speaker-icons').length == 2).toBe(true);
 });
 
 it('renders the name', () => {
