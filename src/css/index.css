@@ -156,3 +156,30 @@ div.card-button a:focus {
   color: #805CA8;
   font-weight: 700;
 }
+
+.main-video {
+  margin: 5em;
+}
+
+.video-title {
+  font-weight: 700;
+  color: #474747;
+  padding-bottom: 0.3em;
+  margin-top:0em;
+}
+
+.video-sub-title {
+  padding-top: 0.1em;
+  font-weight: 600;
+  color: #474747;
+}
+
+.video-par {
+  font-weight: 500;
+  padding-bottom: 2em;
+}
+
+.btn-video {
+  padding-top: 0em;
+  margin-top: -2em;
+}
