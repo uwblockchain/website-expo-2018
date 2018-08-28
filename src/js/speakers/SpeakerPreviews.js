@@ -24,46 +24,48 @@ const previewSubTitle = {
 var mdash = '\mdash'
 
 const SpeakerPreviews = () => (
-    <div className="container">
-        <Row>
-            <Col md={12} id="col">
-                <h2 style={previewTitle}>Engage with blockchain <br/>{'professionals \u2014'}</h2>
-                <h4 style={previewSubTitle}>Speakers from various industries will share <br/>their insights.</h4>
-            </Col>
-        </Row>
-        <Row>
-            <Col md={4} id="col">
-                <Speaker1Preview />
-            </Col>
-            <Col md={4} id="col">
-                <Speaker2Preview />
-            </Col>
-            <Col md={4} id="col">
-                <Speaker3Preview />
-            </Col>
-        </Row>
-        <Row>
-            <Col md={4} id="col">
-                <Speaker4Preview />
-            </Col>
-            <Col md={4} id="col">
-                <Speaker5Preview />
-            </Col>
-            <Col md={4} id="col">
-                <Speaker6Preview />
-            </Col>
-        </Row>
-        <Row>
-            <Col md={4} id="col">
-                <Speaker7Preview />
-            </Col>
-            <Col md={4} id="col">
-                <Speaker8Preview />
-            </Col>
-            <Col md={4} id="col">
-                
-            </Col>
-        </Row>
+    <div className="container-flex speaker-previews">
+        <div className="container">
+            <Row>
+                <Col md={12} id="col">
+                    <h2 style={previewTitle}>Engage with blockchain <br/>{'professionals \u2014'}</h2>
+                    <h4 style={previewSubTitle}>Speakers from various industries will share <br/>their insights.</h4>
+                </Col>
+            </Row>
+            <Row>
+                <Col md={4} id="col">
+                    <Speaker1Preview />
+                </Col>
+                <Col md={4} id="col">
+                    <Speaker2Preview />
+                </Col>
+                <Col md={4} id="col">
+                    <Speaker3Preview />
+                </Col>
+            </Row>
+            <Row>
+                <Col md={4} id="col">
+                    <Speaker4Preview />
+                </Col>
+                <Col md={4} id="col">
+                    <Speaker5Preview />
+                </Col>
+                <Col md={4} id="col">
+                    <Speaker6Preview />
+                </Col>
+            </Row>
+            <Row>
+                <Col md={4} id="col">
+                    <Speaker7Preview />
+                </Col>
+                <Col md={4} id="col">
+                    <Speaker8Preview />
+                </Col>
+                <Col md={4} id="col">
+                    
+                </Col>
+            </Row>
+        </div>
     </div>
     
 )
