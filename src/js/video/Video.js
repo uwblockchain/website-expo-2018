@@ -6,7 +6,7 @@ const Video = () => (
         <div className="container">
             <Row>
                 <Col md={5}>
-                    <h3 className="video-sub-title">University of Washington First Annual</h3>
+                    <h3 className="video-sub-title">University of Washington's First Annual</h3>
                     <h1 className="video-title">BLOCKCHAIN EXPO</h1>
                     <p className="video-par">The UW Blockchain Society seeks to connect industry and students interested 
                         in blockchain technology. The UW Blockchain Expo will feature speakers, 
