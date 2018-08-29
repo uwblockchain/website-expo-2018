@@ -14,6 +14,6 @@ it('renders the page header', () => {
   expect(wrapper.find('.speaker-header').length == 1).toBe(true);
 });
 
-it('renders all speakers', () => {
-  expect(wrapper.find('.speaker').length == 8).toBe(true);
+it('renders at least one speaker', () => {
+  expect(wrapper.find('.speaker').length >= 1).toBe(true);
 });
