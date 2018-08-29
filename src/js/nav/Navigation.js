@@ -27,7 +27,7 @@ const NavTitle = () => (
 );
 
 const Navigation = () => (
-  <Navbar className="main-navbar" fluid collapseOnSelect>
+  <Navbar className="main-navbar" fluid collapseOnSelect fixedTop>
     <Navbar.Header left="true">
       <NavTitle className="title" />
       <Navbar.Toggle />

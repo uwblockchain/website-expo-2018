@@ -24,7 +24,7 @@ const previewSubTitle = {
 var mdash = '\mdash'
 
 const SpeakerPreviews = () => (
-    <div className="container">
+    <div className="container" name="speaker-previews">
         <Row>
             <Col md={12} id="col">
                 <h2 style={previewTitle}>Engage with blockchain <br/>{'professionals \u2014'}</h2>

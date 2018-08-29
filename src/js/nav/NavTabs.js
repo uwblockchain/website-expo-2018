@@ -3,6 +3,7 @@ import { NavItem, Nav } from 'react-bootstrap';
 import ReactDOM from 'react-dom';
 import Schedule from '../Schedule';
 import Speakers from '../speakers/Speakers';
+import { Link } from 'react-scroll';
 
 // TODO: Switch to scrolling animation
 // function handleSelect(selectedKey) {
@@ -34,14 +35,14 @@ import Speakers from '../speakers/Speakers';
 const NavTabs = () => (
   <Nav>
     <NavItem eventKey={1} href="#">
-      <div id="nav-text">
+      <Link id="nav-text" to="speaker-previews" smooth={true}>
         Speakers
-      </div>
+      </Link>
     </NavItem>
     <NavItem eventKey={2} href="#">
-      <div id="nav-text">
+      <Link id="nav-text" to="schedule" smooth={true}>
         Schedule
-      </div>
+      </Link>
     </NavItem>
     <NavItem eventKey={3} href="#">
       <div id="nav-text">

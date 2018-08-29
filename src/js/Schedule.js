@@ -29,7 +29,7 @@ const start = "schedule-start";
 const end = "schedule-end";
 
 const Schedule = () => (
-  <div>
+  <div name="schedule">
     <Item className="item" text="Introduction" classImg={start} />
     <Item className="item" text="Ethics of Blockchain" />
     <Item className="item" text="Investment Panel" />
