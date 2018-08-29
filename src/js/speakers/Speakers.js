@@ -13,7 +13,7 @@ import Speaker8 from './speakers/Speaker-8';
 
 
 const Speakers = () => (
-  <div className="container">
+  <div className="container" name="speakers">
     <Row>
       <Col md={8} mdOffset={2}>
       <h1 className="speaker-header">

@@ -24,7 +24,7 @@ const previewSubTitle = {
 var mdash = '\mdash'
 
 const SpeakerPreviews = () => (
-    <div className="container-flex speaker-previews">
+    <div className="container-flex speaker-previews" name="speaker-previews">
         <div className="container">
             <Row>
                 <Col md={12} id="col">

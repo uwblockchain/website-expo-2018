@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, NavItem, Button } from 'react-bootstrap';
 import NavTabs from './NavTabs';
+import { animateScroll as scroll } from 'react-scroll';
 
 const buttonLink = "https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604";
 
@@ -22,7 +23,7 @@ const NavDate = () => (
 
 const NavTitle = () => (
   <Navbar.Brand>
-    <a href="http://www.uwbce.com" id="nav-brand">UW BLOCKCHAIN EXPO</a>
+    <a onClick={scroll.scrollToTop} id="nav-brand">UW BLOCKCHAIN EXPO</a>
   </Navbar.Brand>
 );
 

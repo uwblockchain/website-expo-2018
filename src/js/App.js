@@ -8,6 +8,7 @@ import Video from './video/Video';
 import Workshops from './workshops/Workshops';
 import Sponsors from './sponsors/Sponsors';
 import Contact from './contact/Contact';
+import Schedule from './Schedule';
 
 
 const App = () => (
@@ -17,10 +18,10 @@ const App = () => (
     <Video />
     <BuyTickets/>
     <SpeakerPreviews/>
+    <Schedule />
     <Workshops/>
     <Sponsors/>
     <Contact/>
-    <div id="content" />
   </div>
 );
 
