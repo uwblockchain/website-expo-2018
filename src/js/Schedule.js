@@ -4,7 +4,7 @@ import cube from '../img/cube.png';
 import LineTo from 'react-lineto';
 
 const textStyle = {
-  color: 'white',
+  // color: 'white',
   marginLeft: '70%'
 }
 
@@ -20,14 +20,17 @@ const Item = (props) => (
       <p style={textStyle}>{props.text}</p>
     </Media.Body>
     <Media.Right>
-      <Image className={props.classImg}width={64} height={64} src={cube} />
+      <Image className={props.classImg} width={64} height={64} src={cube} />
     </Media.Right>
   </Media>
 );
 
+const start = "schedule-start";
+const end = "schedule-end";
+
 const Schedule = () => (
   <div>
-    <Item className="item" text="Introduction" classImg="start" />
+    <Item className="item" text="Introduction" classImg={start} />
     <Item className="item" text="Ethics of Blockchain" />
     <Item className="item" text="Investment Panel" />
     <Item className="item" text="Panel: Diversity in Blockchain" />
@@ -36,8 +39,8 @@ const Schedule = () => (
     <Item className="item" text="Food Provenance" />
     <Item className="item" text="Big Panel: 'Cryptos'" />
     <Item className="item" text="Keynote TBD" />
-    <Item className="item" text="Closing Remarks" classImg="end" />
-    <LineTo className="line" from="start" to="end" borderColor="white" borderWidth={3} zIndex={-1} delay={0} />
+    <Item className="item" text="Closing Remarks" classImg={end} />
+    <LineTo className="line" from={start} to={end} borderColor="black" borderWidth={3} zIndex={-1} delay={200} />
   </div>
 );
 

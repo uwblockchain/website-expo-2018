@@ -5,6 +5,7 @@ import Head from './Head';
 import BuyTickets from './buyTickets/BuyTickets';
 import SpeakerPreviews from './speakers/SpeakerPreviews';
 import Video from './video/Video';
+import Schedule from './Schedule';
 
 const App = () => (
   <div className="App">
@@ -13,7 +14,7 @@ const App = () => (
     <Video />
     <BuyTickets/>
     <SpeakerPreviews/>
-    <div id="content" />
+    <Schedule />
   </div>
 );
 
