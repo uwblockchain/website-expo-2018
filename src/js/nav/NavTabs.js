@@ -40,7 +40,7 @@ const NavTabs = () => (
       </Link>
     </NavItem>
     <NavItem eventKey={2} href="#">
-      <Link id="nav-text" to="schedule" smooth={true}>
+      <Link id="nav-text" to="schedule" smooth={true} offset={-30}>
         Schedule
       </Link>
     </NavItem>
