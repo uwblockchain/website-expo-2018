@@ -3,7 +3,7 @@ import BuyTicketCard from './BuyTicketCard';
 import { Row, Col } from 'react-bootstrap';
 
 const BuyTickets = () => (
-  <div className="container">
+  <div className="container buy-tickets">
     <Row>
       <Col md={4}>
         <BuyTicketCard className="ticket" title="Students" price="$5" fee="$2.00"/>

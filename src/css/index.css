@@ -1,11 +1,11 @@
 html, .App {
-  /* background: linear-gradient(to top right, #3023AE, #C86DD7) no-repeat center center fixed;
+  background: linear-gradient(to top right, #3023AE, #C86DD7) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; */
+  background-size: cover;
   font-family: 'Open Sans', sans-serif;
-} 
+}
 
 
 .navbar-toggle {
@@ -13,25 +13,50 @@ html, .App {
 }
 
 .App button {
-  background: inherit;
-  /* color: white; */
+  background-color: #6F62B8;
+  color: white;
+  border-color: white;
+  border-radius: 0.4em;
+  padding: 0.5em 0.9em;
+  font-weight: 600;
+  
 }
 
+.App button:hover, 
+.App button:active
+{
+  background-color: #5b4dab; 
+  color: white;
+  border-color: white;
+}
+
+.App button:active:focus, 
+.App button:focus {
+  background-color: #6F62B8;
+  border-color: #6F62B8;
+
+}
+
+
 .App #nav-brand {
-  /* color: white; */
+  color: black;
   font-weight: bold;
   letter-spacing: 2px;
   margin-top: .18em
 }
 
 .App .main-navbar {
-  background: inherit;
-  border: none;
   text-align: center;
+  background-color: white;
+}
+
+.App .main-navbar .navbar {
+  text-align: center;
+  background-color: white;
 }
 
 .App #nav-date {
-  /* color: white; */
+  color: black;
   text-align: center;
   margin-top: 0.80em;
 }
@@ -39,11 +64,11 @@ html, .App {
 .App #nav-year {
   font-size: 150%;
   line-height: 70%;
-  /* color: white; */
+  color: black;
 }
 
 .App #nav-text {
-  /* color: white; */
+  color: black;
   margin-top: 0.5em;
 };
 
@@ -158,7 +183,9 @@ div.card-button a:focus {
 }
 
 .main-video {
-  margin: 5em;
+  margin-top: 5.4em;
+  padding: 4em;
+  background-color: white;
 }
 
 .video-title {
@@ -182,4 +209,40 @@ div.card-button a:focus {
 .btn-video {
   padding-top: 0em;
   margin-top: -2em;
+}
+
+.bot-left {
+  position: relative;
+}
+.bot-left:before, .bot-left:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: -5px;
+  
+}
+.bot-left:before {
+  top: -5px;
+  width: 5px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#C86DD7), to(#C86DD7));
+  background-image: -webkit-linear-gradient(#C86DD7, #3023AE);
+  background-image: -moz-linear-gradient(#C86DD7, #3023AE);
+  background-image: -o-linear-gradient(#C86DD7, #3023AE);
+}
+.bot-left:after {
+  right: -5px;
+  height: 5px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#C86DD7), to(#C86DD7));
+  background-image: -webkit-linear-gradient(left, #3023AE, #C86DD7);
+  background-image: -moz-linear-gradient(left, #3023AE, #C86DD7);
+  background-image: -o-linear-gradient(left, #3023AE, #C86DD7);
+}
+
+.buy-tickets {
+  margin: 4em;
+}
+
+.speaker-previews {
+  padding: 2em 0;
+  background-color: white;
 }

@@ -28,19 +28,22 @@ const NavTitle = () => (
 );
 
 const Navigation = () => (
-  <Navbar className="main-navbar" fluid collapseOnSelect fixedTop>
-    <Navbar.Header left="true">
-      <NavTitle className="title" />
-      <Navbar.Toggle />
-    </Navbar.Header>
-    <NavDate className="date" />
-    <Navbar.Collapse>
-      <Nav pullRight>
-        <NavButton className="button" />
-        <NavTabs className="tabs" />
-      </Nav> 
-    </Navbar.Collapse>
-  </Navbar>
+  <div className="main-navbar">
+    <Navbar  fluid fixedTop collapseOnSelect>
+      <Navbar.Header left="true">
+        <NavTitle className="title" />
+        <Navbar.Toggle />
+      </Navbar.Header>
+      <NavDate className="date" />
+      <Navbar.Collapse>
+        <Nav pullRight>
+          <NavButton className="button" />
+          <NavTabs className="tabs" />
+        </Nav> 
+      </Navbar.Collapse>
+    </Navbar>
+  </div>
+  
 );
 
 export default Navigation;
