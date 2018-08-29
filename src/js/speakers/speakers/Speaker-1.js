@@ -1,6 +1,7 @@
 import React from 'react';
-import speakerImg from '../../img/ahmad-alkabra.jpg';
-import Speaker from './Speaker';
+import speakerImg from '../../../img/speakers/ahmad-alkabra.jpg';
+import Speaker from '../Speaker';
+import SpeakerPreview from '../SpeakerPreview';
 
 const Speaker1 = () => (
   <Speaker 
@@ -38,5 +39,19 @@ const Speaker1 = () => (
     } 
   />
 );
+
+export const Speaker1Preview = () => (
+  <SpeakerPreview 
+    img={speakerImg}
+    job=
+    {
+      <p>GLOBAL DIRECTOR OF PRODUCT, <br />APPSOLUTELY</p>
+    } 
+    name=
+    {
+      <b>Ahmad Alkabra</b>
+    }
+  />  
+)
 
 export default Speaker1;

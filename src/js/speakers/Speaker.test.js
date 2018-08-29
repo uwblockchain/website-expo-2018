@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'enzyme';
-import Speaker1 from './Speaker-1'; //Using the first speaker as a test
+import Speaker1 from './speakers/Speaker-1'; //Using the first speaker as a test
 
 var wrapper;
 
