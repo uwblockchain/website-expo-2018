@@ -22,7 +22,7 @@ const Video = () => (
             <Col md={7} className="text-center">
                 <div className="embed-responsive embed-responsive-16by9">
                     <iframe src="https://www.youtube.com/embed/RcFew7UT0Ew?rel=0&amp;showinfo=0" 
-                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                 </div>
                 
             </Col>
