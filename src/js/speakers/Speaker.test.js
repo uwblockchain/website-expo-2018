@@ -1,11 +1,32 @@
 import React from 'react';
 import { render } from 'enzyme';
-import Speaker1 from './speakers/Speaker-1'; //Using the first speaker as a test
+import Speaker from './Speaker';
+import speakerImg from '../../img/speakers/ahmad-alkabra.jpg';
+ 
+const SpeakerTest = () => (
+  <Speaker 
+    img={speakerImg}
+    job=
+    {
+      <p>TEST JOB</p>
+    } 
+    name=
+    {
+      <b>TEST NAME</b>
+    }
+    body=
+    {
+      <p>
+        TEST BODY
+      </p>  
+    } 
+  />  
+)
 
 var wrapper;
 
 beforeEach(() => {
-  wrapper = render(<Speaker1 />);
+  wrapper = render(<SpeakerTest />);
 });
 
 it('renders without crashing', () => {});
