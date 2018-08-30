@@ -3,8 +3,8 @@ import { Image, Modal, Button } from 'react-bootstrap';
 import SpeakerModalContent from './SpeakerModalContent';
 
 class SpeakerPreview extends React.Component {
-    constructor(props, context) {
-      super(props, context);
+    constructor() {
+      super();
   
       this.handleShow = this.handleShow.bind(this);
       this.handleClose = this.handleClose.bind(this);
@@ -30,7 +30,6 @@ class SpeakerPreview extends React.Component {
             <h3 className="speaker-preview-name">{this.props.name}</h3>
             <div className="speaker-preview-job">{this.props.job}</div>
           </div>
-  
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Body>
               <SpeakerModalContent 
