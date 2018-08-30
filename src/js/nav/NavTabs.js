@@ -2,33 +2,21 @@ import React from 'react';
 import { NavItem, Nav } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 
+const Tab = (props) => (
+  <NavItem eventKey={props.key} href="#">
+    <Link id="nav-text" to={props.to} smooth={true}>
+      {props.name}
+    </Link>
+  </NavItem>
+);
+
 const NavTabs = () => (
   <Nav>
-    <NavItem eventKey={1} href="#">
-      <Link id="nav-text" to="speaker-previews" smooth={true}>
-        Speakers
-      </Link>
-    </NavItem>
-    <NavItem eventKey={2} href="#">
-      <Link id="nav-text" to="schedule" smooth={true} offset={-30}>
-        Schedule
-      </Link>
-    </NavItem>
-    <NavItem eventKey={3} href="#">
-      <Link id="nav-text" to="workshops" smooth={true}>
-        Workshops
-      </Link>
-    </NavItem>
-    <NavItem eventKey={4} href="#">
-      <Link id="nav-text" to="sponsors" smooth={true}>
-        Sponsors
-      </Link>
-    </NavItem>
-    <NavItem eventKey={5} href="#">
-      <Link id="nav-text" to="contact" smooth={true}>
-        Contact
-      </Link>
-    </NavItem>
+    <Tab key={1} name="Speakers" to="speaker-previews" />
+    <Tab key={2} name="Schedule" to="schedule" />
+    <Tab key={3} name="Workshops" to="none" />
+    <Tab key={4} name="Sponsors" to="none" />
+    <Tab key={5} name="Contact" to="none" />
   </Nav>
 );
 

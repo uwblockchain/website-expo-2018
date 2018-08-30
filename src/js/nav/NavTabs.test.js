@@ -1,11 +1,11 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render } from 'enzyme';
 import NavTabs from './NavTabs';
 
 var wrapper;
 
 beforeEach(() => {
-  wrapper = shallow(<NavTabs />);
+  wrapper = render(<NavTabs />);
 });
 
 it('renders without crashing', () => {});
