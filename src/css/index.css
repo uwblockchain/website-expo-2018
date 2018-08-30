@@ -4,7 +4,7 @@ html, .App {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
 }
 
 
@@ -82,7 +82,7 @@ html, .App {
 }
 
 .speaker-entry {
-  margin-bottom: 5em
+  margin-bottom: 1em
 }
 
 h1.speaker-header {
@@ -105,12 +105,12 @@ h2.speaker-name {
 .fas {
   padding: 0.2em;
   font-size: xx-large;
-  color: #572AAF;
+  color: white;
 }
 
 .fab:hover,
 .fas:hover {
-  color: #572AAF;
+  color: white;
 }
   
 .App div.card-title {
@@ -246,3 +246,35 @@ div.card-button a:focus {
   padding: 2em 0;
   background-color: white;
 }
+
+Button.modal-button {
+  margin-top: 0.9em;
+  margin-bottom: 1em;
+  font-weight: 700;
+  font-size: medium;
+  background-color: inherit;
+  color: white
+}
+
+
+
+.modal {
+  background-color:  rgba(0, 0, 0, 0.7);
+  border: none;
+
+}
+
+@media (max-width: 769px) {
+  .modal-content {
+    margin-top: 0vh !important;
+  }
+}
+
+.modal-content {
+  background: inherit !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin-top: 20vh;
+  color: white;
+}
+
