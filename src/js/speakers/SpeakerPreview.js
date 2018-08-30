@@ -32,12 +32,10 @@ class SpeakerPreview extends React.Component {
           </div>
   
           <Modal show={this.state.show} onHide={this.handleClose}>
-            <Modal.Header>
-              <Button onClick={this.handleClose}>Back</Button>
-            </Modal.Header>
             <Modal.Body>
               <SpeakerModalContent 
                 img={this.props.img}
+                btn={<Button onClick={this.handleClose}>Back</Button>}
                 job={this.props.job}
                 name={this.props.name}
                 body={this.props.body}

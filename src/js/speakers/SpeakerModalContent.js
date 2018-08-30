@@ -11,12 +11,9 @@ const jobStyle = {
 const SpeakerModalContent = (props) => (
     <Row className="speaker-entry">
       <Col sm={4}>
+        {props.btn}
         <div className="speaker-image">
           <Image rounded responsive src={props.img}/>
-        </div>
-        <div className="speaker-icons">
-          <a className="fab fa-linkedin" href={props.linkedIn}></a>
-          <a className="fas fa-envelope" href={"mailto:" + props.email}></a>
         </div>
       </Col>
       <Col sm={8}>
@@ -25,6 +22,10 @@ const SpeakerModalContent = (props) => (
           <h2 className="speaker-name">{props.name}</h2>
         </div>
         <div className="speaker-body">{props.body}</div>
+        <div className="speaker-icons">
+          <a className="fab fa-linkedin" href={props.linkedIn}></a>
+          <a className="fas fa-envelope" href={"mailto:" + props.email}></a>
+        </div>
       </Col>
     </Row>
 );
