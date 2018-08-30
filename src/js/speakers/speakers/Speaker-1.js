@@ -1,11 +1,10 @@
 import React from 'react';
 import speakerImg from '../../../img/speakers/ahmad-alkabra.jpg';
-import Speaker from '../Speaker';
 import SpeakerPreview from '../SpeakerPreview';
 
-const Speaker1 = () => (
-  <Speaker 
-    img={speakerImg} 
+const Speaker1Preview = () => (
+  <SpeakerPreview 
+    img={speakerImg}
     job=
     {
       <p>CHIEF TECHNOLOGY OFFICER, <br />APPSOLUTELY</p>
@@ -13,7 +12,7 @@ const Speaker1 = () => (
     name=
     {
       <b>Ahmad Alkabra</b>
-    } 
+    }
     body=
     {
       <p>
@@ -37,21 +36,7 @@ const Speaker1 = () => (
         for merchants and brands.
       </p>  
     } 
-  />
-);
-
-export const Speaker1Preview = () => (
-  <SpeakerPreview 
-    img={speakerImg}
-    job=
-    {
-      <p>CHIEF TECHNOLOGY OFFICER, <br />APPSOLUTELY</p>
-    } 
-    name=
-    {
-      <b>Ahmad Alkabra</b>
-    }
   />  
 )
 
-export default Speaker1;
+export default Speaker1Preview;

@@ -1,10 +1,9 @@
 import React from 'react';
 import speakerImg from '../../../img/speakers/neal-koblitz.png';
-import Speaker from '../Speaker';
 import SpeakerPreview from '../SpeakerPreview';
 
-const Speaker8 = () => (
-  <Speaker 
+const Speaker8Preview = () => (
+  <SpeakerPreview 
     img={speakerImg} 
     job=
     {
@@ -13,7 +12,7 @@ const Speaker8 = () => (
     name=
     {
       <b>Neal Koblitz</b>
-    } 
+    }
     body=
     {
       <p>
@@ -26,21 +25,7 @@ const Speaker8 = () => (
         STEM fields in the Global South.
       </p>  
     }
-  /> 
-);
-
-export const Speaker8Preview = () => (
-  <SpeakerPreview 
-    img={speakerImg} 
-    job=
-    {
-      <p>PROFESSOR AND AUTHOR, <br/>UNIVERSITY OF WASHINGTON</p>
-    } 
-    name=
-    {
-      <b>Neal Koblitz</b>
-    }
   />
 )
 
-export default Speaker8;
+export default Speaker8Preview;

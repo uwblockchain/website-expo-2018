@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 
 const Video = () => (
     <div className="main-video container-flex">
@@ -22,8 +22,11 @@ const Video = () => (
                 </Col>
                 <Col md={7} className="text-center">
                     <div className="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://www.youtube.com/embed/RcFew7UT0Ew?rel=0&amp;showinfo=0" 
-                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe 
+                            title="promo-video"
+                            src="https://www.youtube.com/embed/RcFew7UT0Ew?rel=0&amp;showinfo=0" 
+                            frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen
+                        />
                     </div>
                     
                 </Col>

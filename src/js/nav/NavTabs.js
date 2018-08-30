@@ -1,36 +1,6 @@
 import React from 'react';
 import { NavItem, Nav } from 'react-bootstrap';
-import ReactDOM from 'react-dom';
-import Schedule from '../Schedule';
-import Speakers from '../speakers/Speakers';
 import { Link } from 'react-scroll';
-
-// TODO: Switch to scrolling animation
-// function handleSelect(selectedKey) {
-//   var renderContent; //Used as the out parameter
-//   switch(selectedKey) {
-//     case 1:
-//       renderContent = <Speakers />;
-//       break;
-//     case 2:
-//       renderContent = <Schedule />;
-//       break;
-//     case 3:
-//       renderContent = <div>Workshop Content</div>;
-//       break;
-//     case 4:
-//       renderContent = <div>Sponsor Content</div>;
-//       break;
-//     case 5:
-//       renderContent = <div>Contact Content</div>;
-//       break;
-//     default:
-//       renderContent = <div>No Content</div>
-//       break;
-//   }
-//   //Render the content to the DOM
-//   ReactDOM.render(renderContent, document.getElementById('content'));
-// }
 
 const NavTabs = () => (
   <Nav>
@@ -45,19 +15,19 @@ const NavTabs = () => (
       </Link>
     </NavItem>
     <NavItem eventKey={3} href="#">
-      <div id="nav-text">
+      <Link id="nav-text" to="workshops" smooth={true}>
         Workshops
-      </div>
+      </Link>
     </NavItem>
     <NavItem eventKey={4} href="#">
-      <div id="nav-text">
+      <Link id="nav-text" to="sponsors" smooth={true}>
         Sponsors
-      </div>
+      </Link>
     </NavItem>
     <NavItem eventKey={5} href="#">
-      <div id="nav-text">
+      <Link id="nav-text" to="contact" smooth={true}>
         Contact
-      </div>
+      </Link>
     </NavItem>
   </Nav>
 );

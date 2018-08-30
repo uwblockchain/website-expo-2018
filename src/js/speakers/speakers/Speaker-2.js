@@ -1,19 +1,18 @@
 import React from 'react';
 import speakerImg from '../../../img/speakers/mark_cooley.jpg';
-import Speaker from '../Speaker';
 import SpeakerPreview from '../SpeakerPreview';
 
-const Speaker2 = () => (
-  <Speaker 
+const Speaker2Preview = () =>(
+  <SpeakerPreview
     img={speakerImg} 
     job=
     {
-      <p>BLOCKCHAIN STRATEGIST</p>
+      <p>BLOCKCHAIN STRATEGIST, <br />4BLOCK</p>
     } 
     name=
     {
       <b>Mark Cooley</b>
-    } 
+    }
     body=
     {
       <p>
@@ -26,21 +25,7 @@ const Speaker2 = () => (
         as Seattle University, University of Washington, and General Assembly. 
       </p>
     }
-    /> 
-);
-
-export const Speaker2Preview = () =>(
-  <SpeakerPreview
-    img={speakerImg} 
-    job=
-    {
-      <p>BLOCKCHAIN STRATEGIST, <br />4BLOCK</p>
-    } 
-    name=
-    {
-      <b>Mark Cooley</b>
-    }
     />
 )
 
-export default Speaker2;
+export default Speaker2Preview;
