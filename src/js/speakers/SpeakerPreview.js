@@ -31,11 +31,11 @@ class SpeakerPreview extends React.Component {
             <div className="speaker-preview-job">{this.props.job}</div>
           </div>
   
-          <Modal show={this.state.show} onHide={this.handleClose}>
-            <Modal.Body>
+          <Modal className="speaker-modal" show={this.state.show} onHide={this.handleClose}>
+            <Modal.Body className="modal-body">
               <SpeakerModalContent 
                 img={this.props.img}
-                btn={<Button onClick={this.handleClose}>Back</Button>}
+                btn={<Button className="modal-button" onClick={this.handleClose}>{"<  BACK"}</Button>}
                 job={this.props.job}
                 name={this.props.name}
                 body={this.props.body}
