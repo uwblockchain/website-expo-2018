@@ -15,19 +15,19 @@ const NavTabs = () => (
       </Link>
     </NavItem>
     <NavItem eventKey={3} href="#">
-      <div id="nav-text">
+      <Link id="nav-text" to="workshops" smooth={true}>
         Workshops
-      </div>
+      </Link>
     </NavItem>
     <NavItem eventKey={4} href="#">
-      <div id="nav-text">
+      <Link id="nav-text" to="sponsors" smooth={true}>
         Sponsors
-      </div>
+      </Link>
     </NavItem>
     <NavItem eventKey={5} href="#">
-      <div id="nav-text">
+      <Link id="nav-text" to="contact" smooth={true}>
         Contact
-      </div>
+      </Link>
     </NavItem>
   </Nav>
 );

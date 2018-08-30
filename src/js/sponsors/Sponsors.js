@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Sponsors = () => (
-    <div>
+    <div name="sponsors">
 
     </div>
 )
