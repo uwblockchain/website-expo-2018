@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, Row, Col } from 'react-bootstrap';
 
 const jobStyle = {
-  color: '#C86DD7',
+  color: '#572AAF',
   paddingTop: '0.7em',
   fontWeight: '400',
   fontSize: 'medium',
