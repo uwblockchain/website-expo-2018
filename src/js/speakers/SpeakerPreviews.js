@@ -21,8 +21,6 @@ const previewSubTitle = {
     lineHeight: 1.5,
 }
 
-var mdash = '\mdash'
-
 const SpeakerPreviews = () => (
     <div className="container-flex speaker-previews" name="speaker-previews">
         <div className="container">

@@ -28,7 +28,7 @@ class SpeakerPreview extends React.Component {
           <div onClick={this.handleShow}>
             <Image src={this.props.img} responsive/>
             <h3 className="speaker-preview-name">{this.props.name}</h3>
-            <p className="speaker-preview-job">{this.props.job}</p>
+            <div className="speaker-preview-job">{this.props.job}</div>
           </div>
   
           <Modal show={this.state.show} onHide={this.handleClose}>
