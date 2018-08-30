@@ -1,10 +1,10 @@
 import React from 'react';
 import { render } from 'enzyme';
-import Speaker from './Speaker';
+import SpeakerModalContent from './SpeakerModalContent';
 import speakerImg from '../../img/speakers/ahmad-alkabra.jpg';
  
 const SpeakerTest = () => (
-  <Speaker 
+  <SpeakerModalContent 
     img={speakerImg}
     job=
     {

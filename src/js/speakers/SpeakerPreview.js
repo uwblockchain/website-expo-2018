@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, Modal, Button } from 'react-bootstrap';
-import Speaker from './Speaker';
+import SpeakerModalContent from './SpeakerModalContent';
 
 class SpeakerPreview extends React.Component {
     constructor(props, context) {
@@ -36,7 +36,7 @@ class SpeakerPreview extends React.Component {
               <Button onClick={this.handleClose}>Back</Button>
             </Modal.Header>
             <Modal.Body>
-              <Speaker 
+              <SpeakerModalContent 
                 img={this.props.img}
                 job={this.props.job}
                 name={this.props.name}

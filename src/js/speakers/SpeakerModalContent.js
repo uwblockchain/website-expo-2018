@@ -8,7 +8,7 @@ const jobStyle = {
   fontSize: 'medium',
 };
 
-const Speaker = (props) => (
+const SpeakerModalContent = (props) => (
     <Row className="speaker-entry">
       <Col sm={4}>
         <div className="speaker-image">
@@ -29,4 +29,4 @@ const Speaker = (props) => (
     </Row>
 );
 
-export default Speaker;
+export default SpeakerModalContent;
