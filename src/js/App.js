@@ -1,16 +1,28 @@
-import React, { Component } from 'react';
 import '../css/App.css';
+import React from 'react';
+import Navigation from './nav/Navigation';
+import Head from './Head';
+import BuyTickets from './buyTickets/BuyTickets';
+import SpeakerPreviews from './speakers/SpeakerPreviews';
+import Video from './video/Video';
+import Workshops from './workshops/Workshops';
+import Sponsors from './sponsors/Sponsors';
+import Contact from './contact/Contact';
+import Schedule from './schedule/Schedule';
 import FormWrapper from './Form';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossOrigin="anonymous" />
-        <FormWrapper />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className="App">
+    <Head />
+    <Navigation />
+    <Video />
+    <BuyTickets/>
+    <SpeakerPreviews/>
+    <Schedule />
+    <Workshops/>
+    <Sponsors/>
+    <Contact/>
+  </div>
+);
 
 export default App;

@@ -1,5 +1,280 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+html, .App {
+  background: linear-gradient(to top right, #3023AE, #C86DD7) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif !important;
 }
+
+
+.navbar-toggle {
+  position: relative;
+}
+
+.App button {
+  background-color: #6F62B8;
+  color: white;
+  border-color: white;
+  border-radius: 0.4em;
+  padding: 0.5em 0.9em;
+  font-weight: 600;
+  
+}
+
+.App button:hover, 
+.App button:active
+{
+  background-color: #5b4dab; 
+  color: white;
+  border-color: white;
+}
+
+.App button:active:focus, 
+.App button:focus {
+  background-color: #6F62B8;
+  border-color: #6F62B8;
+
+}
+
+
+.App #nav-brand {
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: .18em
+}
+
+.App .main-navbar {
+  text-align: center;
+  background-color: white;
+}
+
+.App .main-navbar .navbar {
+  text-align: center;
+  background-color: white;
+}
+
+.App #nav-date {
+  color: black;
+  text-align: center;
+  margin-top: 0.80em;
+}
+
+.App #nav-year {
+  font-size: 150%;
+  line-height: 70%;
+  color: black;
+}
+
+.App #nav-text {
+  color: black;
+  margin-top: 0.5em;
+};
+
+.App #nav-text:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.speaker-image {
+  padding-right: 1em;
+}
+
+.speaker-entry {
+  margin-bottom: 1em
+}
+
+h1.speaker-header {
+  font-weight: bolder;
+  padding-bottom: 1.3em;
+}
+
+h2.speaker-name {
+  margin-top: -0.2em;
+  margin-bottom: 1em;
+  font-weight: 600 !important;
+}
+
+.speaker-body {
+  font-weight: 600;
+  font-size: small;
+}
+
+.fab,
+.fas {
+  padding: 0.2em;
+  font-size: xx-large;
+  color: white;
+}
+
+.fab:hover,
+.fas:hover {
+  color: white;
+}
+  
+.App div.card-title {
+  margin-top: -1em;
+  font-weight: bolder !important;
+}
+
+.App .panel-default {
+  border-color: #ddd;
+  padding: 3em;
+}
+
+h4.card-fee {
+  margin-top: 1.65em;
+  color: #7F7F7F;
+  font-weight: bolder;
+}
+
+h3.card-sub {
+  font-weight: 700;
+  margin-top: 0.1em;
+  margin-bottom: 1em;
+  height: 0.1em;
+}
+
+h1.card-price {
+  font-weight: bolder !important;
+}
+
+h3.card-title {
+  font-weight: 800 ;
+  margin-bottom: 0;
+}
+
+div.card-button {
+  padding-top: 1.5em;
+  
+}
+
+div.card-button a {
+  background-color: #6F62B8;
+  border-radius: 50em;
+  padding: 0.7em 1.5em;
+  font-weight: 600;
+}
+
+div.card-button a:hover, 
+div.card-button a:active
+ {
+  background-color: #5b4dab; 
+}
+
+div.card-button a:active:focus, 
+div.card-button a:focus {
+  background-color: #6F62B8;
+  border-color: #6F62B8;
+}
+
+#col {
+  padding: 0em 4em 2em 4em;
+}
+
+.speaker-preview-name {
+  color: #474747;
+}
+
+.speaker-preview-job {
+  color: #805CA8;
+  font-weight: 700;
+}
+
+.main-video {
+  margin-top: 5.4em;
+  padding: 4em;
+  background-color: white;
+}
+
+.video-title {
+  font-weight: 700;
+  color: #474747;
+  padding-bottom: 0.3em;
+  margin-top:0em;
+}
+
+.video-sub-title {
+  padding-top: 0.1em;
+  font-weight: 600;
+  color: #474747;
+}
+
+.video-par {
+  font-weight: 500;
+  padding-bottom: 2em;
+}
+
+.btn-video {
+  padding-top: 0em;
+  margin-top: -2em;
+}
+
+.bot-left {
+  position: relative;
+}
+.bot-left:before, .bot-left:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: -5px;
+  
+}
+.bot-left:before {
+  top: -5px;
+  width: 5px;
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#C86DD7), to(#C86DD7));
+  background-image: -webkit-linear-gradient(#C86DD7, #3023AE);
+  background-image: -moz-linear-gradient(#C86DD7, #3023AE);
+  background-image: -o-linear-gradient(#C86DD7, #3023AE);
+}
+.bot-left:after {
+  right: -5px;
+  height: 5px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#C86DD7), to(#C86DD7));
+  background-image: -webkit-linear-gradient(left, #3023AE, #C86DD7);
+  background-image: -moz-linear-gradient(left, #3023AE, #C86DD7);
+  background-image: -o-linear-gradient(left, #3023AE, #C86DD7);
+}
+
+.buy-tickets {
+  margin: 4em;
+}
+
+.speaker-previews {
+  padding: 2em 0;
+  background-color: white;
+}
+
+Button.modal-button {
+  margin-top: 0.9em;
+  margin-bottom: 1em;
+  font-weight: 700;
+  font-size: medium;
+  background-color: inherit;
+  color: white
+}
+
+
+
+.modal {
+  background-color:  rgba(0, 0, 0, 0.7);
+  border: none;
+
+}
+
+@media (max-width: 769px) {
+  .modal-content {
+    margin-top: 0vh !important;
+  }
+}
+
+.modal-content {
+  background: inherit !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin-top: 20vh;
+  color: white;
+}
+
