@@ -1,10 +1,9 @@
 import React from 'react';
 import speakerImg from '../../../img/speakers/james-gan.jpeg';
-import Speaker from '../Speaker';
 import SpeakerPreview from '../SpeakerPreview';
 
-const Speaker6 = () => (
-  <Speaker 
+const Speaker6Preview = () => (
+  <SpeakerPreview 
     img={speakerImg} 
     job=
     {
@@ -13,7 +12,7 @@ const Speaker6 = () => (
     name=
     {
       <b>James Gan</b>
-    } 
+    }
     body=
     {
       <p>
@@ -25,21 +24,7 @@ const Speaker6 = () => (
         has organized Blockchain events, including one funded by a Tezos Commons Foundation Grant.
       </p>  
     }
-  /> 
-);
-
-export const Speaker6Preview = () => (
-  <SpeakerPreview 
-    img={speakerImg} 
-    job=
-    {
-      <p>PROGRAM MANAGER, <br/>SRND</p>
-    } 
-    name=
-    {
-      <b>James Gan</b>
-    }
   />
 )
 
-export default Speaker6;
+export default Speaker6Preview;

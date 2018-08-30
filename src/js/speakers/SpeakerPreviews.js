@@ -1,13 +1,13 @@
 import React from 'react';
-import { Image, Row, Col } from 'react-bootstrap';
-import { Speaker1Preview } from './speakers/Speaker-1';
-import { Speaker2Preview } from './speakers/Speaker-2';
-import { Speaker3Preview } from './speakers/Speaker-3';
-import { Speaker4Preview } from './speakers/Speaker-4';
-import { Speaker5Preview } from './speakers/Speaker-5';
-import { Speaker6Preview } from './speakers/Speaker-6';
-import { Speaker7Preview } from './speakers/Speaker-7';
-import { Speaker8Preview } from './speakers/Speaker-8';
+import { Row, Col } from 'react-bootstrap';
+import Speaker1Preview from './speakers/Speaker-1';
+import Speaker2Preview from './speakers/Speaker-2';
+import Speaker3Preview from './speakers/Speaker-3';
+import Speaker4Preview from './speakers/Speaker-4';
+import Speaker5Preview from './speakers/Speaker-5';
+import Speaker6Preview from './speakers/Speaker-6';
+import Speaker7Preview from './speakers/Speaker-7';
+import Speaker8Preview from './speakers/Speaker-8';
 
 const previewTitle = {
     fontWeight: 700,

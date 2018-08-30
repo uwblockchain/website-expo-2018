@@ -1,10 +1,9 @@
 import React from 'react';
 import speakerImg from '../../../img/speakers/eric-weaver.jpg';
-import Speaker from '../Speaker';
 import SpeakerPreview from '../SpeakerPreview';
 
-const Speaker5 = () => (
-  <Speaker 
+const Speaker5Preview = () => (
+  <SpeakerPreview 
     img={speakerImg} 
     job=
     {
@@ -13,7 +12,7 @@ const Speaker5 = () => (
     name=
     {
       <b>Eric Weaver</b>
-    } 
+    }
     body=
     {
       <p>
@@ -28,21 +27,7 @@ const Speaker5 = () => (
         product origins, quality and marketing claims using blockchain-based validation and supply chain.
       </p>  
     }
-  /> 
-);
-
-export const Speaker5Preview = () => (
-  <SpeakerPreview 
-    img={speakerImg} 
-    job=
-    {
-      <p>CEO, <br/>TRANSPARENT PATH</p>
-    } 
-    name=
-    {
-      <b>Eric Weaver</b>
-    }
   />
 )
 
-export default Speaker5;
+export default Speaker5Preview;
