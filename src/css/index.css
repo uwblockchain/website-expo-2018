@@ -1,5 +1,5 @@
 html, .App {
-  background: linear-gradient(to top right, #3023AE, #C86DD7) no-repeat center center fixed;
+  background: linear-gradient(to top right, #18184B, #663399) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,10 +7,14 @@ html, .App {
   font-family: 'Open Sans', sans-serif !important;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
 
 .navbar-toggle {
   position: relative;
 }
+
 
 .App button {
   background-color: #6F62B8;
@@ -45,9 +49,16 @@ html, .App {
   margin-top: .18em
 }
 
+.App .nav-tabs {
+  padding-top: 0.5em;
+  border: none;
+  font-weight: 600;
+}
+
 .App .main-navbar {
   text-align: center;
   background-color: white;
+  padding-right: 0;
 }
 
 .App .main-navbar .navbar {
@@ -285,7 +296,8 @@ Button.modal-button {
 .hero-text {
   color: white;
   position: absolute;
-  top: 15%;
+  top: 0;
+  margin-top: 10em;
   width: 100%;
 }
 
@@ -295,28 +307,26 @@ Button.modal-button {
   margin: 0;
   font-weight: 600;
   font-size: 1vw;
-  padding-top: 4.5em;
 }
 
 #block-hero {
   font-size: 11.4vw;
-  margin: 0;
-  padding: 0;
   font-weight: 700;
-  margin-left: -0.15em;
+  margin: 0;
+  margin-left: -0.05em;
 }
 
 #chain-hero {
-  font-size: 12.05vw;
-  margin-left: -0.02em;
+  font-size: 12vw;
   font-weight: 700;
-  margin-top: -0.15em;
+  margin-top: -0.2em;
 }
 
 #expo-hero {
   font-size: 6.2vw;
   font-weight: 700;
   margin-top: -.2em;
+  margin-left: 0.05em;
 }
 
 #hero-tagline {
@@ -324,13 +334,64 @@ Button.modal-button {
   font-size: 1.5vw;
   font-weight: 400;
   letter-spacing: 0.075vw;
+  margin-left: 0.2em;
 }
 
-.btn-hero {
+a.btn-hero {
   margin-top: 1em;
-  margin-right: 0.5em;
+  margin-right: 1em;
   background: inherit;
   color: white;
-  border: 1em solid white;
-  padding: 1em 2em;
+  border: 1px solid white;
+  padding: 0.7em 1.5em;
+  font-weight: 600;
+  border-radius: 1px;
+}
+
+a.btn-hero:hover {
+  background-color: white;
+  color: #18184B;
+}
+
+a.btn-purple {
+  margin-left: 1em;
+  background-color: white;
+  color: #18184B;
+}
+
+a.btn-purple:hover {
+  color: white;
+  background: inherit;
+}
+
+.schedule-title {
+  color: white;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 3px white solid;
+  padding-bottom: 0.2em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 3em;
+  display: inline-block;
+}
+
+.row.hero-bottom {
+  padding-top: 20em;
+  text-align: left;
+}
+
+.hero-bottom-text {
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  padding-bottom: 1.5em;
+}
+
+.hero-bottom-title {
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  word-spacing: 0.1em;
+  padding-bottom: 1em;
 }

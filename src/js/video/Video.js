@@ -5,6 +5,7 @@ const Video = () => (
     <div className="main-video container-flex">
         <div className="container">
             <Row>
+                {/*
                 <Col md={5}>
                     <h3 className="video-sub-title">University of Washington's First Annual</h3>
                     <h1 className="video-title">BLOCKCHAIN EXPO</h1>
@@ -20,7 +21,8 @@ const Video = () => (
                     </div>
                     
                 </Col>
-                <Col md={7} className="text-center">
+                */}
+                <Col md={8} mdOffset={2} className="text-center">
                     <div className="embed-responsive embed-responsive-16by9">
                         <iframe 
                             title="promo-video"
