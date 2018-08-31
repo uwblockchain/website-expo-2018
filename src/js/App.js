@@ -9,7 +9,6 @@ import Workshops from './workshops/Workshops';
 import Sponsors from './sponsors/Sponsors';
 import Contact from './contact/Contact';
 import Schedule from './schedule/Schedule';
-import FormWrapper from './Form';
 
 const App = () => (
   <div className="App">
