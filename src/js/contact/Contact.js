@@ -3,7 +3,7 @@ import { Form, FormGroup, Col, Button, FormControl, ControlLabel, OverlayTrigger
 
 const Contact = () => (
   <div name="contact">
-    <Form name="contact" horizontal>
+    {/* <Form name="contact" horizontal>
       <FormGroup controlId="Name">
         <Col componentClass={ControlLabel} sm={2}>
           Name
@@ -35,7 +35,17 @@ const Contact = () => (
           </OverlayTrigger>
         </Col>
       </FormGroup>
-    </Form>
+    </Form> */}
+    <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScqWh13INbTOAO_Acqwtq3vsDjs0VvpT24Xeuwe4-7Ph9o0rg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+      Name:<br/>
+      <input type="text" name="entry.1465724548" id="entry.1465724548"/>
+      Email:<br/>
+      <input type="text" name="entry.1347977438" id="entry.1347977438"/>
+      Inquiry:<br/>
+      <input type="text" name="entry.2033481424" id="entry.2033481424"/>
+      <input type="submit" value="Submit"/>
+    </form>
+    <iframe name="hidden_iframe" id="hidden_iframe" style={{display:'none'}} onLoad="if(submitted) {}"></iframe>
   </div>
 );
 
