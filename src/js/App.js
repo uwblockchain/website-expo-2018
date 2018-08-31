@@ -9,12 +9,14 @@ import Workshops from './workshops/Workshops';
 import Sponsors from './sponsors/Sponsors';
 import Contact from './contact/Contact';
 import Schedule from './schedule/Schedule';
+import Hero from './hero/Hero'
 
 
 const App = () => (
   <div className="App">
     <Head />
     <Navigation />
+    <Hero />
     <Video />
     <BuyTickets/>
     <SpeakerPreviews/>

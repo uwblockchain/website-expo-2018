@@ -183,7 +183,6 @@ div.card-button a:focus {
 }
 
 .main-video {
-  margin-top: 5.4em;
   padding: 4em;
   background-color: white;
 }
@@ -278,3 +277,60 @@ Button.modal-button {
   color: white;
 }
 
+.hero-image {
+  position: relative;
+  width: 100%;
+}
+
+.hero-text {
+  color: white;
+  position: absolute;
+  top: 15%;
+  width: 100%;
+}
+
+#uw-hero {
+  font-size: 1vw;
+  letter-spacing: 0.4vw;
+  margin: 0;
+  font-weight: 600;
+  font-size: 1vw;
+  padding-top: 4.5em;
+}
+
+#block-hero {
+  font-size: 11.4vw;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  margin-left: -0.15em;
+}
+
+#chain-hero {
+  font-size: 12.05vw;
+  margin-left: -0.02em;
+  font-weight: 700;
+  margin-top: -0.15em;
+}
+
+#expo-hero {
+  font-size: 6.2vw;
+  font-weight: 700;
+  margin-top: -.2em;
+}
+
+#hero-tagline {
+  padding-top: 1.5em;
+  font-size: 1.5vw;
+  font-weight: 400;
+  letter-spacing: 0.075vw;
+}
+
+.btn-hero {
+  margin-top: 1em;
+  margin-right: 0.5em;
+  background: inherit;
+  color: white;
+  border: 1em solid white;
+  padding: 1em 2em;
+}
