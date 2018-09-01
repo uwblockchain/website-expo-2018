@@ -185,17 +185,17 @@ div.card-button a:focus {
 }
 
 .speaker-preview-name {
-  color: #474747;
+  color: white;
 }
 
 .speaker-preview-job {
-  color: #805CA8;
+  color: white;
   font-weight: 700;
 }
 
 .main-video {
   padding: 4em;
-  background-color: white;
+  background-color: black;
 }
 
 .video-title {
@@ -229,23 +229,6 @@ div.card-button a:focus {
   position: absolute;
   bottom: -5px;
   left: -5px;
-  
-}
-.bot-left:before {
-  top: -5px;
-  width: 5px;
-  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#C86DD7), to(#C86DD7));
-  background-image: -webkit-linear-gradient(#C86DD7, #3023AE);
-  background-image: -moz-linear-gradient(#C86DD7, #3023AE);
-  background-image: -o-linear-gradient(#C86DD7, #3023AE);
-}
-.bot-left:after {
-  right: -5px;
-  height: 5px;
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#C86DD7), to(#C86DD7));
-  background-image: -webkit-linear-gradient(left, #3023AE, #C86DD7);
-  background-image: -moz-linear-gradient(left, #3023AE, #C86DD7);
-  background-image: -o-linear-gradient(left, #3023AE, #C86DD7);
 }
 
 .buy-tickets {
@@ -253,8 +236,8 @@ div.card-button a:focus {
 }
 
 .speaker-previews {
-  padding: 2em 0;
-  background-color: white;
+  padding: 1em 0;
+  background-color: inherit;
 }
 
 Button.modal-button {

@@ -1,9 +1,9 @@
 import React from  'react'
 import { Row, Image, Col, Grid } from 'react-bootstrap'
-import heroBG from '../../img/heroBG.png'
+import heroBG from '../../img/heroBG-2.png'
 
 const Hero = () => (
-    <div>
+    <div className="container-flex">
         <Image src={heroBG} responsive className="hero-image"/>
         <div  className="text-center hero-text">
             <Grid>
