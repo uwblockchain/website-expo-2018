@@ -5,7 +5,7 @@ import { animateScroll as scroll } from 'react-scroll';
 
 const buttonLink = "https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604";
 
-const NavButton = () => (
+export const NavButton = () => (
   <NavItem href={buttonLink}>
     <Button>Get Tickets</Button>
   </NavItem>
