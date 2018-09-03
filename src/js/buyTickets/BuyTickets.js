@@ -15,7 +15,7 @@ const BuyTickets = () => (
       <Col md={4}>
         <BuyTicketCard className="ticket" title="General Admission" price="$149" fee="$13.15"/>
       </Col>
-      <Col md={12}>
+      <Col md={10} mdOffset={1}>
           <Newsletter />
       </Col>
     </Row>

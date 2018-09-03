@@ -22,7 +22,6 @@ const App = () => (
     <Schedule />
     <Workshops/>
     <Sponsors/>
-    <Contact/>
   </div>
 );
 

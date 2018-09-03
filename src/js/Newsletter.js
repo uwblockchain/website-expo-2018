@@ -5,7 +5,7 @@ import { Form, FormGroup, FormControl, Button } from 'react-bootstrap';
 const Newsletter = () => (
   <div className="Newsletter">
     <h2 className="newsletter-text">
-      Join our mail list
+      Join our mailing list
       <br />
       to receive expo updates:
     </h2>

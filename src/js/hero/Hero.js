@@ -1,6 +1,7 @@
 import React from  'react'
 import { Row, Image, Col, Grid } from 'react-bootstrap'
 import heroBG from '../../img/heroBG-2.png'
+import Newsletter from '../Newsletter'
 
 const Hero = () => (
     <div className="container-flex">
@@ -30,9 +31,9 @@ const Hero = () => (
                         <a href="#" className="btn btn-hero">CONTACT US</a>
                     </Col>
                 </Row>
+                
             </Grid>
         </div>
-        
     </div>
 )
 
