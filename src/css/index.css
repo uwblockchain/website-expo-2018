@@ -278,3 +278,34 @@ Button.modal-button {
   color: white;
 }
 
+.sponsors {
+  color: white;
+}
+
+.sponsors-title {
+  font-weight: 600;
+  padding-bottom: 1.2em;
+}
+
+.sponsors-text {
+  font-weight: 400;
+  font-size: 1.9rem;
+  letter-spacing: 0.01em;
+}
+
+.sponsors-logo {
+  padding: 10em 0em;
+  
+}
+
+.coMotion-logo {
+  padding-top: 10.8em;
+}
+
+p a {
+  color: white;
+}
+
+P a:hover {
+  color: white;
+}
