@@ -10,7 +10,6 @@ import Sponsors from './sponsors/Sponsors';
 import Contact from './contact/Contact';
 import Schedule from './schedule/Schedule';
 
-
 const App = () => (
   <div className="App">
     <Head />
