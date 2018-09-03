@@ -14,7 +14,7 @@ const Newsletter = () => (
         <FormGroup controlId="formInlineEmail">
           <FormControl type="email" placeholder="email" bsSize="large" />
         </FormGroup>{' '}
-        <Button type="submit">SUBMIT</Button>
+        <a type="submit" className="btn-hero">SUBMIT</a>
       </Form>
     </div>
   </div>

@@ -25,7 +25,7 @@ const Sponsors = () => (
         </p>
       </Row>
       <Row>
-        <a className="btn btn-default" href="mailto:info@blockchainsocietyuw.com">LEARN MORE</a>
+        <a className="btn btn-hero" href="mailto:info@blockchainsocietyuw.com">LEARN MORE</a>
       </Row>
     </Grid>
   </div>
