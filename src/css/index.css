@@ -278,3 +278,42 @@ Button.modal-button {
   color: white;
 }
 
+.newsletter-text {
+  color: white;
+  font-weight: 600;
+  padding-bottom: 0.4em;
+  line-height: 1.4;
+}
+
+.newsletter-form {
+  text-align: center;
+}
+
+.form-group input {
+  width: 90% !important;
+  color: white;
+  border: none;
+  border-bottom: 3px white solid;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0;
+}
+
+.form-group input:focus {
+  border: inherit;
+  border-bottom: 3px white solid;
+  box-shadow: none;
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white !important;
+  opacity: 0.7; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}

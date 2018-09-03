@@ -1,6 +1,7 @@
 import React from 'react';
 import BuyTicketCard from './BuyTicketCard';
 import { Row, Col } from 'react-bootstrap';
+import Newsletter from '../Newsletter';
 
 const BuyTickets = () => (
   <div className="container buy-tickets">
@@ -13,6 +14,9 @@ const BuyTickets = () => (
       </Col>
       <Col md={4}>
         <BuyTicketCard className="ticket" title="General Admission" price="$149" fee="$13.15"/>
+      </Col>
+      <Col md={12}>
+          <Newsletter />
       </Col>
     </Row>
   </div>
