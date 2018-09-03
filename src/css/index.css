@@ -17,14 +17,18 @@ html, .App {
 
 
 .App button {
-  background-color: inherit;
+  background-color: inherit !important;
   color: white;
   border-color: white;
   border: none;
   padding: 0.5em 0.9em;
   font-weight: 600;
   margin-top: 1.5rem;
-  color: #663399
+}
+
+.App a button {
+  margin-top: 0;
+  background-color: #5b4dab !important;
 }
 
 .App button:hover, 

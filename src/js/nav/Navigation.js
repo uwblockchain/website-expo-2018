@@ -37,7 +37,7 @@ const Navigation = () => (
       <NavDate className="date" />
       <Navbar.Collapse>
         <Nav pullRight>
-          <NavButton className="button" />
+          <NavButton className="button navbar-button" />
           <NavTabs className="tabs" />
         </Nav> 
       </Navbar.Collapse>
