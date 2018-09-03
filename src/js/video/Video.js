@@ -1,6 +1,5 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
-import Newsletter from '../Newsletter';
 
 const Video = () => (
     <div className="main-video container-flex">
@@ -30,9 +29,6 @@ const Video = () => (
                         />
                     </div>
                     
-                </Col>
-                <Col md={7} className="text-center">
-                    <Newsletter />
                 </Col>
             </Row>
         </div>
