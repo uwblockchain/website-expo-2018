@@ -3,7 +3,7 @@ import { NavItem, Nav } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 
 const NavTabs = () => (
-  <Nav>
+  <Nav className="nav-tabs">
     <NavItem eventKey={1} href="#">
       <Link id="nav-text" to="speaker-previews" smooth={true}>
         Speakers

@@ -11,13 +11,13 @@ import Speaker8Preview from './speakers/Speaker-8';
 
 const previewTitle = {
     fontWeight: 700,
-    color: '#474747',
+    color: 'white',
     lineHeight: 1.5,
 }
 
 const previewSubTitle = {
     fontWeight: 700,
-    color: '#7B7B7B',
+    color: 'white',
     lineHeight: 1.5,
 }
 
