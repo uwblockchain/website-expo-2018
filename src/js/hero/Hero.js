@@ -2,6 +2,7 @@ import React from  'react'
 import { Row, Image, Col, Grid } from 'react-bootstrap'
 import heroBG from '../../img/heroBG-2.png'
 import Newsletter from '../Newsletter'
+import title from '../../img/Title.png'
 
 const Hero = () => (
     <div className="container-flex">
@@ -9,11 +10,8 @@ const Hero = () => (
         <div  className="text-center hero-text">
             <Grid>
                 <Row>
-                    <Col md={8} mdOffset={2}>
-                        <p id="uw-hero">UNIVERSITY OF WASHINGTON</p>
-                        <h2 id="block-hero">BLOCK</h2>
-                        <h1 id="chain-hero">CHAIN</h1>
-                        <h2 id="expo-hero">EXPOSITION</h2>
+                    <Col md={8} mdOffset={2} >
+                        <img className="img-responsive" id="title-img" src={title}/>
                         <h4 id="hero-tagline">Connecting students and industry in blockchain</h4>
                         <a href="#" className="btn btn-hero">Learn More</a>
                         <a href="#" className="btn btn-hero btn-purple">Get Tickets</a>
