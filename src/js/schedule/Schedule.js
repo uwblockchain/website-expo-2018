@@ -17,6 +17,10 @@ const Item = (props) => (
 
 const Schedule = () => (
   <div name="schedule">
+    <div className="container">
+    <p className="schedule-title">Our tentative schedule...</p>
+    </div>
+    
     <VerticalTimeline>
       <Item className="item" text="Introduction" />
       <Item className="item" text="Ethics of Blockchain" />

@@ -5,7 +5,7 @@ import { Form, FormGroup, FormControl, Button } from 'react-bootstrap';
 const Newsletter = () => (
   <div className="Newsletter">
     <h2 className="newsletter-text">
-      Join our mail list
+      Join our mailing list
       <br />
       to receive expo updates:
     </h2>
@@ -14,7 +14,7 @@ const Newsletter = () => (
         <FormGroup controlId="formInlineEmail">
           <FormControl type="email" placeholder="email" bsSize="large" />
         </FormGroup>{' '}
-        <Button type="submit">SUBMIT</Button>
+        <a type="submit" className="btn-hero">SUBMIT</a>
       </Form>
     </div>
   </div>

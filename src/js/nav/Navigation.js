@@ -29,7 +29,7 @@ const NavTitle = () => (
 
 const Navigation = () => (
   <div className="main-navbar">
-    <Navbar  fluid fixedTop collapseOnSelect>
+    <Navbar fixedTop collapseOnSelect>
       <Navbar.Header left="true">
         <NavTitle className="title" />
         <Navbar.Toggle />
@@ -37,7 +37,7 @@ const Navigation = () => (
       <NavDate className="date" />
       <Navbar.Collapse>
         <Nav pullRight>
-          <NavButton className="button" />
+          <NavButton className="button navbar-button" />
           <NavTabs className="tabs" />
         </Nav> 
       </Navbar.Collapse>
