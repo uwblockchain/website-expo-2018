@@ -24,12 +24,10 @@ const previewSubTitle = {
 const SpeakerPreviews = () => (
     <div className="container-flex speaker-previews" name="speaker-previews">
         <div className="container">
-            <Row>
-                <Col md={12} id="col">
-                    <h2 style={previewTitle}>Engage with blockchain <br/>{'professionals \u2014'}</h2>
-                    <h4 style={previewSubTitle}>Speakers from various industries will share <br/>their insights.</h4>
-                </Col>
-            </Row>
+            <div className="speakers-title">
+                <h2 style={previewTitle}>Engage with blockchain <br/>{'professionals \u2014'}</h2>
+                <h4 style={previewSubTitle}>Speakers from various industries will share <br/>their insights.</h4>
+            </div>
             <Row>
                 <Col md={4} id="col">
                     <Speaker1Preview />
