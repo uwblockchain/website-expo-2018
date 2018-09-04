@@ -2,6 +2,7 @@ import React from  'react'
 import { Row, Image, Col, Grid } from 'react-bootstrap'
 import heroBG from '../../img/heroBG-2.png'
 import title from '../../img/Title.png'
+import { Link } from 'react-scroll';
 
 const Hero = () => (
     <div className="container-flex">
@@ -12,7 +13,7 @@ const Hero = () => (
                     <Col md={8} mdOffset={2} >
                         <img className="img-responsive" id="title-img" src={title} alt="title"/>
                         <h4 id="hero-tagline">Connecting students and industry in blockchain</h4>
-                        <a href="#" className="btn btn-hero">Learn More</a>
+                        <Link to="speaker-previews" smooth={true} className="btn btn-hero">Learn More</Link>
                         <a href="https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604" className="btn btn-hero btn-purple">Get Tickets</a>
                     </Col>
                 </Row>
