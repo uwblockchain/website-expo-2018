@@ -22,7 +22,7 @@ const Sponsors = () => (
       <Row>
         <p className="sponsors-text">
           If your company is interested in supporting this<br/>
-          event, contact us at <a href="mailto:info@blockchainsocietyuw.com">info@blockchainsocietyuw.com</a>.
+          event, contact us at <a href="mailto:info@blockchainsocietyuw.com">info@blockchainsocietyuw.com or fill out the form below.</a>.
         </p>
       </Row>
       <Row>
