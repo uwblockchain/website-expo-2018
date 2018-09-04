@@ -470,7 +470,7 @@ form textarea {
   border-radius: 0;
   font-size: 2rem;
   line-height: 2;
-  padding: 0.2em, 0.5em;
+  padding: 0.2em 0.5em;
 }
 
 form input:focus {
