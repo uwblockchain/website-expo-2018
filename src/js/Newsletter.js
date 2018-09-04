@@ -11,7 +11,7 @@ const Newsletter = () => (
       to receive expo updates:
     </h2>
     <div className="form newsletter-form">
-      <form name="gform" id="gform" enctype="text/plain" action={formURL}>
+      <form name="gform" id="gform" encType="text/plain" action={formURL}>
         <input type="text" name="entry.1619487764" id="entry.1619487764" placeholder="example@email.com"/>
           <br/>Email:<br/>
         <input type="submit" value="SUBMIT" className="btn-hero" />

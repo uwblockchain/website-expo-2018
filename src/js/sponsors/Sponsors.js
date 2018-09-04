@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Row, Button, Image, Col } from 'react-bootstrap';
+import { Grid, Row, Image, Col } from 'react-bootstrap';
 import comotionImg from '../../img/sponsors/comotion-logo-white.png';
 import galvanizeImg from '../../img/sponsors/galvanize-logo.png';
 import Contact from '../contact/Contact';

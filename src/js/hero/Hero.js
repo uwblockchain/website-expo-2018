@@ -1,7 +1,6 @@
 import React from  'react'
 import { Row, Image, Col, Grid } from 'react-bootstrap'
 import heroBG from '../../img/heroBG-2.png'
-import Newsletter from '../Newsletter'
 import title from '../../img/Title.png'
 
 const Hero = () => (
@@ -11,7 +10,7 @@ const Hero = () => (
             <Grid>
                 <Row>
                     <Col md={8} mdOffset={2} >
-                        <img className="img-responsive" id="title-img" src={title}/>
+                        <img className="img-responsive" id="title-img" src={title} alt="title"/>
                         <h4 id="hero-tagline">Connecting students and industry in blockchain</h4>
                         <a href="#" className="btn btn-hero">Learn More</a>
                         <a href="#" className="btn btn-hero btn-purple">Get Tickets</a>

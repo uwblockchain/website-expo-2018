@@ -7,7 +7,6 @@ import SpeakerPreviews from './speakers/SpeakerPreviews';
 import Video from './video/Video';
 import Workshops from './workshops/Workshops';
 import Sponsors from './sponsors/Sponsors';
-import Contact from './contact/Contact';
 import Schedule from './schedule/Schedule';
 import Footer from './footer/Footer';
 import Hero from './hero/Hero';
