@@ -381,6 +381,7 @@ a.btn-purple:hover {
 
 .sponsors {
   color: white;
+  padding-bottom: 2em;
 }
 
 .sponsors-title {
@@ -480,8 +481,9 @@ form input:focus {
 }
 
 
-form textarea {
-
+.footer {
+  background-color: black;
+  padding: 2em;
 }
 
 @media (max-width: 769px) {
