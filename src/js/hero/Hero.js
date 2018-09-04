@@ -13,7 +13,7 @@ const Hero = () => (
                         <img className="img-responsive" id="title-img" src={title} alt="title"/>
                         <h4 id="hero-tagline">Connecting students and industry in blockchain</h4>
                         <a href="#" className="btn btn-hero">Learn More</a>
-                        <a href="#" className="btn btn-hero btn-purple">Get Tickets</a>
+                        <a href="https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604" className="btn btn-hero btn-purple">Get Tickets</a>
                     </Col>
                 </Row>
                 <Row className="hero-bottom">
