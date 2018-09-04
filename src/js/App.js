@@ -9,6 +9,7 @@ import Workshops from './workshops/Workshops';
 import Sponsors from './sponsors/Sponsors';
 import Contact from './contact/Contact';
 import Schedule from './schedule/Schedule';
+import Footer from './footer/Footer';
 import Hero from './hero/Hero';
 
 const App = () => (
@@ -22,6 +23,7 @@ const App = () => (
     <Schedule />
     <Workshops/>
     <Sponsors/>
+    <Footer />
   </div>
 );
 
