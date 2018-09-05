@@ -3,8 +3,8 @@ import { Image, Modal, Button } from 'react-bootstrap';
 import SpeakerModalContent from './SpeakerModalContent';
 
 class SpeakerPreview extends React.Component {
-    constructor(props, context) {
-      super(props, context);
+    constructor() {
+      super();
   
       this.handleShow = this.handleShow.bind(this);
       this.handleClose = this.handleClose.bind(this);
@@ -38,6 +38,8 @@ class SpeakerPreview extends React.Component {
                 job={this.props.job}
                 name={this.props.name}
                 body={this.props.body}
+                linkedIn={this.props.linkedIn}
+                email={this.props.email}
               />
             </Modal.Body>
           </Modal>
