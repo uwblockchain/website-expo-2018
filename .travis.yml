@@ -10,7 +10,7 @@ script:
   - yarn test
 deploy:
   provider: s3
-  access_key_id: $ACCESS_KEY
-  secret_access_key: $SECRET_KEY
+  access_key_id: ACCESS_KEY
+  secret_access_key: SECRET_KEY
   bucket: "uwbce-public"
   skip_cleanup: true
