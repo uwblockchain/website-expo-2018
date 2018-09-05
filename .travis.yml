@@ -8,7 +8,8 @@ install:
   - npm install
 script:
   - yarn test
-  - npm run build
+before_deploy:
+  - CI=false npm run build
 deploy:
   provider: s3
   access_key_id: $ACCESS_KEY
