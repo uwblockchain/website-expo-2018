@@ -8,6 +8,7 @@ install:
   - npm install
 script:
   - yarn test
+  - npm run build
 deploy:
   provider: s3
   access_key_id: $ACCESS_KEY
@@ -15,3 +16,4 @@ deploy:
   bucket: "uwbce-public"
   skip_cleanup: true
   region: "us-west-2"
+  local_dir: build
