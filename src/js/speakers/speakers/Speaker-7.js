@@ -26,6 +26,8 @@ const Speaker7Preview = () => (
         the first project to use a token to purchase shares of a publicly traded company, on the ASX exchange.
       </p>  
     }
+    linkedIn="https://www.linkedin.com/in/davidritter1984boulder/"
+    email="dritter@penta.global"
   />
 )
 

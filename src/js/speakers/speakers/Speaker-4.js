@@ -22,6 +22,8 @@ const Speaker4Preview = () => (
         He built the Falcon Network to speed up public blockchains. He is advised by the renowned Emin Gün Sirer.
       </p>  
     }
+    linkedIn="https://www.linkedin.com/in/soumya-basu-a31bb746/"
+    email="soumya@cs.cornell.edu"
   />
 )
 
