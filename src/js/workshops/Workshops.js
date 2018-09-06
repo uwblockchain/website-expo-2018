@@ -8,7 +8,7 @@ const styleRows={
 }
 
 const Workshops = () => (
-  <div name="workshops">
+  <div>
     <Grid>
       <Row style={{color: 'white'}}>
         <h2>Workshops</h2>

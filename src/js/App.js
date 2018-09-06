@@ -10,6 +10,7 @@ import Sponsors from './sponsors/Sponsors';
 import Schedule from './schedule/Schedule';
 import Footer from './footer/Footer';
 import Hero from './hero/Hero';
+import { Element } from 'react-scroll';
 
 const App = () => (
   <div className="App">
@@ -18,10 +19,10 @@ const App = () => (
     <Hero />
     <Video />
     <BuyTickets/>
-    <SpeakerPreviews/>
-    <Schedule />
-    <Workshops/>
-    <Sponsors/>
+    <Element name="speaker-previews"><SpeakerPreviews/></Element>
+    <Element name="schedule"><Schedule /></Element>
+    <Element name="workshops"><Workshops/></Element>
+    <Element name="sponsors"><Sponsors/></Element>
     <Footer />
   </div>
 );
