@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "all": "0.0.0",
     "bootstrap": "^4.1.3",
     "enzyme": "^3.4.4",
     "enzyme-adapter-react-16": "^1.2.0",
