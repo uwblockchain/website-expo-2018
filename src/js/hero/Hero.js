@@ -10,7 +10,7 @@ const Hero = () => (
         <div  className="text-center hero-text">
             <Grid>
                 <Row>
-                    <Col md={8} mdOffset={2} >
+                    <Col lg={8} lgOffset={2}>
                         <img className="img-responsive" id="title-img" src={title} alt="title"/>
                         <h4 id="hero-tagline">Connecting students and industry in blockchain</h4>
                         <Link to="speaker-previews" smooth={true} className="btn btn-hero">Learn More</Link>
@@ -18,7 +18,7 @@ const Hero = () => (
                     </Col>
                 </Row>
                 <Row className="hero-bottom">
-                    <Col md={6} mdOffset={6}>
+                    <Col lg={6} lgOffset={6}>
                         <h1 className="hero-bottom-title">About the Expo</h1>
                         <h4 className="hero-bottom-text">
                         The UW Blockchain Society seeks to connect industry and students interested in 

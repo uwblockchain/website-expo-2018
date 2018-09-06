@@ -279,7 +279,7 @@ Button.modal-button {
   color: white;
   position: absolute;
   top: 0;
-  margin-top: 10em;
+  padding-top: 10em;
   width: 100%;
 }
 
@@ -493,7 +493,7 @@ form input:focus {
   padding-bottom: 1.5em;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1200px) {
   .modal-content {
     margin-top: 0vh !important;
   }
@@ -516,7 +516,7 @@ form input:focus {
     color: white;
     position: static;
     top: 0;
-    margin-top: 10em;
+    padding-top: 15rem;
     width: 100%;
   }
   
@@ -556,7 +556,7 @@ form input:focus {
   }
 
   .row.hero-bottom {
-    padding-top: 4em;
+    padding-top: 4rem;
     text-align: left;
     padding-bottom: 2rem;
   }
