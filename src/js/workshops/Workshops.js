@@ -1,9 +1,5 @@
 import React from 'react';
 
-const Workshops = () => (
-    <div name="workshops">
+const Workshops = () => <div name="workshops" />;
 
-    </div>
-)
-
-export default Workshops
+export default Workshops;

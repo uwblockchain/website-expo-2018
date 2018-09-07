@@ -5,7 +5,7 @@ import BuyTicketCard from './BuyTicketCard';
 var wrapper;
 
 beforeEach(() => {
-  wrapper = shallow(<BuyTicketCard title="Students" price="$5" fee="$2.00"/>);
+  wrapper = shallow(<BuyTicketCard title="Students" price="$5" fee="$2.00" />);
 });
 
 it('renders without crashing', () => {});

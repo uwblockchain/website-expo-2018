@@ -9,24 +9,37 @@ const Sponsors = () => (
     <Grid>
       <Row>
         <h2 className="sponsors-title">Sponsors</h2>
-        <p className="sponsors-text">This exposition would not be possible without<br/>help from these great sponsors.</p>
+        <p className="sponsors-text">
+          This exposition would not be possible without
+          <br />
+          help from these great sponsors.
+        </p>
       </Row>
       <Row className="sponsors-images">
         <Col md={6}>
           <Image responsive className="sponsors-logo" src={galvanizeImg} />
         </Col>
         <Col md={6}>
-          <Image responsive className="sponsors-logo coMotion-logo" src={comotionImg}/>
+          <Image
+            responsive
+            className="sponsors-logo coMotion-logo"
+            src={comotionImg}
+          />
         </Col>
       </Row>
       <Row>
         <p className="sponsors-text">
-          If your company is interested in supporting this<br/>
-          event, contact us at <a href="mailto:info@blockchainsocietyuw.com">info@blockchainsocietyuw.com or fill out the form below.</a>.
+          If your company is interested in supporting this
+          <br />
+          event, contact us at{' '}
+          <a href="mailto:info@blockchainsocietyuw.com">
+            info@blockchainsocietyuw.com or fill out the form below.
+          </a>
+          .
         </p>
       </Row>
       <Row>
-        <Contact/>
+        <Contact />
       </Row>
     </Grid>
   </div>
