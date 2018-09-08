@@ -15,12 +15,12 @@ import LoadingScreen from 'react-loading-screen';
 
 export default class App extends React.Component { 
 
-  // Used to simulate how the loading screen will work
-  // when connection speed is slow.
-  // THIS SHOULD BE REMOVED BEFORE MERGE,
-  // WE WANT THIS WEBSITE TO BE FAST
+  // Decided to keep the delay but keep it
+  // a small value, since the loading screen
+  // will sometimes transition before all of
+  // the components are rendered properly
   delay() {
-    return new Promise(resolve => setTimeout(resolve, 250))
+    return new Promise(resolve => setTimeout(resolve, 75))
   }
 
   constructor() {
@@ -38,7 +38,7 @@ export default class App extends React.Component {
     return (
       <LoadingScreen
       loading={this.state.loading}
-      bgColor='linear-gradient(to top right, #18184B, #663399) no-repeat center center fixed'
+      bgColor='black'
       textColor='white'
       logoSrc={loadicon}
       text='Loading...'
