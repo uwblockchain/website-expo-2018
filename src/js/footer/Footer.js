@@ -10,7 +10,7 @@ const Footer = () => (
           <p style={{ color: 'white' }}>
             Copyright © 2018 Blockchain Society at the UW
             <br />
-            info@blockchainsocietyuw.com
+            info@uwblockchain.org
           </p>
         </Col>
         <Col md={4} style={{ textAlign: 'right', paddingTop: '0.05em' }} sm={6}>
