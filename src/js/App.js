@@ -18,11 +18,19 @@ const App = () => (
     <Navigation />
     <Hero />
     <Video />
-    <BuyTickets/>
-    <Element name="speaker-previews"><SpeakerPreviews/></Element>
-    <Element name="schedule"><Schedule /></Element>
-    <Element name="workshops"><Workshops/></Element>
-    <Element name="sponsors"><Sponsors/></Element>
+    <BuyTickets />
+    <Element name="speaker-previews">
+      <SpeakerPreviews />
+    </Element>
+    <Element name="schedule">
+      <Schedule />
+    </Element>
+    <Element name="workshops">
+      <Workshops />
+    </Element>
+    <Element name="sponsors">
+      <Sponsors />
+    </Element>
     <Footer />
   </div>
 );

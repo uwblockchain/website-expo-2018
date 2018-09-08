@@ -40,7 +40,9 @@ const Sponsors = () => (
         </p>
       </Row>
       <Row>
-        <Element name="contact"><Contact/></Element>
+        <Element name="contact">
+          <Contact />
+        </Element>
       </Row>
     </Grid>
   </div>
