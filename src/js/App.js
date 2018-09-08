@@ -10,11 +10,11 @@ import Sponsors from './sponsors/Sponsors';
 import Schedule from './schedule/Schedule';
 import Footer from './footer/Footer';
 import Hero from './hero/Hero';
+import { Element } from 'react-scroll';
 import loadicon from '../img/loadicon.gif';
 import LoadingScreen from 'react-loading-screen';
 
 export default class App extends React.Component { 
-
   // Decided to keep the delay but keep it
   // a small value, since the loading screen
   // will sometimes transition before all of
@@ -49,10 +49,10 @@ export default class App extends React.Component {
           <Hero />
           <Video />
           <BuyTickets/>
-          <SpeakerPreviews/>
-          <Schedule />
-          <Workshops/>
-          <Sponsors/>
+          <Element name="speaker-previews"><SpeakerPreviews/></Element>
+          <Element name="schedule"><Schedule /></Element>
+          <Element name="workshops"><Workshops/></Element>
+          <Element name="sponsors"><Sponsors/></Element>
           <Footer />
         </div>
       </LoadingScreen>

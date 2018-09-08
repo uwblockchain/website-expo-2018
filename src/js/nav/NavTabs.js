@@ -1,33 +1,31 @@
 import React from 'react';
 import { NavItem, Nav } from 'react-bootstrap';
-import { Link } from 'react-scroll';
+import { scroller } from 'react-scroll';
+
+function scrollTo(elementToScroll) {
+  scroller.scrollTo(elementToScroll, {
+    duration: 800,
+    delay: 0,
+    smooth: 'easeInOutQuart'
+  });
+};
 
 const NavTabs = () => (
   <Nav className="nav-tabs">
-    <NavItem eventKey={1} href="#">
-      <Link id="nav-text" to="speaker-previews" smooth={true}>
-        Speakers
-      </Link>
+    <NavItem id="nav-text" eventKey={1} onClick={() => scrollTo('speaker-previews')}>
+      Speakers
     </NavItem>
-    <NavItem eventKey={2} href="#">
-      <Link id="nav-text" to="schedule" smooth={true} offset={-30}>
-        Schedule
-      </Link>
+    <NavItem id="nav-text" eventKey={2} onClick={() => scrollTo('schedule')}>
+      Schedule
     </NavItem>
-    {/* <NavItem eventKey={3} href="#">
-      <Link id="nav-text" to="workshops" smooth={true}>
-        Workshops
-      </Link>
-    </NavItem> */}
-    <NavItem eventKey={4} href="#">
-      <Link id="nav-text" to="sponsors" smooth={true}>
-        Sponsors
-      </Link>
+    <NavItem id="nav-text" eventKey={3} onClick={() => scrollTo('workshops')}>
+      Workshops
     </NavItem>
-    <NavItem eventKey={5} href="#">
-      <Link id="nav-text" to="contact" smooth={true}>
-        Contact
-      </Link>
+    <NavItem id="nav-text" eventKey={4} onClick={() => scrollTo('sponsors')}>
+      Sponsors
+    </NavItem>
+    <NavItem id="nav-text" eventKey={5} onClick={() => scrollTo('contact')}>
+      Contact
     </NavItem>
   </Nav>
 );

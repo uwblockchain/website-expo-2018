@@ -3,9 +3,10 @@ import { Grid, Row, Image, Col } from 'react-bootstrap';
 import comotionImg from '../../img/sponsors/comotion-logo-white.png';
 import galvanizeImg from '../../img/sponsors/galvanize-logo.png';
 import Contact from '../contact/Contact';
+import { Element } from 'react-scroll';
 
 const Sponsors = () => (
-  <div name="sponsors" className="sponsors container">
+  <div className="sponsors container">
     <Grid>
       <Row>
         <h2 className="sponsors-title">Sponsors</h2>
@@ -26,7 +27,7 @@ const Sponsors = () => (
         </p>
       </Row>
       <Row>
-        <Contact/>
+        <Element name="contact"><Contact/></Element>
       </Row>
     </Grid>
   </div>
