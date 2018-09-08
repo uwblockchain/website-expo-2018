@@ -10,60 +10,63 @@ import Speaker7Preview from './speakers/Speaker-7';
 import Speaker8Preview from './speakers/Speaker-8';
 
 const previewTitle = {
-    fontWeight: 700,
-    color: 'white',
-    lineHeight: 1.5,
-}
+  fontWeight: 700,
+  color: 'white',
+  lineHeight: 1.5
+};
 
 const previewSubTitle = {
-    fontWeight: 700,
-    color: 'white',
-    lineHeight: 1.5,
-}
+  fontWeight: 700,
+  color: 'white',
+  lineHeight: 1.5
+};
 
 const SpeakerPreviews = () => (
-    <div className="container-flex speaker-previews">
-        <div className="container">
-            <div className="speakers-title">
-                <h2 style={previewTitle}>Engage with blockchain <br/>{'professionals \u2014'}</h2>
-                <h4 style={previewSubTitle}>Speakers from various industries will share <br/>their insights.</h4>
-            </div>
-            <Row>
-                <Col md={4} id="col">
-                    <Speaker1Preview />
-                </Col>
-                <Col md={4} id="col">
-                    <Speaker2Preview />
-                </Col>
-                <Col md={4} id="col">
-                    <Speaker3Preview />
-                </Col>
-            </Row>
-            <Row>
-                <Col md={4} id="col">
-                    <Speaker4Preview />
-                </Col>
-                <Col md={4} id="col">
-                    <Speaker5Preview />
-                </Col>
-                <Col md={4} id="col">
-                    <Speaker6Preview />
-                </Col>
-            </Row>
-            <Row>
-                <Col md={4} id="col">
-                    <Speaker7Preview />
-                </Col>
-                <Col md={4} id="col">
-                    <Speaker8Preview />
-                </Col>
-                <Col md={4} id="col">
-                    
-                </Col>
-            </Row>
-        </div>
+  <div className="container-flex speaker-previews">
+    <div className="container">
+      <div className="speakers-title">
+        <h2 style={previewTitle}>
+          Engage with blockchain <br />
+          {'professionals \u2014'}
+        </h2>
+        <h4 style={previewSubTitle}>
+          Speakers from various industries will share <br />
+          their insights.
+        </h4>
+      </div>
+      <Row>
+        <Col md={4} id="col">
+          <Speaker1Preview />
+        </Col>
+        <Col md={4} id="col">
+          <Speaker2Preview />
+        </Col>
+        <Col md={4} id="col">
+          <Speaker3Preview />
+        </Col>
+      </Row>
+      <Row>
+        <Col md={4} id="col">
+          <Speaker4Preview />
+        </Col>
+        <Col md={4} id="col">
+          <Speaker5Preview />
+        </Col>
+        <Col md={4} id="col">
+          <Speaker6Preview />
+        </Col>
+      </Row>
+      <Row>
+        <Col md={4} id="col">
+          <Speaker7Preview />
+        </Col>
+        <Col md={4} id="col">
+          <Speaker8Preview />
+        </Col>
+        <Col md={4} id="col" />
+      </Row>
     </div>
-    
-)
+  </div>
+);
 
 export default SpeakerPreviews;

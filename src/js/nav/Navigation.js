@@ -3,7 +3,8 @@ import { Navbar, Nav, NavItem, Button } from 'react-bootstrap';
 import NavTabs from './NavTabs';
 import { animateScroll as scroll } from 'react-scroll';
 
-const buttonLink = "https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604";
+const buttonLink =
+  'https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604';
 
 export const NavButton = () => (
   <NavItem href={buttonLink}>
@@ -23,7 +24,9 @@ const NavDate = () => (
 
 const NavTitle = () => (
   <Navbar.Brand>
-    <a onClick={scroll.scrollToTop} id="nav-brand">UW BLOCKCHAIN EXPO</a>
+    <a onClick={scroll.scrollToTop} id="nav-brand">
+      UW BLOCKCHAIN EXPO
+    </a>
   </Navbar.Brand>
 );
 
@@ -39,11 +42,10 @@ const Navigation = () => (
         <Nav pullRight>
           <NavButton className="button navbar-button" />
           <NavTabs className="tabs" />
-        </Nav> 
+        </Nav>
       </Navbar.Collapse>
     </Navbar>
   </div>
-  
 );
 
 export default Navigation;

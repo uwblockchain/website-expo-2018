@@ -8,11 +8,15 @@ function scrollTo(elementToScroll) {
     delay: 0,
     smooth: 'easeInOutQuart'
   });
-};
+}
 
 const NavTabs = () => (
   <Nav className="nav-tabs">
-    <NavItem id="nav-text" eventKey={1} onClick={() => scrollTo('speaker-previews')}>
+    <NavItem
+      id="nav-text"
+      eventKey={1}
+      onClick={() => scrollTo('speaker-previews')}
+    >
       Speakers
     </NavItem>
     <NavItem id="nav-text" eventKey={2} onClick={() => scrollTo('schedule')}>

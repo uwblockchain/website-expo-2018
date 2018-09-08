@@ -1,26 +1,27 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
-import cube from '../../img/cube.png'; 
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import cube from '../../img/cube.png';
+import {
+  VerticalTimeline,
+  VerticalTimelineElement
+} from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-const Item = (props) => (
+const Item = props => (
   <VerticalTimelineElement
     iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
     icon={<Image circle width={'100%'} height={'100%'} src={cube} />}
   >
-    <h4>
-      {props.text}
-    </h4>
+    <h4>{props.text}</h4>
   </VerticalTimelineElement>
 );
 
 const Schedule = () => (
   <div>
     <div className="container">
-    <p className="schedule-title">Our tentative schedule...</p>
+      <p className="schedule-title">Our tentative schedule...</p>
     </div>
-    
+
     <VerticalTimeline>
       <Item className="item" text="Introduction" />
       <Item className="item" text="Ethics of Blockchain" />

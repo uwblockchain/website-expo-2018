@@ -1,5 +1,7 @@
-html, .App {
-  background: linear-gradient(to top right, #18184B, #663399) no-repeat center center fixed;
+html,
+.App {
+  background: linear-gradient(to top right, #18184b, #663399) no-repeat center
+    center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8,13 +10,11 @@ html, .App {
 }
 
 ::-webkit-scrollbar {
-  
 }
 
 .navbar-toggle {
   position: relative;
 }
-
 
 .App button {
   background-color: inherit !important;
@@ -31,27 +31,24 @@ html, .App {
   background-color: #5b4dab !important;
 }
 
-.App button:hover, 
-.App button:active
-{
-  background-color: #5b4dab; 
+.App button:hover,
+.App button:active {
+  background-color: #5b4dab;
   color: white;
   border: none;
 }
 
-.App button:active:focus, 
+.App button:active:focus,
 .App button:focus {
-  background-color: #6F62B8;
-  border-color: #6F62B8;
-
+  background-color: #6f62b8;
+  border-color: #6f62b8;
 }
-
 
 .App #nav-brand {
   color: black;
   font-weight: bold;
   letter-spacing: 2px;
-  margin-top: .18em
+  margin-top: 0.18em;
 }
 
 .App .nav-tabs {
@@ -74,7 +71,7 @@ html, .App {
 .App #nav-date {
   color: black;
   text-align: center;
-  margin-top: 0.80em;
+  margin-top: 0.8em;
 }
 
 .App #nav-year {
@@ -85,7 +82,7 @@ html, .App {
 
 .App #nav-text {
   color: black;
-};
+}
 
 .App #nav-text:hover {
   text-decoration: underline;
@@ -97,7 +94,7 @@ html, .App {
 }
 
 .speaker-entry {
-  margin-bottom: 1em
+  margin-bottom: 1em;
 }
 
 h1.speaker-header {
@@ -127,7 +124,7 @@ h2.speaker-name {
 .fas:hover {
   color: white;
 }
-  
+
 .App div.card-title {
   margin-top: -1em;
   font-weight: bolder !important;
@@ -140,7 +137,7 @@ h2.speaker-name {
 
 h4.card-fee {
   margin-top: 1.65em;
-  color: #7F7F7F;
+  color: #7f7f7f;
   font-weight: bolder;
 }
 
@@ -156,32 +153,30 @@ h1.card-price {
 }
 
 h3.card-title {
-  font-weight: 800 ;
+  font-weight: 800;
   margin-bottom: 0;
 }
 
 div.card-button {
   padding-top: 1.5em;
-  
 }
 
 div.card-button a {
-  background-color: #6F62B8;
+  background-color: #6f62b8;
   border-radius: 50em;
   padding: 0.7em 1.5em;
   font-weight: 600;
 }
 
-div.card-button a:hover, 
-div.card-button a:active
- {
-  background-color: #5b4dab; 
+div.card-button a:hover,
+div.card-button a:active {
+  background-color: #5b4dab;
 }
 
-div.card-button a:active:focus, 
+div.card-button a:active:focus,
 div.card-button a:focus {
-  background-color: #6F62B8;
-  border-color: #6F62B8;
+  background-color: #6f62b8;
+  border-color: #6f62b8;
 }
 
 #col {
@@ -206,7 +201,7 @@ div.card-button a:focus {
   font-weight: 700;
   color: #474747;
   padding-bottom: 0.3em;
-  margin-top:0em;
+  margin-top: 0em;
 }
 
 .video-sub-title {
@@ -228,8 +223,9 @@ div.card-button a:focus {
 .bot-left {
   position: relative;
 }
-.bot-left:before, .bot-left:after {
-  content: "";
+.bot-left:before,
+.bot-left:after {
+  content: '';
   position: absolute;
   bottom: -5px;
   left: -5px;
@@ -244,21 +240,18 @@ div.card-button a:focus {
   background-color: inherit;
 }
 
-Button.modal-button {
+button.modal-button {
   margin-top: 0.9em;
   margin-bottom: 1em;
   font-weight: 700;
   font-size: medium;
   background-color: inherit;
-  color: white
+  color: white;
 }
 
-
-
 .modal {
-  background-color:  rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   border: none;
-
 }
 
 .modal-content {
@@ -268,7 +261,6 @@ Button.modal-button {
   margin-top: 20vh;
   color: white;
 }
-
 
 .hero-image {
   position: relative;
@@ -307,7 +299,7 @@ Button.modal-button {
 #expo-hero {
   font-size: 6.2vw;
   font-weight: 700;
-  margin-top: -.2em;
+  margin-top: -0.2em;
   margin-left: 0.05em;
 }
 
@@ -332,13 +324,13 @@ a.btn-hero {
 
 a.btn-hero:hover {
   background-color: white;
-  color: #18184B;
+  color: #18184b;
 }
 
 a.btn-purple {
   margin-left: 1em;
   background-color: white;
-  color: #18184B;
+  color: #18184b;
 }
 
 a.btn-purple:hover {
@@ -396,7 +388,6 @@ a.btn-purple:hover {
 
 .sponsors-images {
   padding: 10em 0em;
-  
 }
 
 .coMotion-logo {
@@ -407,7 +398,7 @@ p a {
   color: white;
 }
 
-P a:hover {
+p a:hover {
   color: white;
 }
 
@@ -435,22 +426,23 @@ P a:hover {
   border: inherit;
   border-bottom: 3px white solid;
   box-shadow: none;
-
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white !important;
   opacity: 0.7; /* Firefox */
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
   color: white;
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
+::-ms-input-placeholder {
+  /* Microsoft Edge */
   color: white;
 }
-
 
 form {
   color: white;
@@ -459,7 +451,7 @@ form {
   line-height: 2.3;
 }
 
-form input, 
+form input,
 form textarea {
   width: 100% !important;
   color: white;
@@ -476,9 +468,7 @@ form input:focus {
   border: inherit;
   border-bottom: 3px white solid;
   box-shadow: none;
-
 }
-
 
 .footer {
   background-color: black;
@@ -500,9 +490,8 @@ form input:focus {
 
   .sponsors-images {
     padding: 4em 0em;
-    
   }
-  
+
   .coMotion-logo {
     padding-top: 4em;
   }
@@ -519,34 +508,34 @@ form input:focus {
     padding-top: 15rem;
     width: 100%;
   }
-  
+
   #uw-hero {
     font-size: 2vw;
     letter-spacing: 0.4vw;
     margin: 0;
     font-weight: 600;
   }
-  
+
   #block-hero {
     font-size: 14.4vw;
     font-weight: 700;
     margin: 0;
     margin-left: -0.05em;
   }
-  
+
   #chain-hero {
     font-size: 15vw;
     font-weight: 700;
     margin-top: -0.2em;
   }
-  
+
   #expo-hero {
     font-size: 7.8vw;
     font-weight: 700;
-    margin-top: -.4em;
+    margin-top: -0.4em;
     margin-left: 0.05em;
   }
-  
+
   #hero-tagline {
     padding-top: 1.5em;
     font-size: 3vw;
@@ -560,7 +549,7 @@ form input:focus {
     text-align: left;
     padding-bottom: 2rem;
   }
-  
+
   .hero-bottom-text {
     font-size: 1em;
     line-height: 1.5;
@@ -568,7 +557,7 @@ form input:focus {
     letter-spacing: 0.1em;
     padding-bottom: 2rem;
   }
-  
+
   .hero-bottom-title {
     font-weight: 600;
     letter-spacing: 0.03em;
@@ -576,7 +565,7 @@ form input:focus {
     padding-bottom: 2rem;
     font-size: 3rem;
   }
-  
+
   .Newsletter {
     padding-top: 2rem;
   }

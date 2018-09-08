@@ -2,26 +2,15 @@ import React from 'react';
 import { render } from 'enzyme';
 import SpeakerModalContent from './SpeakerModalContent';
 import speakerImg from '../../img/speakers/ahmad-alkabra.jpg';
- 
+
 const SpeakerTest = () => (
-  <SpeakerModalContent 
+  <SpeakerModalContent
     img={speakerImg}
-    job=
-    {
-      <p>TEST JOB</p>
-    } 
-    name=
-    {
-      <b>TEST NAME</b>
-    }
-    body=
-    {
-      <p>
-        TEST BODY
-      </p>  
-    } 
-  />  
-)
+    job={<p>TEST JOB</p>}
+    name={<b>TEST NAME</b>}
+    body={<p>TEST BODY</p>}
+  />
+);
 
 var wrapper;
 

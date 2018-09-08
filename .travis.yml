@@ -7,7 +7,7 @@ notifications:
 install:
   - npm install
 script:
-  - yarn test
+  - yarn test -- --coverage
 before_deploy:
   - CI=false npm run build
 deploy:
