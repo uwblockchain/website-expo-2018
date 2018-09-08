@@ -1,40 +1,24 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import appleTouchIcon from '../img/favicons/apple-touch-icon.png';
+import favicon32 from '../img/favicons/favicon-32x32.png';
+import favicon16 from '../img/favicons/favicon-16x16.png';
+import siteManifest from '../img/favicons/site.webmanifest';
+import safariPinnedTab from '../img/favicons/safari-pinned-tab.svg';
+import faviconIco from '../img/favicons/favicon.ico';
+import browserConfig from '../img/favicons/browserconfig.xml';
 
 const Head = () => (
   <Helmet>
     {/* FAVICONS */}
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="uwbce.com/favicons/apple-touch-icon.png"
-    />
-    >
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="uwbce.com/favicons/favicon-32x32.png"
-    />
-    >
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="uwbce.com/favicons/favicon-16x16.png"
-    />
-    <link rel="manifest" href="uwbce.com/favicons/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="uwbce.com/favicons/safari-pinned-tab.svg"
-      color="#6938bf"
-    />
-    <link rel="shortcut icon" href="uwbce.com/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />>
+    <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />>
+    <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
+    <link rel="manifest" href={siteManifest} />
+    <link rel="mask-icon" href={safariPinnedTab} color="#6938bf" />
+    <link rel="shortcut icon" href={faviconIco} />
     <meta name="msapplication-TileColor" content="#2b5797" />
-    <meta
-      name="msapplication-config"
-      content="uwbce.com/favicons/browserconfig.xml"
-    />
+    <meta name="msapplication-config" content={browserConfig} />
     <meta name="theme-color" content="#ffffff" />
     {/* STYLE SHEETS */}
     <meta charset="utf-8" />
