@@ -22,7 +22,7 @@ const previewSubTitle = {
 }
 
 const SpeakerPreviews = () => (
-    <div className="container-flex speaker-previews" name="speaker-previews">
+    <div className="container-flex speaker-previews">
         <div className="container">
             <div className="speakers-title">
                 <h2 style={previewTitle}>Engage with blockchain <br/>{'professionals \u2014'}</h2>

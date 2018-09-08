@@ -16,7 +16,7 @@ const Item = (props) => (
 );
 
 const Schedule = () => (
-  <div name="schedule">
+  <div>
     <div className="container">
     <p className="schedule-title">Our tentative schedule...</p>
     </div>
