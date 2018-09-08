@@ -63,7 +63,6 @@ const SpeakerPreviews = () => (
             </Row>
         </div>
     </div>
-  </div>
 );
 
 export default SpeakerPreviews;
