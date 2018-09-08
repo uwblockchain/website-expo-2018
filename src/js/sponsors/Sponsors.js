@@ -36,7 +36,6 @@ const Sponsors = () => (
           <a href="mailto:info@blockchainsocietyuw.com">
             info@blockchainsocietyuw.com or fill out the form below.
           </a>
-          .
         </p>
       </Row>
       <Row>

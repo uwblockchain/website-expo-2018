@@ -16,7 +16,7 @@ const previewTitle = {
 };
 
 const previewSubTitle = {
-  fontWeight: 700,
+  fontWeight: 400,
   color: 'white',
   lineHeight: 1.5
 };
@@ -25,10 +25,7 @@ const SpeakerPreviews = () => (
   <div className="container-flex speaker-previews">
     <div className="container">
       <div className="speakers-title">
-        <h2 style={previewTitle}>
-          Engage with blockchain <br />
-          {'professionals \u2014'}
-        </h2>
+        <h2 style={previewTitle}>Engage with blockchain professionals</h2>
         <h4 style={previewSubTitle}>
           Speakers from various industries will share <br />
           their insights.

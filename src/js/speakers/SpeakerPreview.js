@@ -24,7 +24,7 @@ class SpeakerPreview extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="speaker-preview">
         <div onClick={this.handleShow}>
           <Image src={this.props.img} responsive />
           <h3 className="speaker-preview-name">{this.props.name}</h3>

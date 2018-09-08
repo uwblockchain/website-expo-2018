@@ -24,6 +24,7 @@ html,
   padding: 0.5em 0.9em;
   font-weight: 600;
   margin-top: 1.5rem;
+  border-radius: 0;
 }
 
 .App a button {
@@ -235,6 +236,14 @@ div.card-button a:focus {
   margin: 4em;
 }
 
+.speaker-preview {
+  transition: all 0.05s ease-in-out;
+}
+
+.speaker-preview:hover {
+  transform: scale(1.04);
+}
+
 .speaker-previews {
   padding: 1em 0;
   background-color: inherit;
@@ -250,7 +259,7 @@ button.modal-button {
 }
 
 .modal {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
   border: none;
 }
 
@@ -481,6 +490,11 @@ form input:focus {
 
 .speakers-title {
   padding-bottom: 1.5em;
+}
+
+.contact {
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 
 @media (max-width: 1200px) {

@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
 const Contact = () => (
-  <div>
+  <div className="contact">
     <div className="container">
       <Row>
         <Col md={6} mdOffset={3}>
