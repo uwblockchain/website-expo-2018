@@ -11,8 +11,8 @@ import browserConfig from '../img/favicons/browserconfig.xml';
 const Head = () => (
   <Helmet>
     {/* FAVICONS */}
-    <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />>
-    <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />>
+    <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
+    <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
     <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
     <link rel="manifest" href={siteManifest} />
     <link rel="mask-icon" href={safariPinnedTab} color="#6938bf" />
