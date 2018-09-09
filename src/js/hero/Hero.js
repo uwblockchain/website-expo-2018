@@ -41,9 +41,9 @@ const Hero = () => (
               individuals involved in the blockchain space. They will share
               their experiences, insights, and the projects they are working on.
             </h4>
-            <a href="#" className="btn btn-hero">
+            <Link to="contact" smooth={true} className="btn btn-hero">
               CONTACT US
-            </a>
+            </Link>
           </Col>
         </Row>
       </Grid>
