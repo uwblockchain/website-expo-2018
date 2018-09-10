@@ -10,6 +10,7 @@ html,
 }
 
 ::-webkit-scrollbar {
+  -webkit-overflow-scrolling: touch;
 }
 
 .navbar-toggle {
@@ -273,7 +274,8 @@ button.modal-button {
 
 .hero-image {
   position: relative;
-  width: 100%;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .hero-text {
@@ -360,7 +362,7 @@ a.btn-purple:hover {
 }
 
 .row.hero-bottom {
-  padding-top: 15em;
+  padding-top: 10vw;
   text-align: left;
 }
 
