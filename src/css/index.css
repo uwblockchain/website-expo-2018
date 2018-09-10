@@ -616,10 +616,14 @@ form input:focus {
   }
 
   .Newsletter {
-    padding-top: 2rem;
+    padding: 2rem 0 0rem;
   }
 
   #title-img {
     max-width: 70%;
+  }
+
+  #col {
+    padding: 1.5rem;
   }
 }

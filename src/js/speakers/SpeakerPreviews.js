@@ -34,35 +34,32 @@ const SpeakerPreviews = () => (
         </h4>
       </div>
       <Row>
-        <Col md={4} id="col">
+        <Col md={4} xs={6} id="col">
           <Speaker1Preview />
         </Col>
-        <Col md={4} id="col">
+        <Col md={4} xs={6} id="col">
           <Speaker2Preview />
         </Col>
-        <Col md={4} id="col">
+        <Col md={4} xs={6} id="col">
           <Speaker3Preview />
         </Col>
-      </Row>
-      <Row>
-        <Col md={4} id="col">
+
+        <Col md={4} xs={6} id="col">
           <Speaker4Preview />
         </Col>
-        <Col md={4} id="col">
+        <Col md={4} xs={6} id="col">
           <Speaker5Preview />
         </Col>
-        <Col md={4} id="col">
+        <Col md={4} xs={6} id="col">
           <Speaker6Preview />
         </Col>
-      </Row>
-      <Row>
-        <Col md={4} id="col">
+        <Col md={4} xs={6} id="col">
           <Speaker7Preview />
         </Col>
-        <Col md={4} id="col">
+        <Col md={4} xs={6} id="col">
           <Speaker8Preview />
         </Col>
-        <Col md={4} id="col" />
+        <Col md={4} xs={6} id="col" />
       </Row>
     </div>
   </div>
