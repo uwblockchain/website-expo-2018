@@ -13,59 +13,42 @@ import speaker9Img from '../../img/speakers/kory_hoang.jpg';
 var keyGen = 0;
 
 const Speakers = () => [
-  // <Speaker1Preview key={keyGen++} />,
-  <Speaker2Preview key={keyGen++} />,
-  // <Speaker3Preview key={keyGen++} />,
-  <Speaker4Preview key={keyGen++} />,
-  // <Speaker5Preview key={keyGen++} />,
-  // <Speaker6Preview key={keyGen++} />,
-  <Speaker7Preview key={keyGen++} />,
-  // <Speaker8Preview key={keyGen++} />,
-  <Speaker9Preview key={keyGen++} />
-  // <Speaker10Preview key={keyGen++} />
-];
-
-export default Speakers;
-
-const Speaker1Preview = () => (
+  //   <SpeakerPreview
+  //   img={speaker1Img}
+  //   job={
+  //     <p>
+  //       CHIEF TECHNOLOGY OFFICER, <br />
+  //       APPSOLUTELY
+  //     </p>
+  //   }
+  //   name={<b>Ahmad Alkabra</b>}
+  //   body={
+  //     <p>
+  //       Ahmad Alkabra is the Global Director of Product at Appsolutely, a
+  //       company that is disrupting and reimagining the customer loyalty space
+  //       and ecosystem with LoyalCoin - the next-generation customer loyalty
+  //       solution on the blockchain. At Appsolutely, Ahmad guides LoyalCoin's
+  //       product strategy and spearheads the delivery of apps, services, and
+  //       solutions related to the LoyalCoin ecosystem.
+  //       <br />
+  //       <br />
+  //       Prior to joining Appsolutely, Ahmad had a stellar run at T-Mobile where
+  //       he co- started, built and launched T-Mobile Tuesdays – an innovative
+  //       customer engagement, and industry first customer loyalty app and
+  //       platform that has been an instant success since its launch in 2016.
+  //       <br />
+  //       <br />
+  //       He sees blockchain as the next evolution in the loyalty space and
+  //       LoyalCoin as a universal and interoperable solution that utilizes the
+  //       power of cryptocurrency and blockchain technology to incentivize
+  //       customers into becoming more engaged and satisfied with loyalty/rewards
+  //       programs, driving customer acquisition and retention for merchants and
+  //       brands.
+  //     </p>
+  //   }
+  // />,
   <SpeakerPreview
-    img={speaker1Img}
-    job={
-      <p>
-        CHIEF TECHNOLOGY OFFICER, <br />
-        APPSOLUTELY
-      </p>
-    }
-    name={<b>Ahmad Alkabra</b>}
-    body={
-      <p>
-        Ahmad Alkabra is the Global Director of Product at Appsolutely, a
-        company that is disrupting and reimagining the customer loyalty space
-        and ecosystem with LoyalCoin - the next-generation customer loyalty
-        solution on the blockchain. At Appsolutely, Ahmad guides LoyalCoin's
-        product strategy and spearheads the delivery of apps, services, and
-        solutions related to the LoyalCoin ecosystem.
-        <br />
-        <br />
-        Prior to joining Appsolutely, Ahmad had a stellar run at T-Mobile where
-        he co- started, built and launched T-Mobile Tuesdays – an innovative
-        customer engagement, and industry first customer loyalty app and
-        platform that has been an instant success since its launch in 2016.
-        <br />
-        <br />
-        He sees blockchain as the next evolution in the loyalty space and
-        LoyalCoin as a universal and interoperable solution that utilizes the
-        power of cryptocurrency and blockchain technology to incentivize
-        customers into becoming more engaged and satisfied with loyalty/rewards
-        programs, driving customer acquisition and retention for merchants and
-        brands.
-      </p>
-    }
-  />
-);
-
-const Speaker2Preview = () => (
-  <SpeakerPreview
+    key={keyGen++}
     img={speaker2Img}
     job={
       <p>
@@ -87,35 +70,30 @@ const Speaker2Preview = () => (
         General Assembly.
       </p>
     }
-  />
-);
-
-const Speaker3Preview = () => (
+  />,
+  // <SpeakerPreview
+  //   img={speaker3Img}
+  //   job={
+  //     <p>
+  //       CHIEF MARKETING OFFICER, <br />
+  //       LIFEID
+  //     </p>
+  //   }
+  //   name={<b>Joshua Shane</b>}
+  //   body={
+  //     <p>
+  //       Over the past 25 years, Joshua has built and run marketing organizations
+  //       for Silicon Valley startups and global Seattle tech giants. His passion
+  //       is bringing technology into service for local, regional and global
+  //       communities. Prior to being CMO at lifeID, Joshua was Managing Director
+  //       and VP of Strategy for Viewstream, a marketing agency focused on “deep
+  //       technology,” where he started and ran the agency’s Blockchain marketing
+  //       practice.
+  //     </p>
+  //   }
+  // />,
   <SpeakerPreview
-    img={speaker3Img}
-    job={
-      <p>
-        CHIEF MARKETING OFFICER, <br />
-        LIFEID
-      </p>
-    }
-    name={<b>Joshua Shane</b>}
-    body={
-      <p>
-        Over the past 25 years, Joshua has built and run marketing organizations
-        for Silicon Valley startups and global Seattle tech giants. His passion
-        is bringing technology into service for local, regional and global
-        communities. Prior to being CMO at lifeID, Joshua was Managing Director
-        and VP of Strategy for Viewstream, a marketing agency focused on “deep
-        technology,” where he started and ran the agency’s Blockchain marketing
-        practice.
-      </p>
-    }
-  />
-);
-
-const Speaker4Preview = () => (
-  <SpeakerPreview
+    key={keyGen++}
     img={speaker4Img}
     job={
       <p>
@@ -137,66 +115,58 @@ const Speaker4Preview = () => (
     }
     linkedIn="https://www.linkedin.com/in/soumya-basu-a31bb746/"
     email="soumya@cs.cornell.edu"
-  />
-);
-
-const Speaker5Preview = () => (
+  />,
+  // <SpeakerPreview
+  //   img={speaker5Img}
+  //   job={
+  //     <p>
+  //       CEO, <br />
+  //       TRANSPARENT PATH
+  //     </p>
+  //   }
+  //   name={<b>Eric Weaver</b>}
+  //   body={
+  //     <p>
+  //       Eric Weaver is a digital transformation veteran who has spent 29 years
+  //       counseling large enterprises and governmental agencies on disruption and
+  //       transformation. He has counseled over 80 blue-chip clients on everything
+  //       from brand building to digital operations to blockchain use cases — and
+  //       has built and led creative, production and strategy teams in New York,
+  //       London, Washington DC, Los Angeles, Seattle, Detroit and Cincinnati.
+  //       <br />
+  //       <br />
+  //       Most recently the VP of Customer Experience for Xerox, Weaver oversaw
+  //       the company’s $550M marketing services team and led efforts around
+  //       ledger technologies. He left Xerox in 2018 to launch Transparent Path –
+  //       a management consultancy advising brands and governments around the
+  //       globe on proving product origins, quality and marketing claims using
+  //       blockchain-based validation and supply chain.
+  //     </p>
+  //   }
+  // />,
+  // <SpeakerPreview
+  //   img={speaker6Img}
+  //   job={
+  //     <p>
+  //       PROGRAM MANAGER, <br />
+  //       SRND
+  //     </p>
+  //   }
+  //   name={<b>James Gan</b>}
+  //   body={
+  //     <p>
+  //       James Gan is a Program Manager at SRND, and an incoming Masters student
+  //       at the University of Washington who graduated with a Bachelors from
+  //       Cornell University in 2018. He has taught various workshops on
+  //       Blockchain technologies, covering theory and development. As a student
+  //       at Cornell, James researched the Bancor Network. Since arriving in
+  //       Seattle, he has organized Blockchain events, including one funded by a
+  //       Tezos Commons Foundation Grant.
+  //     </p>
+  //   }
+  // />,
   <SpeakerPreview
-    img={speaker5Img}
-    job={
-      <p>
-        CEO, <br />
-        TRANSPARENT PATH
-      </p>
-    }
-    name={<b>Eric Weaver</b>}
-    body={
-      <p>
-        Eric Weaver is a digital transformation veteran who has spent 29 years
-        counseling large enterprises and governmental agencies on disruption and
-        transformation. He has counseled over 80 blue-chip clients on everything
-        from brand building to digital operations to blockchain use cases — and
-        has built and led creative, production and strategy teams in New York,
-        London, Washington DC, Los Angeles, Seattle, Detroit and Cincinnati.
-        <br />
-        <br />
-        Most recently the VP of Customer Experience for Xerox, Weaver oversaw
-        the company’s $550M marketing services team and led efforts around
-        ledger technologies. He left Xerox in 2018 to launch Transparent Path –
-        a management consultancy advising brands and governments around the
-        globe on proving product origins, quality and marketing claims using
-        blockchain-based validation and supply chain.
-      </p>
-    }
-  />
-);
-
-const Speaker6Preview = () => (
-  <SpeakerPreview
-    img={speaker6Img}
-    job={
-      <p>
-        PROGRAM MANAGER, <br />
-        SRND
-      </p>
-    }
-    name={<b>James Gan</b>}
-    body={
-      <p>
-        James Gan is a Program Manager at SRND, and an incoming Masters student
-        at the University of Washington who graduated with a Bachelors from
-        Cornell University in 2018. He has taught various workshops on
-        Blockchain technologies, covering theory and development. As a student
-        at Cornell, James researched the Bancor Network. Since arriving in
-        Seattle, he has organized Blockchain events, including one funded by a
-        Tezos Commons Foundation Grant.
-      </p>
-    }
-  />
-);
-
-const Speaker7Preview = () => (
-  <SpeakerPreview
+    key={keyGen++}
     img={speaker7Img}
     job={
       <p>
@@ -221,11 +191,9 @@ const Speaker7Preview = () => (
     }
     linkedIn="https://www.linkedin.com/in/davidritter1984boulder/"
     email="dritter@penta.global"
-  />
-);
-
-const Speaker8Preview = () => (
+  />,
   <SpeakerPreview
+    key={keyGen++}
     img={speaker8Img}
     job={
       <p>
@@ -245,11 +213,9 @@ const Speaker8Preview = () => (
         small foundation that supports women in STEM fields in the Global South.
       </p>
     }
-  />
-);
-
-const Speaker9Preview = () => (
+  />,
   <SpeakerPreview
+    key={keyGen++}
     img={speaker9Img}
     job={
       <p>
@@ -273,38 +239,37 @@ const Speaker9Preview = () => (
     linkedIn="https://www.linkedin.com/in/kory-hoang-8999056a/"
     email="kory@stably.io"
   />
-);
+  //   <SpeakerPreview
+  //     // img={speaker10Img}
+  //     job={
+  //       <p>
+  //         FOUNDER, <br />
+  //         COINCENTRIX
+  //       </p>
+  //     }
+  //     name={<b>Oyedeji Oluwoye</b>}
+  //     body={
+  //       <p>
+  //         Oyedeji Oluwoye is a Network Planning Engineer in the Global
+  //         Implementation Team at AT&T Mobility; Cisco certified with
+  //         concentrations in Wireless, Design and IP Networking. Oyedeji completed
+  //         his Bachelors and Masters in Computer Science from Alabama A&M
+  //         University. With a thesis focused on the Network Analysis of Bitcoin and
+  //         Cryptocurrencies , he founded Coincentrix Capital, a Blockchain Research
+  //         and Development firm. Coincentrix focuses on the trading and education
+  //         of digital cryptocurrencies, and the development of the Blockchain
+  //         ecosystem. November 20th 2017 The Zcash Foundation provided Coincentrix
+  //         with an outreach grant to provide opportunities to expand educational
+  //         efforts among university students to inform them on the fundamentals of
+  //         blockchain and privacy driven innovations. Oyedeji also is an Advisor of
+  //         Lamden, a smart contract system project focused on building
+  //         developmental blockchain tools. Lamden successfully raised $10mm for
+  //         their ICO which ended January 3rd 2018.
+  //       </p>
+  //     }
+  //     linkedIn="https://www.linkedin.com/in/oyedeji-oluwoye-2b9562110/"
+  //     email="o.oluwoye@coincentrix.io"
+  // />
+];
 
-const Speaker10Preview = () => (
-  <SpeakerPreview
-    // img={speaker10Img}
-    job={
-      <p>
-        FOUNDER, <br />
-        COINCENTRIX
-      </p>
-    }
-    name={<b>Oyedeji Oluwoye</b>}
-    body={
-      <p>
-        Oyedeji Oluwoye is a Network Planning Engineer in the Global
-        Implementation Team at AT&T Mobility; Cisco certified with
-        concentrations in Wireless, Design and IP Networking. Oyedeji completed
-        his Bachelors and Masters in Computer Science from Alabama A&M
-        University. With a thesis focused on the Network Analysis of Bitcoin and
-        Cryptocurrencies , he founded Coincentrix Capital, a Blockchain Research
-        and Development firm. Coincentrix focuses on the trading and education
-        of digital cryptocurrencies, and the development of the Blockchain
-        ecosystem. November 20th 2017 The Zcash Foundation provided Coincentrix
-        with an outreach grant to provide opportunities to expand educational
-        efforts among university students to inform them on the fundamentals of
-        blockchain and privacy driven innovations. Oyedeji also is an Advisor of
-        Lamden, a smart contract system project focused on building
-        developmental blockchain tools. Lamden successfully raised $10mm for
-        their ICO which ended January 3rd 2018.
-      </p>
-    }
-    linkedIn="https://www.linkedin.com/in/oyedeji-oluwoye-2b9562110/"
-    email="o.oluwoye@coincentrix.io"
-  />
-);
+export default Speakers;
