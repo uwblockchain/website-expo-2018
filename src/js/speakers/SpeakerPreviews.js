@@ -1,15 +1,6 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
-import {
-  Speaker1Preview,
-  Speaker2Preview,
-  Speaker3Preview,
-  Speaker4Preview,
-  Speaker5Preview,
-  Speaker6Preview,
-  Speaker7Preview,
-  Speaker8Preview
-} from './Speakers';
+import { Row } from 'react-bootstrap';
+import Speakers from './Speakers';
 
 const previewTitle = {
   fontWeight: 700,
@@ -34,35 +25,7 @@ const SpeakerPreviews = () => (
         </h4>
       </div>
       <Row>
-        <Col md={4} id="col">
-          <Speaker1Preview />
-        </Col>
-        <Col md={4} id="col">
-          <Speaker2Preview />
-        </Col>
-        <Col md={4} id="col">
-          <Speaker3Preview />
-        </Col>
-      </Row>
-      <Row>
-        <Col md={4} id="col">
-          <Speaker4Preview />
-        </Col>
-        <Col md={4} id="col">
-          <Speaker5Preview />
-        </Col>
-        <Col md={4} id="col">
-          <Speaker6Preview />
-        </Col>
-      </Row>
-      <Row>
-        <Col md={4} id="col">
-          <Speaker7Preview />
-        </Col>
-        <Col md={4} id="col">
-          <Speaker8Preview />
-        </Col>
-        <Col md={4} id="col" />
+        <Speakers />
       </Row>
     </div>
   </div>
