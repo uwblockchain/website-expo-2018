@@ -14,7 +14,7 @@ var keyGen = 0;
 
 const Speakers = () => [
   // <Speaker1Preview key={keyGen++} />,
-  // <Speaker2Preview key={keyGen++} />,
+  <Speaker2Preview key={keyGen++} />,
   // <Speaker3Preview key={keyGen++} />,
   <Speaker4Preview key={keyGen++} />,
   // <Speaker5Preview key={keyGen++} />,
