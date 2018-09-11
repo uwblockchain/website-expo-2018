@@ -9,7 +9,22 @@ import speaker6Img from '../../img/speakers/james-gan.jpeg';
 import speaker7Img from '../../img/speakers/david-ritter.jpg';
 import speaker8Img from '../../img/speakers/neal-koblitz.png';
 
-export const Speaker1Preview = () => (
+var keyGen = 0;
+
+const Speakers = () => [
+  // <Speaker1Preview key={keyGen++} />,
+  // <Speaker2Preview key={keyGen++} />,
+  // <Speaker3Preview key={keyGen++} />,
+  <Speaker4Preview key={keyGen++} />,
+  // <Speaker5Preview key={keyGen++} />,
+  // <Speaker6Preview key={keyGen++} />,
+  <Speaker7Preview key={keyGen++} />
+  // <Speaker8Preview key={keyGen++} />,
+];
+
+export default Speakers;
+
+const Speaker1Preview = () => (
   <SpeakerPreview
     img={speaker1Img}
     job={
@@ -46,7 +61,7 @@ export const Speaker1Preview = () => (
   />
 );
 
-export const Speaker2Preview = () => (
+const Speaker2Preview = () => (
   <SpeakerPreview
     img={speaker2Img}
     job={
@@ -72,7 +87,7 @@ export const Speaker2Preview = () => (
   />
 );
 
-export const Speaker3Preview = () => (
+const Speaker3Preview = () => (
   <SpeakerPreview
     img={speaker3Img}
     job={
@@ -96,7 +111,7 @@ export const Speaker3Preview = () => (
   />
 );
 
-export const Speaker4Preview = () => (
+const Speaker4Preview = () => (
   <SpeakerPreview
     img={speaker4Img}
     job={
@@ -122,7 +137,7 @@ export const Speaker4Preview = () => (
   />
 );
 
-export const Speaker5Preview = () => (
+const Speaker5Preview = () => (
   <SpeakerPreview
     img={speaker5Img}
     job={
@@ -153,7 +168,7 @@ export const Speaker5Preview = () => (
   />
 );
 
-export const Speaker6Preview = () => (
+const Speaker6Preview = () => (
   <SpeakerPreview
     img={speaker6Img}
     job={
@@ -177,7 +192,7 @@ export const Speaker6Preview = () => (
   />
 );
 
-export const Speaker7Preview = () => (
+const Speaker7Preview = () => (
   <SpeakerPreview
     img={speaker7Img}
     job={
@@ -206,7 +221,7 @@ export const Speaker7Preview = () => (
   />
 );
 
-export const Speaker8Preview = () => (
+const Speaker8Preview = () => (
   <SpeakerPreview
     img={speaker8Img}
     job={
