@@ -8,6 +8,7 @@ import speaker5Img from '../../img/speakers/eric-weaver.jpg';
 import speaker6Img from '../../img/speakers/james-gan.jpeg';
 import speaker7Img from '../../img/speakers/david-ritter.jpg';
 import speaker8Img from '../../img/speakers/neal-koblitz.png';
+import speaker9Img from '../../img/speakers/kory_hoang.jpg';
 
 var keyGen = 0;
 
@@ -18,8 +19,10 @@ const Speakers = () => [
   <Speaker4Preview key={keyGen++} />,
   // <Speaker5Preview key={keyGen++} />,
   // <Speaker6Preview key={keyGen++} />,
-  <Speaker7Preview key={keyGen++} />
+  <Speaker7Preview key={keyGen++} />,
   // <Speaker8Preview key={keyGen++} />,
+  <Speaker9Preview key={keyGen++} />
+  // <Speaker10Preview key={keyGen++} />
 ];
 
 export default Speakers;
@@ -242,5 +245,66 @@ const Speaker8Preview = () => (
         small foundation that supports women in STEM fields in the Global South.
       </p>
     }
+  />
+);
+
+const Speaker9Preview = () => (
+  <SpeakerPreview
+    img={speaker9Img}
+    job={
+      <p>
+        CO-FOUNDER AND CEO, <br />
+        STABLY
+      </p>
+    }
+    name={<b>Kory Hoang</b>}
+    body={
+      <p>
+        Prior to founding Stably, Kory was a Private Equity Data Analyst for
+        PitchBook in Seattle. Kory is also a quant who has consulted for money
+        managers, hedge funds and CTAs on many subjects ranging from VIX
+        derivatives to cryptocurrencies and algorithmic trading. In addition, he
+        is currently a board advisor at Strix Leviathan, a Seattle FinTech
+        start-up that specializes in developing AI/ML-based trading strategies
+        for cryptocurrencies. Kory holds a BBA with double major in Finance and
+        Marketing from the University of Washington - Bothell.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/kory-hoang-8999056a/"
+    email="kory@stably.io"
+  />
+);
+
+const Speaker10Preview = () => (
+  <SpeakerPreview
+    // img={speaker10Img}
+    job={
+      <p>
+        FOUNDER, <br />
+        COINCENTRIX
+      </p>
+    }
+    name={<b>Oyedeji Oluwoye</b>}
+    body={
+      <p>
+        Oyedeji Oluwoye is a Network Planning Engineer in the Global
+        Implementation Team at AT&T Mobility; Cisco certified with
+        concentrations in Wireless, Design and IP Networking. Oyedeji completed
+        his Bachelors and Masters in Computer Science from Alabama A&M
+        University. With a thesis focused on the Network Analysis of Bitcoin and
+        Cryptocurrencies , he founded Coincentrix Capital, a Blockchain Research
+        and Development firm. Coincentrix focuses on the trading and education
+        of digital cryptocurrencies, and the development of the Blockchain
+        ecosystem. November 20th 2017 The Zcash Foundation provided Coincentrix
+        with an outreach grant to provide opportunities to expand educational
+        efforts among university students to inform them on the fundamentals of
+        blockchain and privacy driven innovations. Oyedeji also is an Advisor of
+        Lamden, a smart contract system project focused on building
+        developmental blockchain tools. Lamden successfully raised $10mm for
+        their ICO which ended January 3rd 2018.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/oyedeji-oluwoye-2b9562110/"
+    email="o.oluwoye@coincentrix.io"
   />
 );
