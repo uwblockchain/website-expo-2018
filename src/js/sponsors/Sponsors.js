@@ -2,8 +2,16 @@ import React from 'react';
 import { Grid, Row, Image, Col } from 'react-bootstrap';
 import comotionImg from '../../img/sponsors/comotion-logo-white.png';
 import galvanizeImg from '../../img/sponsors/galvanize-logo.png';
+import mousebeltLogo from '../../img/sponsors/mousebelt-logo.jpeg';
+import nemLogo from '../../img/sponsors/nem-logo.png';
 import Contact from '../contact/Contact';
 import { Element } from 'react-scroll';
+
+const SponsorImg = ({ src, imgClass }) => (
+  <Col md={3}>
+    <Image responsive className={'sponsors-logo ' + imgClass} src={src} />
+  </Col>
+);
 
 const Sponsors = () => (
   <div className="sponsors container">
@@ -17,16 +25,10 @@ const Sponsors = () => (
         </p>
       </Row>
       <Row className="sponsors-images">
-        <Col md={6}>
-          <Image responsive className="sponsors-logo" src={galvanizeImg} />
-        </Col>
-        <Col md={6}>
-          <Image
-            responsive
-            className="sponsors-logo coMotion-logo"
-            src={comotionImg}
-          />
-        </Col>
+        <SponsorImg src={galvanizeImg} />
+        <SponsorImg src={comotionImg} imgClass="coMotion-logo" />
+        <SponsorImg src={mousebeltLogo} imgClass="coMotion-logo" />
+        <SponsorImg src={nemLogo} imgClass="coMotion-logo" />
       </Row>
       <Row>
         <p className="sponsors-text">
