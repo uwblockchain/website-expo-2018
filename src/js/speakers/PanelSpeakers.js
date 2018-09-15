@@ -14,7 +14,7 @@ import speaker11Img from '../../img/speakers/alex_tinsman.jpg';
 
 var keyGen = 0;
 
-const Speakers = () => [
+const PanelSpeakers = () => [
   <SpeakerPreview
     key={keyGen++}
     img={speaker1Img}
@@ -304,4 +304,4 @@ const Speakers = () => [
   />
 ];
 
-export default Speakers;
+export default PanelSpeakers;
