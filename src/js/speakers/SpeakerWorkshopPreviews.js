@@ -4,7 +4,7 @@ import WorkshopSpeakers from './WorkshopSpeakers';
 
 const SpeakerWorkshopPreviews = () => (
   <SpeakerPreviews
-    title="TITLE"
+    title="Workshop Speakers"
     subtitle={<p>SUB-TITLE</p>}
     speakers={<WorkshopSpeakers />}
   />
