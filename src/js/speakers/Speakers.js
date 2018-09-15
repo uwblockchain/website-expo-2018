@@ -301,6 +301,7 @@ const Speakers = () => [
       </p>
     }
     linkedIn="https://www.linkedin.com/in/alextinsman/"
+    twitter="https://twitter.com/Inside_NEM"
   />
 ];
 

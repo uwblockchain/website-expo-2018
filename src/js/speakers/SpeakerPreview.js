@@ -49,6 +49,7 @@ class SpeakerPreview extends React.Component {
                 body={this.props.body}
                 linkedIn={this.props.linkedIn}
                 email={this.props.email}
+                twitter={this.props.twitter}
               />
             </Modal.Body>
           </Modal>

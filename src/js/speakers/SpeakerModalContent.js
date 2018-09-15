@@ -32,6 +32,9 @@ const SpeakerModalContent = props => (
         {props.email !== undefined ? (
           <a className="fas fa-envelope" href={'mailto:' + props.email} />
         ) : null}
+        {props.twitter !== undefined ? (
+          <a className="fab fa-twitter" href={props.twitter} />
+        ) : null}
       </div>
     </Col>
   </Row>
