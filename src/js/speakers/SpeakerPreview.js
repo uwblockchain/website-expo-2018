@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Modal, Button } from 'react-bootstrap';
+import { Image, Modal, Button, Col } from 'react-bootstrap';
 import SpeakerModalContent from './SpeakerModalContent';
 
 class SpeakerPreview extends React.Component {
@@ -24,34 +24,36 @@ class SpeakerPreview extends React.Component {
 
   render() {
     return (
-      <div className="speaker-preview">
-        <div onClick={this.handleShow}>
-          <Image src={this.props.img} responsive />
-          <h3 className="speaker-preview-name">{this.props.name}</h3>
-          <div className="speaker-preview-job">{this.props.job}</div>
+      <Col md={4} id="col">
+        <div className="speaker-preview">
+          <div onClick={this.handleShow}>
+            <Image src={this.props.img} responsive />
+            <h3 className="speaker-preview-name">{this.props.name}</h3>
+            <div className="speaker-preview-job">{this.props.job}</div>
+          </div>
+          <Modal
+            className="speaker-modal"
+            show={this.state.show}
+            onHide={this.handleClose}
+          >
+            <Modal.Body className="modal-body">
+              <SpeakerModalContent
+                img={this.props.img}
+                btn={
+                  <Button className="modal-button" onClick={this.handleClose}>
+                    {'<  BACK'}
+                  </Button>
+                }
+                job={this.props.job}
+                name={this.props.name}
+                body={this.props.body}
+                linkedIn={this.props.linkedIn}
+                email={this.props.email}
+              />
+            </Modal.Body>
+          </Modal>
         </div>
-        <Modal
-          className="speaker-modal"
-          show={this.state.show}
-          onHide={this.handleClose}
-        >
-          <Modal.Body className="modal-body">
-            <SpeakerModalContent
-              img={this.props.img}
-              btn={
-                <Button className="modal-button" onClick={this.handleClose}>
-                  {'<  BACK'}
-                </Button>
-              }
-              job={this.props.job}
-              name={this.props.name}
-              body={this.props.body}
-              linkedIn={this.props.linkedIn}
-              email={this.props.email}
-            />
-          </Modal.Body>
-        </Modal>
-      </div>
+      </Col>
     );
   }
 }
