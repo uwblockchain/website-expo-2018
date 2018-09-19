@@ -10,11 +10,11 @@ const styleRows = {
 };
 
 const Workshops = () => (
-  <div className="container">
+  <div className="container workshops">
     <Grid style={{ paddingBottom: '5em', paddingTop: '5em' }}>
       <Row style={{ color: 'white' }}>
         <h2 style={{ fontWeight: '600' }}>Workshops</h2>
-        <h4>Choose various workshops from two different tracks:</h4>
+        <h4 className="workshop-description">Workshops are extended interactive sessions with professionals designed to <br />facilitate learning opportunities and skill development. <br /><br />Choose various workshops from two different tracks:</h4>
       </Row>
       <Row style={{ color: 'white', fontWeight: '600', paddingTop: '1.5em' }}>
         <Col xs={4} smOffset={5} xsOffset={1}>

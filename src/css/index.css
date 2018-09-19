@@ -1,3 +1,5 @@
+
+
 html,
 .App {
   background: linear-gradient(to top right, #18184b, #663399) no-repeat center
@@ -272,9 +274,9 @@ button.modal-button {
   color: white;
 }
 
-.hero-image {
+img.hero-image {
   position: relative;
-  max-width: 1000px;
+  max-width: 1800px;
   margin: auto;
 }
 
@@ -361,8 +363,16 @@ a.btn-purple:hover {
   display: inline-block;
 }
 
+.schedule-contact-text {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 2rem;
+}
+
 .row.hero-bottom {
-  padding-top: 10vw;
+  padding-top: 5vw;
   text-align: left;
 }
 
@@ -388,7 +398,7 @@ a.btn-purple:hover {
 
 .sponsors-title {
   font-weight: 600;
-  padding-bottom: 1.2em;
+  padding-bottom: 1rem;
 }
 
 .sponsors-text {
@@ -411,6 +421,10 @@ p a {
 
 p a:hover {
   color: white;
+}
+
+.Newsletter {
+  padding: 5em 0 5em;
 }
 
 .newsletter-text {
@@ -499,6 +513,25 @@ form input:focus {
   padding-bottom: 1em;
 }
 
+.workshops {
+  padding: 2em 0 2em;
+}
+
+.workshop-description {
+  line-height: 1.35;
+}
+
+.attend-title {
+  color: white;
+  font-weight: 700;
+}
+
+.attend-description {
+  color: white;
+  padding: 1em 0 3em;
+  font-size: 1.6rem;
+}
+
 @media (max-width: 1200px) {
   .modal-content {
     margin-top: 0vh !important;
@@ -583,10 +616,14 @@ form input:focus {
   }
 
   .Newsletter {
-    padding-top: 2rem;
+    padding: 2rem 0 0rem;
   }
 
   #title-img {
     max-width: 70%;
+  }
+
+  #col {
+    padding: 1.5rem;
   }
 }
