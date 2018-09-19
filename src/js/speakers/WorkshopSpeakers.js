@@ -5,6 +5,7 @@ import speaker4Img from '../../img/speakers/soumya-basu.jpg';
 import speaker6Img from '../../img/speakers/james-gan.jpeg';
 import speaker9Img from '../../img/speakers/kory_hoang.jpg';
 import speaker11Img from '../../img/speakers/alex_tinsman.jpg';
+import speaker12Img from '../../img/speakers/kara_zucker.jpg';
 
 var keyGen = 0;
 
@@ -126,6 +127,45 @@ const WorkshopSpeakers = () => [
       </p>
     }
     linkedIn="https://www.linkedin.com/in/alextinsman/"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img={speaker12Img}
+    job={
+      <p>
+        HEAD OF OPERATIONS, <br />
+        BLOCKCHAIN ASSEMBLY
+      </p>
+    }
+    name={<b>Kara Zucker</b>}
+    body={
+      <p>
+        Kara Zucker is a operations, marketing, and technology professional with
+        experience in political campaigns, international development, nonprofit
+        and startups. Kara focuses on building leadership among teams, tackling
+        new problems, and creating a measurable impact by educating others about
+        the possibilities of Blockchain. She brings extensive experience
+        launching new products, creating onboarding workflows, and business
+        processes in a variety of markets. She takes a data-driven approach to
+        leading and mobilizing teams which allows them to focus on a company’s
+        strategy and ability to scale. Kara’s past professional experience
+        includes working for Congressman Jared Polis (CO), Congressman Michael
+        Bennet, Rotary International Headquarters, the United States Peace Corps
+        in El Salvador, and lead operations at Moneythink (financial inclusion
+        startup), and marketing at FrontFundr (FinTech investment startup).
+        She’s contributed to the greater tech and education community through
+        being a founding member of Tech Ladies, Young Women in Business Mentor,
+        Leeds School of Business Mentor, and Board member at The Juno
+        Collaborative. Kara received her Bachelor’s from the University of
+        Colorado at Boulder in political science and Jewish studies and is
+        currently an Executive MBA candidate at the Foster School of Business at
+        the University of Washington. When she’s not reading about Blockchain
+        regulation and possibilities, she loves to hike, travel to places on her
+        bucket list, and listening to Bachata music.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/kzucky/?originalSubdomain=ca"
+    email="kara@blockchainassembly.io"
   />
 ];
 
