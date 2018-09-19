@@ -8,9 +8,15 @@ import speaker5Img from '../../img/speakers/eric-weaver.jpg';
 import speaker6Img from '../../img/speakers/james-gan.jpeg';
 import speaker7Img from '../../img/speakers/david-ritter.jpg';
 import speaker8Img from '../../img/speakers/neal-koblitz.png';
+import speaker9Img from '../../img/speakers/kory_hoang.jpg';
+import speaker10Img from '../../img/speakers/oyedeji_oluwoye.jpg';
+import speaker11Img from '../../img/speakers/alex_tinsman.jpg';
 
-export const Speaker1Preview = () => (
+var keyGen = 0;
+
+const Speakers = () => [
   <SpeakerPreview
+    key={keyGen++}
     img={speaker1Img}
     job={
       <p>
@@ -43,11 +49,9 @@ export const Speaker1Preview = () => (
         brands.
       </p>
     }
-  />
-);
-
-export const Speaker2Preview = () => (
+  />,
   <SpeakerPreview
+    key={keyGen++}
     img={speaker2Img}
     job={
       <p>
@@ -69,11 +73,9 @@ export const Speaker2Preview = () => (
         General Assembly.
       </p>
     }
-  />
-);
-
-export const Speaker3Preview = () => (
+  />,
   <SpeakerPreview
+    key={keyGen++}
     img={speaker3Img}
     job={
       <p>
@@ -93,11 +95,9 @@ export const Speaker3Preview = () => (
         practice.
       </p>
     }
-  />
-);
-
-export const Speaker4Preview = () => (
+  />,
   <SpeakerPreview
+    key={keyGen++}
     img={speaker4Img}
     job={
       <p>
@@ -119,11 +119,9 @@ export const Speaker4Preview = () => (
     }
     linkedIn="https://www.linkedin.com/in/soumya-basu-a31bb746/"
     email="soumya@cs.cornell.edu"
-  />
-);
-
-export const Speaker5Preview = () => (
+  />,
   <SpeakerPreview
+    key={keyGen++}
     img={speaker5Img}
     job={
       <p>
@@ -150,11 +148,9 @@ export const Speaker5Preview = () => (
         blockchain-based validation and supply chain.
       </p>
     }
-  />
-);
-
-export const Speaker6Preview = () => (
+  />,
   <SpeakerPreview
+    key={keyGen++}
     img={speaker6Img}
     job={
       <p>
@@ -174,11 +170,9 @@ export const Speaker6Preview = () => (
         Tezos Commons Foundation Grant.
       </p>
     }
-  />
-);
-
-export const Speaker7Preview = () => (
+  />,
   <SpeakerPreview
+    key={keyGen++}
     img={speaker7Img}
     job={
       <p>
@@ -203,11 +197,9 @@ export const Speaker7Preview = () => (
     }
     linkedIn="https://www.linkedin.com/in/davidritter1984boulder/"
     email="dritter@penta.global"
-  />
-);
-
-export const Speaker8Preview = () => (
+  />,
   <SpeakerPreview
+    key={keyGen++}
     img={speaker8Img}
     job={
       <p>
@@ -227,5 +219,89 @@ export const Speaker8Preview = () => (
         small foundation that supports women in STEM fields in the Global South.
       </p>
     }
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img={speaker9Img}
+    job={
+      <p>
+        CO-FOUNDER AND CEO, <br />
+        STABLY
+      </p>
+    }
+    name={<b>Kory Hoang</b>}
+    body={
+      <p>
+        Prior to founding Stably, Kory was a Private Equity Data Analyst for
+        PitchBook in Seattle. Kory is also a quant who has consulted for money
+        managers, hedge funds and CTAs on many subjects ranging from VIX
+        derivatives to cryptocurrencies and algorithmic trading. In addition, he
+        is currently a board advisor at Strix Leviathan, a Seattle FinTech
+        start-up that specializes in developing AI/ML-based trading strategies
+        for cryptocurrencies. Kory holds a BBA with double major in Finance and
+        Marketing from the University of Washington - Bothell.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/kory-hoang-8999056a/"
+    email="kory@stably.io"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img={speaker10Img}
+    job={
+      <p>
+        FOUNDER, <br />
+        COINCENTRIX
+      </p>
+    }
+    name={<b>Oyedeji Oluwoye</b>}
+    body={
+      <p>
+        Oyedeji Oluwoye is a Network Planning Engineer in the Global
+        Implementation Team at AT&T Mobility; Cisco certified with
+        concentrations in Wireless, Design and IP Networking. Oyedeji completed
+        his Bachelors and Masters in Computer Science from Alabama A&M
+        University. With a thesis focused on the Network Analysis of Bitcoin and
+        Cryptocurrencies , he founded Coincentrix Capital, a Blockchain Research
+        and Development firm. Coincentrix focuses on the trading and education
+        of digital cryptocurrencies, and the development of the Blockchain
+        ecosystem. November 20th 2017 The Zcash Foundation provided Coincentrix
+        with an outreach grant to provide opportunities to expand educational
+        efforts among university students to inform them on the fundamentals of
+        blockchain and privacy driven innovations. Oyedeji also is an Advisor of
+        Lamden, a smart contract system project focused on building
+        developmental blockchain tools. Lamden successfully raised $10mm for
+        their ICO which ended January 3rd 2018.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/oyedeji-oluwoye-2b9562110/"
+    email="o.oluwoye@coincentrix.io"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img={speaker11Img}
+    job={
+      <p>
+        ADVISOR, <br />
+        NEM
+      </p>
+    }
+    name={<b>Alex Tinsman</b>}
+    body={
+      <p>
+        Alex is the North America lead for NEM and is a member and advisor of
+        the NEM Foundation. She created the Inside NEM YouTube series which
+        quickly became an official channel of NEM and is now translated into
+        multiple languages. Alex brings two decades of software analytics,
+        marketing, and community development experience, with a focus on online
+        gaming. She worked on some of the world’s first digital tradable assets
+        in Pokémon Online and Magic: The Gathering Online. She also led launches
+        for League of Legends, the world’s number one grossing PC game, as well
+        as product launches for Xbox and Raptr, a game data analytics startup.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/alextinsman/"
   />
-);
+];
+
+export default Speakers;
