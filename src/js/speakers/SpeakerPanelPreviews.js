@@ -4,13 +4,8 @@ import SpeakerPreviews from './SpeakerPreviews';
 
 const SpeakerPanelPreviews = () => (
   <SpeakerPreviews
-    title="Engage with blockchain professionals"
-    subtitle={
-      <p>
-        Speakers from various industries will share <br />
-        their insights.
-      </p>
-    }
+    title="Panel Speakers"
+    subtitle={<p>SUB-TITLE</p>}
     speakers={<PanelSpeakers />}
   />
 );

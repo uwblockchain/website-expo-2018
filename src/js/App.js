@@ -3,7 +3,6 @@ import React from 'react';
 import Navigation from './nav/Navigation';
 import Head from './Head';
 import BuyTickets from './buyTickets/BuyTickets';
-import SpeakerPanelPreviews from './speakers/SpeakerPanelPreviews';
 import Video from './video/Video';
 import Workshops from './workshops/Workshops';
 import Sponsors from './sponsors/Sponsors';
@@ -13,7 +12,7 @@ import Hero from './hero/Hero';
 import { Element } from 'react-scroll';
 import loadicon from '../img/loadicon.gif';
 import LoadingScreen from 'react-loading-screen';
-import SpeakerWorkshopPreviews from './speakers/SpeakerWorkshopPreviews';
+import Speakers from './speakers/Speakers';
 
 export default class App extends React.Component {
   // Decided to keep the delay but keep it
@@ -50,10 +49,7 @@ export default class App extends React.Component {
           <Hero />
           <Video />
           <BuyTickets />
-          <Element name="speaker-previews">
-            <SpeakerPanelPreviews />
-          </Element>
-          <SpeakerWorkshopPreviews />
+          <Speakers />
           <Element name="schedule">
             <Schedule />
           </Element>
