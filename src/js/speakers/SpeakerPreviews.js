@@ -25,36 +25,7 @@ const SpeakerPreviews = () => (
         </h4>
       </div>
       <Row>
-<<<<<<< HEAD
-        <Col md={4} xs={6} id="col">
-          <Speaker1Preview />
-        </Col>
-        <Col md={4} xs={6} id="col">
-          <Speaker2Preview />
-        </Col>
-        <Col md={4} xs={6} id="col">
-          <Speaker3Preview />
-        </Col>
-
-        <Col md={4} xs={6} id="col">
-          <Speaker4Preview />
-        </Col>
-        <Col md={4} xs={6} id="col">
-          <Speaker5Preview />
-        </Col>
-        <Col md={4} xs={6} id="col">
-          <Speaker6Preview />
-        </Col>
-        <Col md={4} xs={6} id="col">
-          <Speaker7Preview />
-        </Col>
-        <Col md={4} xs={6} id="col">
-          <Speaker8Preview />
-        </Col>
-        <Col md={4} xs={6} id="col" />
-=======
         <Speakers />
->>>>>>> 90689b68412ad10bbd12e37101049b5eb7705511
       </Row>
     </div>
   </div>
