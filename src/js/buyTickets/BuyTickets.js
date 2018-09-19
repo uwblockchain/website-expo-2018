@@ -2,9 +2,11 @@ import React from 'react';
 import BuyTicketCard from './BuyTicketCard';
 import { Row, Col } from 'react-bootstrap';
 import Newsletter from '../Newsletter';
+import WhyAttend from '../why-attend'
 
 const BuyTickets = () => (
   <div className="container buy-tickets">
+    <WhyAttend/>
     <Row>
       <Col md={4}>
         <BuyTicketCard
