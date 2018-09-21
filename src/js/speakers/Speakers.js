@@ -21,7 +21,7 @@ const Speakers = () => [
     job={
       <p>
         CHIEF TECHNOLOGY OFFICER, <br />
-        APPSOLUTELY
+        LOYALCOIN
       </p>
     }
     name={<b>Ahmad Alkabra</b>}
