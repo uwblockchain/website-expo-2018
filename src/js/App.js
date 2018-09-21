@@ -13,6 +13,7 @@ import Hero from './hero/Hero';
 import { Element } from 'react-scroll';
 import loadicon from '../img/loadicon.gif';
 import LoadingScreen from 'react-loading-screen';
+import Advisors from './Advisors';
 
 export default class App extends React.Component {
   // Decided to keep the delay but keep it
@@ -57,6 +58,9 @@ export default class App extends React.Component {
           </Element>
           <Element name="workshops">
             <Workshops />
+          </Element>
+          <Element name="advisors">
+            <Advisors />
           </Element>
           <Element name="sponsors">
             <Sponsors />
