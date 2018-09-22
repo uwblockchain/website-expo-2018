@@ -9,11 +9,11 @@ const previewTitle = {
   lineHeight: 1.5
 };
 
-const previewSubTitle = {
-  fontWeight: 400,
-  color: 'white',
-  lineHeight: 1.5
-};
+// const previewSubTitle = {
+//   fontWeight: 400,
+//   color: 'white',
+//   lineHeight: 1.5
+// };
 
 const Advisors = () => (
   <div className="container-flex speaker-previews">
