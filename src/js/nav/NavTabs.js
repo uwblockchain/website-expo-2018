@@ -25,10 +25,13 @@ const NavTabs = () => (
     <NavItem id="nav-text" eventKey={3} onClick={() => scrollTo('workshops')}>
       Workshops
     </NavItem>
+    <NavItem id="nav-text" eventKey={5} onClick={() => scrollTo('advisors')}>
+      Advisors
+    </NavItem>
     <NavItem id="nav-text" eventKey={4} onClick={() => scrollTo('sponsors')}>
       Sponsors
     </NavItem>
-    <NavItem id="nav-text" eventKey={5} onClick={() => scrollTo('contact')}>
+    <NavItem id="nav-text" eventKey={6} onClick={() => scrollTo('contact')}>
       Contact
     </NavItem>
   </Nav>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
 import cube from '../../img/cube.png';
+import { Link } from 'react-scroll';
 import {
   VerticalTimeline,
   VerticalTimelineElement
@@ -23,17 +24,24 @@ const Schedule = () => (
     </div>
 
     <VerticalTimeline>
-      <Item className="item" text="Introduction" />
+      <Item className="item" text="Event Kick Off" />
+      <Item className="item" text="State of the Blockchain Union" />
       <Item className="item" text="Ethics of Blockchain" />
-      <Item className="item" text="Investment Panel" />
+      <Item className="item" text="Panel: Investment" />
       <Item className="item" text="Panel: Diversity in Blockchain" />
       <Item className="item" text="Debate: 'Is Bitcoin a Fad'" />
-      <Item className="item" text="Speaker: 'Reinventing Customer Loyalty'" />
+      <Item className="item" text="Speaker: Reinventing Customer Loyalty" />
       <Item className="item" text="Food Provenance" />
-      <Item className="item" text="Big Panel: 'Cryptos'" />
+      <Item className="item" text="Panel: 'Cryptos'" />
       <Item className="item" text="Keynote TBD" />
       <Item className="item" text="Closing Remarks" />
     </VerticalTimeline>
+    <div className="container text-center">
+      <h4 className="schedule-contact-text">Interested in speaking?</h4>
+      <Link to="contact" smooth={true} className="btn btn-hero">
+        CONTACT US
+      </Link>
+    </div>
   </div>
 );
 
