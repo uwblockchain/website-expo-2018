@@ -20,6 +20,7 @@
     "react-vertical-timeline-component": "^2.2.0"
   },
   "scripts": {
+    "postbuild": "react-snap",
     "precommit": "lint-staged",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -33,5 +34,8 @@
       "prettier --single-quote --write",
       "git add"
     ]
+  },
+  "devDependencies": {
+    "react-snap": "^1.19.0"
   }
 }
