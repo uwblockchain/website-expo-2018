@@ -6,8 +6,8 @@
     "all": "0.0.0",
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.5.0",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.2.2",
+    "husky": "^1.0.0-rc.15",
+    "lint-staged": "^7.3.0",
     "prettier": "^1.14.3",
     "react": "^16.5.2",
     "react-bootstrap": "^0.32.4",
@@ -20,7 +20,6 @@
     "react-vertical-timeline-component": "^2.2.0"
   },
   "scripts": {
-    "precommit": "lint-staged",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
@@ -33,5 +32,10 @@
       "prettier --single-quote --write",
       "git add"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }

@@ -27,10 +27,19 @@ const SpeakerModalContent = props => (
       {props.icons}
       <div className="speaker-icons">
         {props.linkedIn !== undefined ? (
-          <a className="fab fa-linkedin" href={props.linkedIn} />
+          <a href={props.linkedIn}>
+            <i className="fab fa-linkedin" />
+          </a>
         ) : null}
         {props.email !== undefined ? (
-          <a className="fas fa-envelope" href={'mailto:' + props.email} />
+          <a href={'mailto:' + props.email}>
+            <i className="fas fa-envelope" />
+          </a>
+        ) : null}
+        {props.twitter !== undefined ? (
+          <a href={props.twitter}>
+            <i className="fab fa-twitter" />
+          </a>
         ) : null}
       </div>
     </Col>
