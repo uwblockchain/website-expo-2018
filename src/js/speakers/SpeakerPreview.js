@@ -24,7 +24,7 @@ class SpeakerPreview extends React.Component {
 
   render() {
     return (
-      <Col md={4} id="col">
+      <Col md={3}>
         <div className="speaker-preview">
           <div onClick={this.handleShow}>
             <Image src={this.props.img} responsive />

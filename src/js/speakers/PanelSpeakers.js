@@ -6,6 +6,8 @@ import speaker5Img from '../../img/speakers/eric-weaver.jpg';
 import speaker7Img from '../../img/speakers/david-ritter.jpg';
 import speaker8Img from '../../img/speakers/neal-koblitz.png';
 import speaker10Img from '../../img/speakers/oyedeji_oluwoye.jpg';
+import speaker11Img from '../../img/speakers/galya_westler.jpg';
+import speaker12Img from '../../img/speakers/sean_hsieh.jpg';
 
 var keyGen = 0;
 
@@ -178,6 +180,64 @@ const PanelSpeakers = () => [
     }
     linkedIn="https://www.linkedin.com/in/oyedeji-oluwoye-2b9562110/"
     email="o.oluwoye@coincentrix.io"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img={speaker11Img}
+    job={
+      <p>
+        CEO, <br />
+        PLAZUS TECHNOLOGIES
+      </p>
+    }
+    name={<b>Galya Westler</b>}
+    body={
+      <p>
+        Galya Westler is a two-time tech entrepreneur and a product specialist;
+        she is a Blockchain enthusiast and the CEO of a Blockchain startup,
+        Plazus. Galya is a world wide public speaker and also delivered her TEDx
+        talk about social media and loneliness on connecting people
+        authentically within communities, as a follow up on that promise, she
+        then founded Plazus as a tool that truly gives the power back to the
+        people by trying to solve the well-known issue of data sovereignty and
+        privacy. Plazus is a blockchain protocol for large groups communication
+        to identify and reward their members with millions of users within
+        tribes already signed up on the Plazus test net.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/galya-westler-b0b63b42/"
+    email="g.westler@gmail.com"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img={speaker12Img}
+    job={
+      <p>
+        CEO, <br />
+        CONCREIT
+      </p>
+    }
+    name={<b>Sean Hsieh</b>}
+    body={
+      <p>
+        Sean is a serial entrepreneur. He currently serves as the CEO of
+        Concreit, a commercial real estate marketplace powered by blockchain
+        technologies to offer investments in security tokens. He was the Chief
+        Product Officer of Flowroute (co-founder), a company built to drive
+        business communications technology into the future through VoIP.
+        Flowroute delivers cost savings, flexibility, and higher quality
+        connections to thousands of businesses around the world. Sean thrives
+        off a lifelong passion for entrepreneurship, technology, culture,
+        design, and dancing. His talents have served Fortune 100 companies
+        including Apple, Linksys (Cisco), and Motorola, pushing forward new
+        marketing ventures and fostering rapid growth. Sean holds a degree in
+        Information & Computer Science from the University of California,
+        Irvine. developed his expertise in technology, marketing, and design
+        growing up in Davis, CA.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/seanhsieh/"
+    email="sean@concreit.io"
   />
 ];
 

@@ -6,6 +6,8 @@ import speaker6Img from '../../img/speakers/james-gan.jpeg';
 import speaker9Img from '../../img/speakers/kory_hoang.jpg';
 import speaker11Img from '../../img/speakers/alex_tinsman.jpg';
 import speaker12Img from '../../img/speakers/kara_zucker.jpg';
+import speaker13Img from '../../img/speakers/aaron_mccloud.jpg';
+import speaker14Img from '../../img/speakers/simon_yu.jpg';
 
 var keyGen = 0;
 
@@ -166,6 +168,56 @@ const WorkshopSpeakers = () => [
     }
     linkedIn="https://www.linkedin.com/in/kzucky/?originalSubdomain=ca"
     email="kara@blockchainassembly.io"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img={speaker13Img}
+    job={
+      <p>
+        CEO, <br />
+        PURPLE COW FINANCIAL INSTRUMENTS
+      </p>
+    }
+    name={<b>Aaron McCloud</b>}
+    body={
+      <p>
+        Aaron McCloud is an entrepreneur with an eclectic background & skill
+        combination. Aaron received his B.A. in Chinese at Reed College before
+        launching a web startup, studying martial arts in Japan & Thailand, and
+        working at Amazon and Microsoft after teaching himself software
+        engineering. When not working on his blockchain startup he enjoys
+        listening to audiobooks, lifting weights, and writing movie scripts.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/aaronmccloud/"
+    email="mcclouda@gmail.com"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img={speaker14Img}
+    job={
+      <p>
+        CEO AND CO-FOUNDER, <br />
+        STORMX
+      </p>
+    }
+    name={<b>Simon Yu</b>}
+    body={
+      <p>
+        "The Business Prodigy": At the age of 19, Simon turned a $100 gift into
+        a $500,000 business. Soon after, Simon became fascinated with Bitcoin
+        and Blockchain technology when he was working at his last job in
+        banking. In 2014, Bitcoin filled the media due to the negative aftermath
+        of Mt. Gox and Silk Road but Simon dove into the technology and saw an
+        opportunity from Blockchain that would disrupt multi trillion dollar
+        industries. Since then, Simon has used his unique vision and ability to
+        execute joined to grow a small dorm room project into a multi million
+        dollar venture with millions of users. Simon has been featured in
+        Forbes, Reader’s Digest, Nasdaq, Business Insider, and more.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/simonyu0311/"
+    email="simon-yu@hotmail.com"
   />
 ];
 

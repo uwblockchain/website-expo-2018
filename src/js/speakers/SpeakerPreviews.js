@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row } from 'react-bootstrap';
+import { Grid, Row } from 'react-bootstrap';
 
 const previewTitle = {
   fontWeight: 700,
@@ -20,7 +20,9 @@ const SpeakerPreviews = ({ title, subtitle, speakers }) => (
         <h2 style={previewTitle}>{title}</h2>
         <h4 style={previewSubTitle}>{subtitle}</h4>
       </div>
-      <Row>{speakers}</Row>
+      <Grid>
+        <Row>{speakers}</Row>
+      </Grid>
     </div>
   </div>
 );
