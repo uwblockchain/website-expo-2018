@@ -16,23 +16,12 @@ import Speakers from './speakers/Speakers';
 import Advisors from './Advisors';
 
 export default class App extends React.Component {
-  // Decided to keep the delay but keep it
-  // a small value, since the loading screen
-  // will sometimes transition before all of
-  // the components are rendered properly
-  delay() {
-    return new Promise(resolve => setTimeout(resolve, 75));
-  }
-
-  constructor() {
-    super();
-    this.state = { loading: true };
-  }
+  state = {
+    loading: true
+  };
 
   componentDidMount() {
-    this.delay().then(() => {
-      this.setState({ loading: false });
-    });
+    setTimeout(() => this.setState({ loading: false }), 100);
   }
 
   render() {
