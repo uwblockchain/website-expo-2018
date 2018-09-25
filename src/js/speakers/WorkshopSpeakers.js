@@ -164,29 +164,6 @@ const WorkshopSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img="aaron_mccloud.jpg"
-    job={
-      <p>
-        CEO, <br />
-        PURPLE COW FINANCIAL INSTRUMENTS
-      </p>
-    }
-    name={<b>Aaron McCloud</b>}
-    body={
-      <p>
-        Aaron McCloud is an entrepreneur with an eclectic background & skill
-        combination. Aaron received his B.A. in Chinese at Reed College before
-        launching a web startup, studying martial arts in Japan & Thailand, and
-        working at Amazon and Microsoft after teaching himself software
-        engineering. When not working on his blockchain startup he enjoys
-        listening to audiobooks, lifting weights, and writing movie scripts.
-      </p>
-    }
-    linkedIn="https://www.linkedin.com/in/aaronmccloud/"
-    email="mcclouda@gmail.com"
-  />,
-  <SpeakerPreview
-    key={keyGen++}
     img="simon_yu.jpg"
     job={
       <p>
@@ -215,7 +192,12 @@ const WorkshopSpeakers = () => [
   <SpeakerPreview
     key={keyGen++}
     img="ray_metz.png"
-    job={<p>INSTRUCTOR</p>}
+    job={
+      <p>
+        INSTRUCTOR <br />
+        SEATTLE BLOCKCHAIN TRAINING
+      </p>
+    }
     name={<b>Ray Metz</b>}
     body={
       <p>
@@ -253,6 +235,30 @@ const WorkshopSpeakers = () => [
     }
     linkedIn="https://www.linkedin.com/in/andrealouie/"
     email="aklouie@u.washington.edu"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img="aaron_mccloud.jpg"
+    job={
+      <p>
+        CEO, <br />
+        PURPLE COW FINANCIAL <br />
+        INSTRUMENTS
+      </p>
+    }
+    name={<b>Aaron McCloud</b>}
+    body={
+      <p>
+        Aaron McCloud is an entrepreneur with an eclectic background & skill
+        combination. Aaron received his B.A. in Chinese at Reed College before
+        launching a web startup, studying martial arts in Japan & Thailand, and
+        working at Amazon and Microsoft after teaching himself software
+        engineering. When not working on his blockchain startup he enjoys
+        listening to audiobooks, lifting weights, and writing movie scripts.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/aaronmccloud/"
+    email="mcclouda@gmail.com"
   />
 ];
 

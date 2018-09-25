@@ -5,7 +5,12 @@ import SpeakerPreviews from './SpeakerPreviews';
 const SpeakerPanelPreviews = () => (
   <SpeakerPreviews
     title="Panel Speakers"
-    subtitle={<p>SUB-TITLE</p>}
+    subtitle={
+      <p>
+        Speakers and panelists looking to educate and connect people on
+        blockchain.
+      </p>
+    }
     speakers={<PanelSpeakers />}
   />
 );
