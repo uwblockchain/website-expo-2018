@@ -230,6 +230,40 @@ const PanelSpeakers = () => [
     }
     linkedIn="https://www.linkedin.com/in/seanhsieh/"
     email="sean@concreit.io"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img="william_george.jpg"
+    job={
+      <p>
+        CRYPTOECONOMIST, <br />
+        KLEROS
+      </p>
+    }
+    name={<b>William George</b>}
+    body={
+      <p>
+        William obtained a PhD in mathematics from University of Toronto. He
+        researched applications of blockchains during postdocs at University of
+        Toronto and École Polytechnique (France), and currently does
+        cryptoeconomic research for Kleros.
+      </p>
+    }
+    email="william.h.w.george@gmail.com"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img="alex_dicarlo.jpeg"
+    job={
+      <p>
+        FOUNDER, <br />
+        NEOTRACKER
+      </p>
+    }
+    name={<b>Alex DiCarlo</b>}
+    body={<p>Software Engineer at Facebook and CEO of NEO Tracker</p>}
+    linkedIn="https://www.linkedin.com/in/alex-dicarlo/"
+    email="alex.dicarlo@neotracker.io"
   />
 ];
 
