@@ -264,6 +264,75 @@ const PanelSpeakers = () => [
     body={<p>Software Engineer at Facebook and CEO of NEO Tracker</p>}
     linkedIn="https://www.linkedin.com/in/alex-dicarlo/"
     email="alex.dicarlo@neotracker.io"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img="natacha_rousseau.jpg"
+    job={
+      <p>
+        CO-FOUNDER / PUBLIC RELATIONS, <br />
+        ROUSSEAU LINARES
+      </p>
+    }
+    name={<b>Natacha Rousseau</b>}
+    body={
+      <p>
+        Natacha Rousseau is a Public Relations consultant with more than 15
+        years experience in the tech, corporate, non-profit and digital health
+        industries. She is currently heading the Speaker's Office at Transform
+        Group, a global Public Relations firm that represents 100+ clients in
+        the blockchain field. As Account Director, she helps clients develop
+        their roadshows in Asia, the United States, and Europe and secures
+        speaking and sponsorship opportunities.
+        <br />
+        <br />
+        See more at{' '}
+        <a
+          style={{ color: 'rgb(200, 109, 215)' }}
+          href="https://www.rousseaulinares.com"
+          target="#"
+        >
+          rosseaulinares.com
+        </a>
+        .
+      </p>
+    }
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img="liz_linares.jpeg"
+    job={
+      <p>
+        CO-FOUNDER/ENTERTAINMENT AND TECH PR, <br />
+        ROUSSEAU LINARES
+      </p>
+    }
+    name={<b>Liz “Lisi” Linares</b>}
+    body={
+      <p>
+        A songwriter, recording artist, and former reality personality (Survivor
+        Fiji), Lisi specializes in events geared toward the Blockchain /
+        Cryptocurrency space where she enjoys using her background in
+        entertainment to put people together. Lisi has organized parties and
+        after-parties during most of the major summits and conferences in the
+        Los Angeles area; she hosts and creates the environment where the deals
+        are made. Lisi has also served as a consultant for social media
+        strategies for companies that apply blockchain technology and are
+        launching their ICOs. She’s been the architect behind many successful
+        celebrity and influencer endorsements.
+        <br />
+        <br />
+        See more at{' '}
+        <a
+          style={{ color: 'rgb(200, 109, 215)' }}
+          href="https://www.rousseaulinares.com"
+          target="#"
+        >
+          rosseaulinares.com
+        </a>
+        .
+      </p>
+    }
   />
 ];
 
