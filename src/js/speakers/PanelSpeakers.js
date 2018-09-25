@@ -303,7 +303,7 @@ const PanelSpeakers = () => [
     img="liz_linares.jpeg"
     job={
       <p>
-        CO-FOUNDER/ENTERTAINMENT AND TECH PR, <br />
+        CO-FOUNDER / ENTERTAINMENT AND TECH PR, <br />
         ROUSSEAU LINARES
       </p>
     }

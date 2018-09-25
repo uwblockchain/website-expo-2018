@@ -53,8 +53,8 @@ const WorkshopSpeakers = () => [
     img="soumya-basu.jpg"
     job={
       <p>
-        GRADUATE STUDENT, <br />
-        CORNELL
+        CTO AND CO-FOUNDER, <br />
+        BLOXROUTE
       </p>
     }
     name={<b>Soumya Basu</b>}
