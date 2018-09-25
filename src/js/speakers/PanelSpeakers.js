@@ -98,7 +98,7 @@ const PanelSpeakers = () => [
     job={
       <p>
         CEO, <br />
-        PENTA GLOBAL BLOCKCHAIN FOUNDATION
+        PENTA GLOBAL
       </p>
     }
     name={<b>David Ritter</b>}
