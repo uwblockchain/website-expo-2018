@@ -1,20 +1,12 @@
 import React from 'react';
 import SpeakerPreview from './SpeakerPreview';
-import speaker1Img from '../../img/speakers/ahmad-alkabra.jpg';
-import speaker2Img from '../../img/speakers/mark_cooley.jpg';
-import speaker5Img from '../../img/speakers/eric-weaver.jpg';
-import speaker7Img from '../../img/speakers/david-ritter.jpg';
-import speaker8Img from '../../img/speakers/neal-koblitz.png';
-import speaker10Img from '../../img/speakers/oyedeji_oluwoye.jpg';
-import speaker11Img from '../../img/speakers/galya_westler.jpg';
-import speaker12Img from '../../img/speakers/sean_hsieh.jpg';
 
 var keyGen = 0;
 
 const PanelSpeakers = () => [
   <SpeakerPreview
     key={keyGen++}
-    img={speaker1Img}
+    img="ahmad-alkabra.jpg"
     job={
       <p>
         CHIEF TECHNOLOGY OFFICER, <br />
@@ -49,7 +41,7 @@ const PanelSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img={speaker2Img}
+    img="mark_cooley.jpg"
     job={
       <p>
         BLOCKCHAIN STRATEGIST, <br />
@@ -73,7 +65,7 @@ const PanelSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img={speaker5Img}
+    img="eric-weaver.jpg"
     job={
       <p>
         CEO, <br />
@@ -102,7 +94,7 @@ const PanelSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img={speaker7Img}
+    img="david-ritter.jpg"
     job={
       <p>
         CEO, <br />
@@ -129,7 +121,7 @@ const PanelSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img={speaker8Img}
+    img="neal-koblitz.png"
     job={
       <p>
         PROFESSOR AND AUTHOR, <br />
@@ -151,7 +143,7 @@ const PanelSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img={speaker10Img}
+    img="oyedeji_oluwoye.jpg"
     job={
       <p>
         FOUNDER, <br />
@@ -183,7 +175,7 @@ const PanelSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img={speaker11Img}
+    img="galya_westler.jpg"
     job={
       <p>
         CEO, <br />
@@ -210,7 +202,7 @@ const PanelSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img={speaker12Img}
+    img="sean_hsieh.jpg"
     job={
       <p>
         CEO, <br />

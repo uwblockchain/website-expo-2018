@@ -23,11 +23,12 @@ class SpeakerPreview extends React.Component {
   }
 
   render() {
+    const imgSrc = require('../../img/speakers/' + this.props.img);
     return (
       <Col md={3}>
         <div className="speaker-preview">
           <div onClick={this.handleShow}>
-            <Image src={this.props.img} responsive />
+            <Image src={imgSrc} responsive />
             <h3 className="speaker-preview-name">{this.props.name}</h3>
             <div className="speaker-preview-job">{this.props.job}</div>
           </div>
@@ -38,7 +39,7 @@ class SpeakerPreview extends React.Component {
           >
             <Modal.Body className="modal-body">
               <SpeakerModalContent
-                img={this.props.img}
+                img={imgSrc}
                 btn={
                   <Button className="modal-button" onClick={this.handleClose}>
                     {'<  BACK'}

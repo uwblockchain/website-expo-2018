@@ -1,20 +1,12 @@
 import React from 'react';
 import SpeakerPreview from './SpeakerPreview';
-import speaker3Img from '../../img/speakers/joshua_shane.jpg';
-import speaker4Img from '../../img/speakers/soumya-basu.jpg';
-import speaker6Img from '../../img/speakers/james-gan.jpeg';
-import speaker9Img from '../../img/speakers/kory_hoang.jpg';
-import speaker11Img from '../../img/speakers/alex_tinsman.jpg';
-import speaker12Img from '../../img/speakers/kara_zucker.jpg';
-import speaker13Img from '../../img/speakers/aaron_mccloud.jpg';
-import speaker14Img from '../../img/speakers/simon_yu.jpg';
 
 var keyGen = 0;
 
 const WorkshopSpeakers = () => [
   <SpeakerPreview
     key={keyGen++}
-    img={speaker3Img}
+    img="joshua_shane.jpg"
     job={
       <p>
         CHIEF MARKETING OFFICER, <br />
@@ -36,7 +28,7 @@ const WorkshopSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img={speaker6Img}
+    img="james-gan.jpeg"
     job={
       <p>
         PROGRAM MANAGER, <br />
@@ -58,7 +50,7 @@ const WorkshopSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img={speaker4Img}
+    img="soumya-basu.jpg"
     job={
       <p>
         GRADUATE STUDENT, <br />
@@ -82,7 +74,7 @@ const WorkshopSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img={speaker9Img}
+    img="kory_hoang.jpg"
     job={
       <p>
         CO-FOUNDER AND CEO, <br />
@@ -107,7 +99,7 @@ const WorkshopSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img={speaker11Img}
+    img="alex_tinsman.jpg"
     job={
       <p>
         ADVISOR, <br />
@@ -133,7 +125,7 @@ const WorkshopSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img={speaker12Img}
+    img="kara_zucker.jpg"
     job={
       <p>
         HEAD OF OPERATIONS, <br />
@@ -172,7 +164,7 @@ const WorkshopSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img={speaker13Img}
+    img="aaron_mccloud.jpg"
     job={
       <p>
         CEO, <br />
@@ -195,7 +187,7 @@ const WorkshopSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img={speaker14Img}
+    img="simon_yu.jpg"
     job={
       <p>
         CEO AND CO-FOUNDER, <br />
@@ -219,6 +211,48 @@ const WorkshopSpeakers = () => [
     }
     linkedIn="https://www.linkedin.com/in/simonyu0311/"
     email="simon-yu@hotmail.com"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img="ray_metz.png"
+    job={<p>INSTRUCTOR</p>}
+    name={<b>Ray Metz</b>}
+    body={
+      <p>
+        Ray teaches certification courses on Hyperledger and architecture with
+        Blockchain Training Alliance. He owns Seattle Blockchain Training and
+        has 25 years’ experience in database development with 11 years at
+        Microsoft and Amazon. Ray uses over 35 cryptocurrencies on their own
+        blockchains, off the exchanges. He’s held over a dozen meetups in the
+        Seattle area and actively participates in community meetups and
+        conferences.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/raymetz100/"
+    email="raymetz100@hotmail.com"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img="andrea_louie.jpg"
+    job={
+      <p>
+        ASSOCIATE ATTORNEY, <br />
+        MARTIN DAVIS, PLLC
+      </p>
+    }
+    name={<b>Andrea Louie</b>}
+    body={
+      <p>
+        Andrea Louie has experience in commercial transactions, and corporate
+        law and governance. Her practice mainly involves helping small-cap
+        companies bring products to market. She is a blockchain enthusiast and
+        enjoys supporting her clients as they develop new technology. Born in
+        Seattle and raised in Tacoma, Andrea is dedicated to her community and
+        strives to support local organizations and entrepreneurs.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/andrealouie/"
+    email="aklouie@u.washington.edu"
   />
 ];
 
