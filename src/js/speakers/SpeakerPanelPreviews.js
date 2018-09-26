@@ -4,7 +4,7 @@ import SpeakerPreviews from './SpeakerPreviews';
 
 const SpeakerPanelPreviews = () => (
   <SpeakerPreviews
-    title="Panel Speakers"
+    title="Speakers"
     subtitle={
       <p>
         Speakers and panelists looking to educate and connect people on
