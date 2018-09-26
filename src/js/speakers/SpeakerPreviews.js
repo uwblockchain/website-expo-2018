@@ -1,6 +1,5 @@
 import React from 'react';
-import { Row } from 'react-bootstrap';
-import Speakers from './Speakers';
+import { Grid, Row } from 'react-bootstrap';
 
 const previewTitle = {
   fontWeight: 700,
@@ -14,19 +13,16 @@ const previewSubTitle = {
   lineHeight: 1.5
 };
 
-const SpeakerPreviews = () => (
+const SpeakerPreviews = ({ title, subtitle, speakers }) => (
   <div className="container-flex speaker-previews">
     <div className="container">
       <div className="speakers-title">
-        <h2 style={previewTitle}>Engage with blockchain professionals</h2>
-        <h4 style={previewSubTitle}>
-          Speakers from various industries will share <br />
-          their insights.
-        </h4>
+        <h2 style={previewTitle}>{title}</h2>
+        <h4 style={previewSubTitle}>{subtitle}</h4>
       </div>
-      <Row>
-        <Speakers />
-      </Row>
+      <Grid>
+        <Row>{speakers}</Row>
+      </Grid>
     </div>
   </div>
 );

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
 import SpeakerPreview from './speakers/SpeakerPreview';
-import advisor1Img from '../img/advisors/Sandeep-Krishnamurthy.jpg';
 
 const previewTitle = {
   fontWeight: 700,
@@ -27,7 +26,7 @@ const Advisors = () => (
       </div>
       <Row>
         <SpeakerPreview
-          img={advisor1Img}
+          img={'Sandeep-Krishnamurthy.jpg'}
           name={<b>Sandeep Krishnamurthy</b>}
           body={
             <p>

@@ -3,7 +3,6 @@ import React from 'react';
 import Navigation from './nav/Navigation';
 import Head from './Head';
 import BuyTickets from './buyTickets/BuyTickets';
-import SpeakerPreviews from './speakers/SpeakerPreviews';
 import Video from './video/Video';
 import Workshops from './workshops/Workshops';
 import Sponsors from './sponsors/Sponsors';
@@ -13,6 +12,7 @@ import Hero from './hero/Hero';
 import { Element } from 'react-scroll';
 import loadicon from '../img/loadicon.gif';
 import LoadingScreen from 'react-loading-screen';
+import Speakers from './speakers/Speakers';
 import Advisors from './Advisors';
 
 export default class App extends React.Component {
@@ -39,9 +39,7 @@ export default class App extends React.Component {
           <Hero />
           <Video />
           <BuyTickets />
-          <Element name="speaker-previews">
-            <SpeakerPreviews />
-          </Element>
+          <Speakers />
           <Element name="schedule">
             <Schedule />
           </Element>
