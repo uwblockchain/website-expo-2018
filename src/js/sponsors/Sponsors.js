@@ -4,11 +4,12 @@ import comotionImg from '../../img/sponsors/comotion-logo-white.png';
 import galvanizeImg from '../../img/sponsors/galvanize-logo.png';
 import mousebeltLogo from '../../img/sponsors/mousebelt-logo.jpeg';
 import nemLogo from '../../img/sponsors/nem-logo.png';
+import aefLogo from '../../img/sponsors/aef-logo.png';
 import Contact from '../contact/Contact';
 import { Element } from 'react-scroll';
 
 const SponsorImg = ({ src, imgClass }) => (
-  <Col md={3}>
+  <Col md={2}>
     <Image responsive className={'sponsors-logo ' + imgClass} src={src} />
   </Col>
 );
@@ -29,6 +30,7 @@ const Sponsors = () => (
         <SponsorImg src={comotionImg} imgClass="coMotion-logo" />
         <SponsorImg src={mousebeltLogo} imgClass="coMotion-logo" />
         <SponsorImg src={nemLogo} imgClass="coMotion-logo" />
+        <SponsorImg src={aefLogo} imgClass="coMotion-logo" />
       </Row>
       <Row>
         <p className="sponsors-text">

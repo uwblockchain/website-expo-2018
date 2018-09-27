@@ -333,6 +333,29 @@ const PanelSpeakers = () => [
         .
       </p>
     }
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img="tony_tran.jpg"
+    job={
+      <p>
+        FOUNDER AND CHIEF EXECUTIVE, <br />
+        ALFA-ENZO FOUNDATION
+      </p>
+    }
+    name={<b>Tony Tran</b>}
+    body={
+      <p>
+        Tony is an inventor, blockchain technologist, award-winning designer,
+        and serial entrepreneur. He is the Founder and Chief Executive of the
+        Alfa-Enzo Foundation. At Alfa-Enzo, Tony leads a team of architect
+        around the world to take on FAMGA (Facebook, Apple, Microsoft, Google,
+        Amazon) using a blockchain model of his own invention. In the past, Tony
+        has led strategy, creative advertising, and product development for
+        notable names like Microsoft, US Army, Inrix, Geico, EMC, Seagate, AT&T,
+        US Olympics, Kelloggs, Caterpillar and many other fortune 50 accounts.
+      </p>
+    }
   />
 ];
 
