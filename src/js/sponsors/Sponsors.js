@@ -9,7 +9,7 @@ import Contact from '../contact/Contact';
 import { Element } from 'react-scroll';
 
 const SponsorImg = ({ src, imgClass }) => (
-  <Col xs={10} xsOffset={1}>
+  <Col sm={10} smOffset={1}>
     <Image responsive className={'sponsors-logo ' + imgClass} src={src} />
   </Col>
 );

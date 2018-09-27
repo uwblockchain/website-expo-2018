@@ -409,10 +409,6 @@ a.btn-purple:hover {
   padding: 2em 0em;
 }
 
-.coMotion-logo {
-  padding-top: 0.8em;
-}
-
 p a {
   color: white;
 }
@@ -535,7 +531,7 @@ form input:focus {
 }
 
 .sponsors-logo {
-  margin: 5rem auto;
+  margin: 5em auto;
 }
 
 @media (max-width: 1200px) {
@@ -544,11 +540,11 @@ form input:focus {
   }
 
   .sponsors-images {
-    padding: 4em 0em;
+    padding: 2em 0em;
   }
 
-  .coMotion-logo {
-    padding-top: 4em;
+  .sponsors-logo {
+    margin: 3em auto;
   }
 
   .hero-image {
