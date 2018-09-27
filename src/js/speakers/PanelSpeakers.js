@@ -65,6 +65,27 @@ const PanelSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
+    img="galen.jpg"
+    job={
+      <p>
+        CTO of <br />
+        MOUSEBELT, NORESTLABS, BIBS, and TAGMONKEY
+      </p>
+    }
+    name={<b>Galen Danziger</b>}
+    body={
+      <p>
+        Galen has a BS in Applied Physics from UC Davis. He has experience in
+        blockchain, embedded, RFID technology, web development and numerical
+        modelling. He has led engineering efforts for bibs and tagMonkey in the
+        past, and is currently working on the engineering teams at No Rest Labs
+        and MouseBelt. He is an adept muya thai practitioner and an expert at
+        naming servers.
+      </p>
+    }
+  />,
+  <SpeakerPreview
+    key={keyGen++}
     img="eric-weaver.jpg"
     job={
       <p>
