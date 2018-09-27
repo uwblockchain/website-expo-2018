@@ -1,5 +1,3 @@
-
-
 html,
 .App {
   background: linear-gradient(to top right, #18184b, #663399) no-repeat center
@@ -408,7 +406,7 @@ a.btn-purple:hover {
 }
 
 .sponsors-images {
-  padding: 10em 0em;
+  padding: 2em 0em;
 }
 
 .coMotion-logo {
@@ -530,6 +528,14 @@ form input:focus {
   color: white;
   padding: 1em 0 3em;
   font-size: 1.6rem;
+}
+
+.logo {
+  max-height: 90px;
+}
+
+.sponsors-logo {
+  margin: 5rem auto;
 }
 
 @media (max-width: 1200px) {

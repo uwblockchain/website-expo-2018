@@ -2,14 +2,14 @@ import React from 'react';
 import { Grid, Row, Image, Col } from 'react-bootstrap';
 import comotionImg from '../../img/sponsors/comotion-logo-white.png';
 import galvanizeImg from '../../img/sponsors/galvanize-logo.png';
-import mousebeltLogo from '../../img/sponsors/mousebelt-logo.jpeg';
+import mousebeltLogo from '../../img/sponsors/mousebelt-logo.png';
 import nemLogo from '../../img/sponsors/nem-logo.png';
-import aefLogo from '../../img/sponsors/aef-logo.png';
+import aefLogo from '../../img/sponsors/alfa-logo.png';
 import Contact from '../contact/Contact';
 import { Element } from 'react-scroll';
 
 const SponsorImg = ({ src, imgClass }) => (
-  <Col md={2}>
+  <Col xs={10} xsOffset={1}>
     <Image responsive className={'sponsors-logo ' + imgClass} src={src} />
   </Col>
 );
@@ -26,11 +26,30 @@ const Sponsors = () => (
         </p>
       </Row>
       <Row className="sponsors-images">
-        <SponsorImg src={galvanizeImg} />
-        <SponsorImg src={comotionImg} imgClass="coMotion-logo" />
-        <SponsorImg src={mousebeltLogo} imgClass="coMotion-logo" />
-        <SponsorImg src={nemLogo} imgClass="coMotion-logo" />
-        <SponsorImg src={aefLogo} imgClass="coMotion-logo" />
+        <Grid>
+          <Row>
+            <Col md={6}>
+              <SponsorImg src={galvanizeImg} imgClass="logo" />
+            </Col>
+            <Col md={6}>
+              <SponsorImg src={comotionImg} imgClass="coMotion-logo logo" />
+            </Col>
+          </Row>
+          <Row>
+            <Col md={6}>
+              <SponsorImg src={mousebeltLogo} imgClass="coMotion-logo logo" />
+            </Col>
+            <Col md={6}>
+              <SponsorImg src={nemLogo} imgClass="coMotion-logo logo" />
+            </Col>
+          </Row>
+          <Row>
+            <Col md={6}>
+              <SponsorImg src={aefLogo} imgClass="coMotion-logo logo" />
+            </Col>
+            <Col md={6} />
+          </Row>
+        </Grid>
       </Row>
       <Row>
         <p className="sponsors-text">
