@@ -6,6 +6,29 @@ var keyGen = 0;
 const PanelSpeakers = () => [
   <SpeakerPreview
     key={keyGen++}
+    img="tony_tran.jpg"
+    job={
+      <p>
+        FOUNDER AND CHIEF EXECUTIVE, <br />
+        ALFA-ENZO FOUNDATION
+      </p>
+    }
+    name={<b>Tony Tran</b>}
+    body={
+      <p>
+        Tony is an inventor, blockchain technologist, award-winning designer,
+        and serial entrepreneur. He is the Founder and Chief Executive of the
+        Alfa-Enzo Foundation. At Alfa-Enzo, Tony leads a team of architect
+        around the world to take on FAMGA (Facebook, Apple, Microsoft, Google,
+        Amazon) using a blockchain model of his own invention. In the past, Tony
+        has led strategy, creative advertising, and product development for
+        notable names like Microsoft, US Army, Inrix, Geico, EMC, Seagate, AT&T,
+        US Olympics, Kelloggs, Caterpillar and many other fortune 50 accounts.
+      </p>
+    }
+  />,
+  <SpeakerPreview
+    key={keyGen++}
     img="ahmad-alkabra.jpg"
     job={
       <p>
@@ -336,24 +359,24 @@ const PanelSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img="tony_tran.jpg"
+    img="fedor.jpg"
     job={
       <p>
-        FOUNDER AND CHIEF EXECUTIVE, <br />
-        ALFA-ENZO FOUNDATION
+        CO-FOUNDER and CEO, <br />
+        ASPACE
       </p>
     }
-    name={<b>Tony Tran</b>}
+    name={<b>Fedor Paretsky</b>}
     body={
       <p>
-        Tony is an inventor, blockchain technologist, award-winning designer,
-        and serial entrepreneur. He is the Founder and Chief Executive of the
-        Alfa-Enzo Foundation. At Alfa-Enzo, Tony leads a team of architect
-        around the world to take on FAMGA (Facebook, Apple, Microsoft, Google,
-        Amazon) using a blockchain model of his own invention. In the past, Tony
-        has led strategy, creative advertising, and product development for
-        notable names like Microsoft, US Army, Inrix, Geico, EMC, Seagate, AT&T,
-        US Olympics, Kelloggs, Caterpillar and many other fortune 50 accounts.
+        Fedor Paretsky is a young Entrepreneur studying Physics at the
+        University of Washington. \Inspired by evolving platforms in the IoT and
+        blockchain spaces, he is the Co-Founder and CEO of aspace, Inc. – an
+        infrastructure/consumer startup connecting car commuters to the
+        last-mile transportation sectors. Starting in 2011, Fedor has been
+        actively developing applications and command-line tools assisting in CPU
+        mining. His focus has consistently been on developing platforms in their
+        early stages, such as Android 3.0.
       </p>
     }
   />

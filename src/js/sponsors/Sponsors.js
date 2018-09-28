@@ -30,10 +30,10 @@ const Sponsors = () => (
         <Grid>
           <Row>
             <Col md={6}>
-              <SponsorImg src={galvanizeImg} imgClass="logo" />
+              <SponsorImg src={aefLogo} imgClass="coMotion-logo logo" />
             </Col>
             <Col md={6}>
-              <SponsorImg src={comotionImg} imgClass="coMotion-logo logo" />
+              <SponsorImg src={galvanizeImg} imgClass="logo" />
             </Col>
           </Row>
           <Row>
@@ -46,10 +46,10 @@ const Sponsors = () => (
           </Row>
           <Row>
             <Col md={6}>
-              <SponsorImg src={aefLogo} imgClass="coMotion-logo logo" />
+              <SponsorImg src={stablyLogo} imgClass="coMotion-logo logo" />
             </Col>
             <Col md={6}>
-              <SponsorImg src={stablyLogo} imgClass="coMotion-logo logo" />
+              <SponsorImg src={comotionImg} imgClass="coMotion-logo logo" />
             </Col>
           </Row>
         </Grid>
