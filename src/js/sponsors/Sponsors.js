@@ -1,18 +1,15 @@
 import React from 'react';
 import { Grid, Row, Image, Col } from 'react-bootstrap';
-import comotionImg from '../../img/sponsors/comotion-logo-white.png';
-import galvanizeImg from '../../img/sponsors/galvanize-logo.png';
-import mousebeltLogo from '../../img/sponsors/mousebelt-logo.png';
-import nemLogo from '../../img/sponsors/nem-logo.png';
-import aefLogo from '../../img/sponsors/alfa-logo.png';
-import stablyLogo from '../../img/sponsors/stably-logo.png';
-import dammLogo from '../../img/sponsors/damm-logo.png';
 import Contact from '../contact/Contact';
 import { Element } from 'react-scroll';
 
 const SponsorImg = ({ src, imgClass }) => (
   <Col sm={10} smOffset={1}>
-    <Image responsive className={'sponsors-logo ' + imgClass} src={src} />
+    <Image
+      responsive
+      className={'sponsors-logo ' + imgClass}
+      src={require('../../img/sponsors/' + src)}
+    />
   </Col>
 );
 
@@ -31,31 +28,40 @@ const Sponsors = () => (
         <Grid>
           <Row>
             <Col md={6}>
-              <SponsorImg src={aefLogo} imgClass="coMotion-logo logo" />
+              <SponsorImg src={'alfa-logo.png'} imgClass="coMotion-logo logo" />
             </Col>
             <Col md={6}>
-              <SponsorImg src={galvanizeImg} imgClass="logo" />
-            </Col>
-          </Row>
-          <Row>
-            <Col md={6}>
-              <SponsorImg src={mousebeltLogo} imgClass="coMotion-logo logo" />
-            </Col>
-            <Col md={6}>
-              <SponsorImg src={nemLogo} imgClass="coMotion-logo logo" />
+              <SponsorImg src={'galvanize-logo.png'} imgClass="logo" />
             </Col>
           </Row>
           <Row>
             <Col md={6}>
-              <SponsorImg src={stablyLogo} imgClass="coMotion-logo logo" />
+              <SponsorImg
+                src={'mousebelt-logo.png'}
+                imgClass="coMotion-logo logo"
+              />
             </Col>
             <Col md={6}>
-              <SponsorImg src={comotionImg} imgClass="coMotion-logo logo" />
+              <SponsorImg src={'nem-logo.png'} imgClass="coMotion-logo logo" />
             </Col>
           </Row>
           <Row>
             <Col md={6}>
-              <SponsorImg src={dammLogo} imgClass="coMotion-logo logo" />
+              <SponsorImg
+                src={'stably-logo.png'}
+                imgClass="coMotion-logo logo"
+              />
+            </Col>
+            <Col md={6}>
+              <SponsorImg
+                src={'comotion-logo-white.png'}
+                imgClass="coMotion-logo logo"
+              />
+            </Col>
+          </Row>
+          <Row>
+            <Col md={6}>
+              <SponsorImg src={'damm-logo.png'} imgClass="coMotion-logo logo" />
             </Col>
           </Row>
         </Grid>
