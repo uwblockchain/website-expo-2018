@@ -8,36 +8,46 @@ const jobStyle = {
   fontSize: 'medium'
 };
 
-const SpeakerModalContent = props => (
+const SpeakerModalContent = ({
+  btn,
+  img,
+  name,
+  body,
+  job,
+  icons,
+  email,
+  linkedIn,
+  twitter
+}) => (
   <Row className="speaker-entry">
     <Col sm={4}>
-      {props.btn}
+      {btn}
       <div className="speaker-image">
-        <Image rounded responsive src={props.img} />
+        <Image rounded responsive src={img} />
       </div>
     </Col>
     <Col sm={8}>
       <div>
         <div className="pt-4" style={jobStyle}>
-          {props.job}
+          {job}
         </div>
-        <h2 className="speaker-name">{props.name}</h2>
+        <h2 className="speaker-name">{name}</h2>
       </div>
-      <div className="speaker-body">{props.body}</div>
-      {props.icons}
+      <div className="speaker-body">{body}</div>
+      {icons}
       <div className="speaker-icons">
-        {props.linkedIn !== undefined ? (
-          <a href={props.linkedIn}>
+        {linkedIn !== undefined ? (
+          <a href={linkedIn}>
             <i className="fab fa-linkedin" />
           </a>
         ) : null}
-        {props.email !== undefined ? (
-          <a href={'mailto:' + props.email}>
+        {email !== undefined ? (
+          <a href={'mailto:' + email}>
             <i className="fas fa-envelope" />
           </a>
         ) : null}
-        {props.twitter !== undefined ? (
-          <a href={props.twitter}>
+        {twitter !== undefined ? (
+          <a href={twitter}>
             <i className="fab fa-twitter" />
           </a>
         ) : null}

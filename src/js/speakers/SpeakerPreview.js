@@ -3,34 +3,30 @@ import { Image, Modal, Button, Col } from 'react-bootstrap';
 import SpeakerModalContent from './SpeakerModalContent';
 
 class SpeakerPreview extends React.Component {
-  constructor() {
-    super();
+  state = {
+    show: false
+  };
 
-    this.handleShow = this.handleShow.bind(this);
-    this.handleClose = this.handleClose.bind(this);
-
-    this.state = {
-      show: false
-    };
-  }
-
-  handleClose() {
+  handleClose = () => {
     this.setState({ show: false });
-  }
+  };
 
-  handleShow() {
+  handleShow = () => {
     this.setState({ show: true });
-  }
+  };
 
   render() {
-    const imgSrc = require('../../img/speakers/' + this.props.img);
+    const { img, name, job, body, linkedIn, email, twitter } = this.props;
+
+    const imgSrc = require('../../img/speakers/' + img);
+
     return (
       <Col md={4} id="col">
         <div className="speaker-preview">
           <div onClick={this.handleShow}>
             <Image src={imgSrc} responsive />
-            <h3 className="speaker-preview-name">{this.props.name}</h3>
-            <div className="speaker-preview-job">{this.props.job}</div>
+            <h3 className="speaker-preview-name">{name}</h3>
+            <div className="speaker-preview-job">{job}</div>
           </div>
           <Modal
             className="speaker-modal"
@@ -45,12 +41,12 @@ class SpeakerPreview extends React.Component {
                     {'<  BACK'}
                   </Button>
                 }
-                job={this.props.job}
-                name={this.props.name}
-                body={this.props.body}
-                linkedIn={this.props.linkedIn}
-                email={this.props.email}
-                twitter={this.props.twitter}
+                job={job}
+                name={name}
+                body={body}
+                linkedIn={linkedIn}
+                email={email}
+                twitter={twitter}
               />
             </Modal.Body>
           </Modal>
