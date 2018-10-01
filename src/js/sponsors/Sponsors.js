@@ -6,6 +6,7 @@ import mousebeltLogo from '../../img/sponsors/mousebelt-logo.png';
 import nemLogo from '../../img/sponsors/nem-logo.png';
 import aefLogo from '../../img/sponsors/alfa-logo.png';
 import stablyLogo from '../../img/sponsors/stably-logo.png';
+import damnLogo from '../../img/sponsors/damn-logo.png';
 import Contact from '../contact/Contact';
 import { Element } from 'react-scroll';
 
@@ -50,6 +51,11 @@ const Sponsors = () => (
             </Col>
             <Col md={6}>
               <SponsorImg src={comotionImg} imgClass="coMotion-logo logo" />
+            </Col>
+          </Row>
+          <Row>
+            <Col md={6}>
+              <SponsorImg src={damnLogo} imgClass="coMotion-logo logo" />
             </Col>
           </Row>
         </Grid>
