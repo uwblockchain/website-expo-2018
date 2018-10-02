@@ -282,6 +282,28 @@ const WorkshopSpeakers = () => [
     }
     linkedIn="https://www.linkedin.com/in/aaronmccloud/"
     email="mcclouda@gmail.com"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img="tamara-rogers.jpg"
+    job={
+      <p>
+        GENERAL COUNSEL, <br />
+        PITHIA
+      </p>
+    }
+    name={<b>Tamara Rogers</b>}
+    body={
+      <p>
+        As General Counsel at Pithia, Tamara advises on corporate governance,
+        business law, and performs due diligence on the VC firm's investments in
+        blockchain-based startups. She also advises independent companies on the
+        legal aspects of technology businesses, particularly \ intellectual
+        property contracts. She is an active leader in the growing blockchain
+        3.0 ecosystem and a member of the RChain Cooperative.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/tamaraajrogers/"
   />
 ];
 
