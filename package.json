@@ -15,7 +15,7 @@
     "react-dom": "^16.5.2",
     "react-helmet": "^5.2.0",
     "react-loading-screen": "0.0.17",
-    "react-scripts": "1.1.5",
+    "react-scripts": "2.0.3",
     "react-scroll": "^1.7.10",
     "react-test-renderer": "^16.5.2",
     "react-vertical-timeline-component": "^2.3.0"
@@ -25,7 +25,7 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "lint-staged": {
@@ -38,5 +38,9 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not ie <= 11"
+  ]
 }

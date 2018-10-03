@@ -1,9 +1,10 @@
 import './css/index.css';
 import React from 'react';
 import { render } from 'react-dom';
-
 import App from './js/App';
-import registerServiceWorker from './js/registerServiceWorker';
+import * as serviceWorker from './js/serviceWorker';
 
 render(<App />, document.getElementById('root'));
-registerServiceWorker();
+
+// Learn more about service workers: http://bit.ly/CRA-PWA
+serviceWorker.register();

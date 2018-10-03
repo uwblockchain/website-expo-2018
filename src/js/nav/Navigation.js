@@ -23,10 +23,8 @@ const NavDate = () => (
 );
 
 const NavTitle = () => (
-  <Navbar.Brand>
-    <a onClick={scroll.scrollToTop} id="nav-brand">
-      UW BLOCKCHAIN EXPO
-    </a>
+  <Navbar.Brand onClick={scroll.scrollToTop} id="nav-brand">
+    UW BLOCKCHAIN EXPO
   </Navbar.Brand>
 );
 
