@@ -379,6 +379,28 @@ const PanelSpeakers = () => [
         early stages, such as Android 3.0.
       </p>
     }
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img="michael-smyers.jpg"
+    job={
+      <p>
+        CO-FOUNDER and VP OF ENGINEERING, <br />
+        COINME
+      </p>
+    }
+    name={<b>Michael Smyers</b>}
+    body={
+      <p>
+        As a serial entrepreneur, Michael is the VP Engineering and Co-Founder
+        of Coinme, a Bitcoin ATM headquartered in Seattle. In 2007, Michael
+        co-founded{' '}
+        <a href="https://www.crunchbase.com/organization/zipwhip">Zipwhip</a>, a
+        cloud-based texting platform, currently valued at $281M. In 2002,
+        Michael founded CourseScheduler while completing a Bachelor of Science
+        in Electrical Engineering from Kansas State University.
+      </p>
+    }
   />
 ];
 
