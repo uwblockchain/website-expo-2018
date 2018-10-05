@@ -221,7 +221,7 @@ const PanelSpeakers = () => [
       </p>
     }
     linkedIn="https://www.linkedin.com/in/galya-westler-b0b63b42/"
-    email="g.westler@gmail.com"
+    email="Galya@Plazus.com"
   />,
   <SpeakerPreview
     key={keyGen++}
