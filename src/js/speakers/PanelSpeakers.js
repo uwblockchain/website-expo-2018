@@ -324,12 +324,7 @@ const PanelSpeakers = () => [
   <SpeakerPreview
     key={keyGen++}
     img="liz_linares.jpeg"
-    job={
-      <p>
-        CO-FOUNDER / ENTERTAINMENT AND TECH PR, <br />
-        ROUSSEAU LINARES
-      </p>
-    }
+    job={<p>CO-FOUNDER / ENTERTAINMENT AND TECH PR AT ROUSSEAU LINARES</p>}
     name={<b>Liz “Lisi” Linares</b>}
     body={
       <p>
@@ -399,6 +394,31 @@ const PanelSpeakers = () => [
         cloud-based texting platform, currently valued at $281M. In 2002,
         Michael founded CourseScheduler while completing a Bachelor of Science
         in Electrical Engineering from Kansas State University.
+      </p>
+    }
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img="marielle_saums.jpg"
+    job={
+      <p>
+        INDEPENDENT WRITER
+        <br />
+        AND RESEARCHER
+      </p>
+    }
+    name={<b>Marielle Saums</b>}
+    body={
+      <p>
+        Marielle Saums is a technical writer currently working on content
+        development and documentation for Telos, a new blockchain network based
+        on EOSIO software. They developed technical expertise in challenging
+        settings such as remote field research stations and architectural
+        salvage yards, leading to an interest in inventory management and small
+        business logistics for emerging industries. Currently, Marielle is
+        interested in the potential for blockchain technology to resolve
+        environmental challenges through peer-to-peer resource exchange, supply
+        chain transparency, and decentralized system management.
       </p>
     }
   />
