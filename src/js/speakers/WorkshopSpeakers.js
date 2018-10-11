@@ -28,6 +28,39 @@ const WorkshopSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
+    img="alex_dicarlo.jpeg"
+    job={
+      <p>
+        FOUNDER, <br />
+        NEOTRACKER
+      </p>
+    }
+    name={<b>Alex DiCarlo</b>}
+    body={
+      <p>
+        After receiving his Bachelors of Computer Science from University of
+        Illinois, Alex was an intern at Facebook London, later joining full
+        time, where he developed data ingestion pipelines to improve the quality
+        of places, events and music pages on Facebook. Later he transitioned to
+        Facebook Seattle and began working on Facebook's framework for creating
+        and maintaining data analysis pipelines used by thousands of engineers
+        and data analysts. The blockchain explosion last spring piqued Alex's
+        interest and in order to learn more about Blockchain he decided to build
+        a blockchain explorer, NEO Tracker and NEO•ONE, and help grow the NEO
+        Ecosystem. <br /> <br />
+        NEO•ONE makes coding, testing and deploying NEO blockchain solutions
+        easier, faster and more efficient. NEO•ONE's arsenal of tools help you
+        overcome obstacles through effortless startup. Create a private network,
+        build smart contracts in TypeScript, write unit tests and debug with
+        ease. With NEO•ONE, you will deploy your first smart contract within 30
+        minutes! Visit neo-one.io to get started.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/alex-dicarlo/"
+    email="alex.dicarlo@neotracker.io"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
     img="galen.jpg"
     job={
       <p>
@@ -265,8 +298,7 @@ const WorkshopSpeakers = () => [
     job={
       <p>
         CEO, <br />
-        PURPLE COW FINANCIAL <br />
-        INSTRUMENTS
+        YOURCOINZ
       </p>
     }
     name={<b>Aaron McCloud</b>}

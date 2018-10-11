@@ -276,20 +276,6 @@ const PanelSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
-    img="alex_dicarlo.jpeg"
-    job={
-      <p>
-        FOUNDER, <br />
-        NEOTRACKER
-      </p>
-    }
-    name={<b>Alex DiCarlo</b>}
-    body={<p>Software Engineer at Facebook and CEO of NEO Tracker</p>}
-    linkedIn="https://www.linkedin.com/in/alex-dicarlo/"
-    email="alex.dicarlo@neotracker.io"
-  />,
-  <SpeakerPreview
-    key={keyGen++}
     img="natacha_rousseau.jpg"
     job={
       <p>
@@ -396,6 +382,59 @@ const PanelSpeakers = () => [
         in Electrical Engineering from Kansas State University.
       </p>
     }
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img="marielle_saums.jpg"
+    job={
+      <p>
+        INDEPENDENT WRITER
+        <br />
+        AND RESEARCHER
+      </p>
+    }
+    name={<b>Marielle Saums</b>}
+    body={
+      <p>
+        Marielle Saums is a technical writer currently working on content
+        development and documentation for Telos, a new blockchain network based
+        on EOSIO software. They developed technical expertise in challenging
+        settings such as remote field research stations and architectural
+        salvage yards, leading to an interest in inventory management and small
+        business logistics for emerging industries. Currently, Marielle is
+        interested in the potential for blockchain technology to resolve
+        environmental challenges through peer-to-peer resource exchange, supply
+        chain transparency, and decentralized system management.
+      </p>
+    }
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img="Badri_Narayanan.jpeg"
+    job={
+      <p>
+        FOUNDER AND PARTNER,
+        <br />
+        INFINITE SUM MODELING
+      </p>
+    }
+    name={<b>Dr. Badri Narayanan Gopalakrishnan</b>}
+    body={
+      <p>
+        Dr. Gopalakrishnan is a Seattle based Economist, UW Affiliate Professor
+        and strategy consultant and the CEO and Founder of Infinite Sum
+        Modeling, an economic/management consulting firm with offices in US,
+        Canada China and India, and clients worldwide. He also have an
+        affiliation with McKinsey, with whom he works very closely as an insider
+        on several client-facing projects for the governments and Fortune 500
+        companies across the board. He has been involved with several
+        blockchain/disruptive tech companies as an advisor (Vermouth, Digital
+        Town, RAYS network, TIM Blockchain, Applicature, Avatar Blockchain,
+        Robodub, Radii Robotics, Make in LA, to name just a few.) He was a
+        speaker at Blockchain Economic Forum San Francisco in June 2018.
+      </p>
+    }
+    linkedIn="https://www.linkedin.com/in/badrinarayanang/"
   />,
   <SpeakerPreview
     key={keyGen++}
