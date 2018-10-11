@@ -435,31 +435,6 @@ const PanelSpeakers = () => [
       </p>
     }
     linkedIn="https://www.linkedin.com/in/badrinarayanang/"
-  />,
-  <SpeakerPreview
-    key={keyGen++}
-    img="marielle_saums.jpg"
-    job={
-      <p>
-        INDEPENDENT WRITER
-        <br />
-        AND RESEARCHER
-      </p>
-    }
-    name={<b>Marielle Saums</b>}
-    body={
-      <p>
-        Marielle Saums is a technical writer currently working on content
-        development and documentation for Telos, a new blockchain network based
-        on EOSIO software. They developed technical expertise in challenging
-        settings such as remote field research stations and architectural
-        salvage yards, leading to an interest in inventory management and small
-        business logistics for emerging industries. Currently, Marielle is
-        interested in the potential for blockchain technology to resolve
-        environmental challenges through peer-to-peer resource exchange, supply
-        chain transparency, and decentralized system management.
-      </p>
-    }
   />
 ];
 
