@@ -7,6 +7,7 @@ import {
   VerticalTimelineElement
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import schedulePNG from '../../img/schedule-nobg.png';
 
 const Item = props => (
   <VerticalTimelineElement
@@ -18,11 +19,17 @@ const Item = props => (
 );
 
 const Schedule = () => (
-  <div>
+  <div className="text-center">
     <div className="container">
-      <p className="schedule-title">Our tentative schedule...</p>
+      <p className="schedule-title">Our Schedule</p>
     </div>
+    {/* <Image responsive src={schedulePNG} className="schedule" /> */}
+    {verticalTimelineOld()}
+  </div>
+);
 
+const verticalTimelineOld = () => (
+  <div>
     <VerticalTimeline>
       <Item className="item" text="Event Kick Off" />
       <Item className="item" text="State of the Blockchain Union" />

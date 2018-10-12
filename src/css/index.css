@@ -361,6 +361,11 @@ a.btn-purple:hover {
   display: inline-block;
 }
 
+.schedule {
+  margin: auto;
+  max-width: 1000px;
+}
+
 .schedule-contact-text {
   text-align: center;
   color: white;

@@ -433,6 +433,60 @@ const PanelSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
+    img="kate_mitselmakher.jpg"
+    job={
+      <p>
+        CEO, FOUNDER & GENERAL PARTNER, <br />
+        BLOCCELERATE VC
+      </p>
+    }
+    name={<b>Kate Mitselmakher</b>}
+    body={
+      <p>
+        Kate Mitselmakher is the CEO, Founder & General Partner of Bloccelerate
+        VC, a blockchain fund and an accelerator looking to invest in 50-100
+        blockchain companies over the next 5 years. Kate has not only been one
+        of the early investors in blockchain technologies since 2013, but also a
+        passionate blockchain advocate for social impact and enterprise
+        applications across global governments and Fortune 500 companies. In the
+        past three years, as a part of Gartner Invest group, Kate has advised
+        numerous venture-based companies and accelerators, such as Alchemist
+        Accelerator. She also worked alongside some of the top investors in
+        Silicon Valley, thereby creating a strong network of top entrepreneurs,
+        VCs, and technology buyers. During her free time, Kate also runs
+        Seattle-based blockchain meet-up and completes her master’s thesis on
+        Blockchain from Harvard University.
+      </p>
+    }
+  />,
+
+  <SpeakerPreview
+    key={keyGen++}
+    img="Monohan_M.jpg"
+    job={
+      <p>
+        CEO, <br />
+        BAZAAR.market
+      </p>
+    }
+    name={<b>Mike Monohan</b>}
+    body={
+      <p>
+        Mike Monohan’s professional experience includes 13 years at Microsoft
+        finance, including 6 years as the CFO of their Enterprise Services
+        divisions in Amsterdam and subsequently seven Gulf Region countries
+        based out of Dubai. He conceived of and launched CryptoDelegate.com, the
+        first Proof of Stake Blockchain Delegation service for Tezos, a 3rd
+        generation blockchain. He is currently the founder and CEO of
+        BAZAAR.market. BAZAAR is a blockchain platform that facilitates and
+        white labels the “Tokenization” of asset ownership and loan
+        collateralization. Mike has a MBA from University of Washington and an
+        executive MBA from Harvard Business School.
+      </p>
+    }
+  />,
+  <SpeakerPreview
+    key={keyGen++}
     img="Badri_Narayanan.jpeg"
     job={
       <p>
@@ -458,31 +512,6 @@ const PanelSpeakers = () => [
       </p>
     }
     linkedIn="https://www.linkedin.com/in/badrinarayanang/"
-  />,
-  <SpeakerPreview
-    key={keyGen++}
-    img="Monohan_M.jpg"
-    job={
-      <p>
-        CEO, <br />
-        BAZAAR.market
-      </p>
-    }
-    name={<b>Mike Monohan</b>}
-    body={
-      <p>
-        Mike Monohan’s professional experience includes 13 years at Microsoft
-        finance, including 6 years as the CFO of their Enterprise Services
-        divisions in Amsterdam and subsequently seven Gulf Region countries
-        based out of Dubai. He conceived of and launched CryptoDelegate.com, the
-        first Proof of Stake Blockchain Delegation service for Tezos, a 3rd
-        generation blockchain. He is currently the founder and CEO of
-        BAZAAR.market. BAZAAR is a blockchain platform that facilitates and
-        white labels the “Tokenization” of asset ownership and loan
-        collateralization. Mike has a MBA from University of Washington and an
-        executive MBA from Harvard Business School.
-      </p>
-    }
   />
 ];
 
