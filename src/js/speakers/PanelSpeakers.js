@@ -88,6 +88,29 @@ const PanelSpeakers = () => [
   />,
   <SpeakerPreview
     key={keyGen++}
+    img="simon_manka.jpg"
+    job={
+      <p>
+        GROWTH LEAD, <br />
+        <a href="https://www.iost.io" target="#">
+          IOS FOUNDATION
+        </a>
+      </p>
+    }
+    name={<b>Simon Manka</b>}
+    body={
+      <p>
+        Simon spent the last 11 years focused on growth for Fortune 500
+        companies and fast growing technology start ups. In his role he leads
+        partnerships, business development and marketing efforts for the IOS
+        Foundation. Simon has been a blockchain enthusiast since 2013 and is a
+        cryptocurrency advocate who can see the advantages and disadvantages
+        associated with decentralized systems.
+      </p>
+    }
+  />,
+  <SpeakerPreview
+    key={keyGen++}
     img="eric-weaver.jpg"
     job={
       <p>
@@ -435,6 +458,31 @@ const PanelSpeakers = () => [
       </p>
     }
     linkedIn="https://www.linkedin.com/in/badrinarayanang/"
+  />,
+  <SpeakerPreview
+    key={keyGen++}
+    img="Monohan_M.jpg"
+    job={
+      <p>
+        CEO, <br />
+        BAZAAR.market
+      </p>
+    }
+    name={<b>Mike Monohan</b>}
+    body={
+      <p>
+        Mike Monohan’s professional experience includes 13 years at Microsoft
+        finance, including 6 years as the CFO of their Enterprise Services
+        divisions in Amsterdam and subsequently seven Gulf Region countries
+        based out of Dubai. He conceived of and launched CryptoDelegate.com, the
+        first Proof of Stake Blockchain Delegation service for Tezos, a 3rd
+        generation blockchain. He is currently the founder and CEO of
+        BAZAAR.market. BAZAAR is a blockchain platform that facilitates and
+        white labels the “Tokenization” of asset ownership and loan
+        collateralization. Mike has a MBA from University of Washington and an
+        executive MBA from Harvard Business School.
+      </p>
+    }
   />
 ];
 
