@@ -22,9 +22,8 @@ const Schedule = () => (
   <div className="text-center">
     <div className="container">
       <p className="schedule-title">Our Schedule</p>
+      <Image responsive src={schedulePNG} className="schedule" />
     </div>
-    {/* <Image responsive src={schedulePNG} className="schedule" /> */}
-    {verticalTimelineOld()}
   </div>
 );
 
