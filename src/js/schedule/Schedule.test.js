@@ -11,5 +11,5 @@ beforeEach(() => {
 it('renders without crashing', () => {});
 
 it('renders at least one item', () => {
-  expect(wrapper.find('.item').length >= 1).toBe(true);
+  expect(wrapper.find('Image').length >= 1).toBe(true);
 });
