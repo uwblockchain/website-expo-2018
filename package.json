@@ -3,23 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "all": "0.0.0",
     "bootstrap": "^4.3.1",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "husky": "^2.4.0",
-    "lint-staged": "^8.2.0",
-    "prettier": "^1.18.2",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-loading-screen": "0.0.17",
     "react-scripts": "3.0.1",
-    "react-scroll": "^1.7.11",
+    "react-scroll": "^1.7.12",
     "react-test-renderer": "^16.8.6",
-    "react-vertical-timeline-component": "^2.3.1",
-    "yarn": "^1.16.0"
+    "react-vertical-timeline-component": "^2.4.0"
+  },
+  "devDependencies": {
+    "husky": "^3.0.0",
+    "lint-staged": "^9.2.0",
+    "prettier": "^1.18.2"
   },
   "scripts": {
     "predeploy": "npm run build",
