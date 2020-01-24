@@ -6,7 +6,7 @@ html,
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Exo', 'Open Sans', sans-serif !important;
 }
 
 ::-webkit-scrollbar {

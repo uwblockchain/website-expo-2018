@@ -1,0 +1,22 @@
+.under-construction {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.under-construction-header {
+  margin-top: 20%;
+}
+
+.under-construction-date {
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.under-construction-location {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: -0.3rem;
+}
