@@ -11,7 +11,7 @@ const underConstruction = () => (
     <h2 className="under-construction-location">
       at the University of Washington
     </h2>
-    <h2 className="under-construction-date">March, 2020</h2>
+    <h2 className="under-construction-date">May 20 - 22, 2020</h2>
   </div>
 );
 
