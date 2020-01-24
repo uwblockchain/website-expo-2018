@@ -14,7 +14,7 @@ import loadicon from '../img/loadicon.gif';
 import LoadingScreen from 'react-loading-screen';
 import Speakers from './speakers/Speakers';
 import Advisors from './Advisors';
-
+import UnderConstruction from './under-construction';
 export default class App extends React.Component {
   state = {
     loading: true
@@ -34,7 +34,8 @@ export default class App extends React.Component {
         text="Loading..."
       >
         <div className="App">
-          <Head />
+          <UnderConstruction></UnderConstruction>
+          {/* <Head />
           <Navigation />
           <Hero />
           <Video />
@@ -52,7 +53,7 @@ export default class App extends React.Component {
           <Element name="sponsors">
             <Sponsors />
           </Element>
-          <Footer />
+          <Footer /> */}
         </div>
       </LoadingScreen>
     );

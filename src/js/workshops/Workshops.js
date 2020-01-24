@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Grid, Image } from 'react-bootstrap';
+import { Row, Col, Container, Image } from 'react-bootstrap';
 import computerImg from '../../img/workshops/computer.png';
 import biziconImg from '../../img/workshops/bizicon.png';
 
@@ -11,10 +11,16 @@ const styleRows = {
 
 const Workshops = () => (
   <div className="container workshops">
-    <Grid style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+    <Container style={{ paddingBottom: '5em', paddingTop: '5em' }}>
       <Row style={{ color: 'white' }}>
         <h2 style={{ fontWeight: '600' }}>Workshops</h2>
-        <h4 className="workshop-description">Workshops are extended interactive sessions with professionals designed to <br />facilitate learning opportunities and skill development. <br /><br />Choose various workshops from two different tracks:</h4>
+        <h4 className="workshop-description">
+          Workshops are extended interactive sessions with professionals
+          designed to <br />
+          facilitate learning opportunities and skill development. <br />
+          <br />
+          Choose various workshops from two different tracks:
+        </h4>
       </Row>
       <Row style={{ color: 'white', fontWeight: '600', paddingTop: '1.5em' }}>
         <Col xs={4} smOffset={5} xsOffset={1}>
@@ -77,7 +83,7 @@ const Workshops = () => (
           <Row style={styleRows}>Elections/Voting</Row>
         </Col>
       </Row>
-    </Grid>
+    </Container>
   </div>
 );
 

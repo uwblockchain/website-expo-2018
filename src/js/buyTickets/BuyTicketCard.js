@@ -1,8 +1,8 @@
 import React from 'react';
-import { Panel, Row, Col } from 'react-bootstrap';
+import { Card, Row, Col } from 'react-bootstrap';
 
 const BuyTicketCard = props => (
-  <Panel>
+  <Card>
     <div className="pl-4">
       <h3 className="card-title">{props.title}</h3>
       <h3 className="card-sub">{props.sub && props.sub} </h3>
@@ -26,7 +26,7 @@ const BuyTicketCard = props => (
         PURCHASE
       </a>
     </div>
-  </Panel>
+  </Card>
 );
 
 export default BuyTicketCard;

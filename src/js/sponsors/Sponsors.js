@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Row, Image, Col } from 'react-bootstrap';
+import { Container, Row, Image, Col } from 'react-bootstrap';
 import Contact from '../contact/Contact';
 import { Element } from 'react-scroll';
 
@@ -15,7 +15,7 @@ const SponsorImg = ({ src, imgClass }) => (
 
 const Sponsors = () => (
   <div className="sponsors container">
-    <Grid>
+    <Container>
       <Row>
         <h2 className="sponsors-title">Sponsors</h2>
         <p className="sponsors-text">
@@ -25,7 +25,7 @@ const Sponsors = () => (
         </p>
       </Row>
       <Row className="sponsors-images">
-        <Grid>
+        <Container>
           <Row>
             <Col md={6}>
               <SponsorImg src={'alfa-logo.png'} imgClass="coMotion-logo logo" />
@@ -64,7 +64,7 @@ const Sponsors = () => (
               <SponsorImg src={'damm-logo.png'} imgClass="coMotion-logo logo" />
             </Col>
           </Row>
-        </Grid>
+        </Container>
       </Row>
       <Row>
         <p className="sponsors-text">
@@ -81,7 +81,7 @@ const Sponsors = () => (
           <Contact />
         </Element>
       </Row>
-    </Grid>
+    </Container>
   </div>
 );
 

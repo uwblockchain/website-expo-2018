@@ -29,12 +29,12 @@ const NavTitle = () => (
 );
 
 const Navigation = () => (
-  <div className="main-navbar">
+  <div className="main-navbar" style={{ justifyItems: 'space-between' }}>
     <Navbar fixedTop collapseOnSelect>
-      <Navbar.Header left="true">
+      <div>
         <NavTitle className="title" />
         <Navbar.Toggle />
-      </Navbar.Header>
+      </div>
       <NavDate className="date" />
       <Navbar.Collapse>
         <Nav pullRight>
