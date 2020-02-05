@@ -1,7 +1,11 @@
 .under-construction {
   display: flex;
   flex-direction: row;
-  margin-top: 20%;
+  margin-top: 30vh;
+
+  @media screen and (max-width: 1000px) {
+    margin-top: 30vh;
+  }
 
   .spacer {
     flex-grow: 1;
@@ -19,15 +23,24 @@
 }
 
 .under-construction-header {
+  @media screen and (max-width: 1000px) {
+    font-size: 4rem;
+  }
 }
 
 .under-construction-date {
   margin-top: 1.5rem;
   font-size: 1.8rem;
+  @media screen and (max-width: 1000px) {
+    font-size: 3rem;
+  }
 }
 
 .under-construction-location {
   font-size: 1.5rem;
   font-weight: 300;
   margin-top: -0.3rem;
+  @media screen and (max-width: 1000px) {
+    font-size: 3rem;
+  }
 }
