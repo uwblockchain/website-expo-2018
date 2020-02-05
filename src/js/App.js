@@ -14,6 +14,7 @@ import loadicon from '../img/loadicon.gif';
 import LoadingScreen from 'react-loading-screen';
 import Speakers from './speakers/Speakers';
 import Advisors from './Advisors';
+import BackgroundImage from '../img/background.png';
 import UnderConstruction from './under-construction';
 export default class App extends React.Component {
   state = {
@@ -33,6 +34,7 @@ export default class App extends React.Component {
         logoSrc={loadicon}
         text="Loading..."
       >
+        {/* <img className="app-background" src={BackgroundImage} /> */}
         <div className="App">
           <UnderConstruction></UnderConstruction>
           {/* <Head />
