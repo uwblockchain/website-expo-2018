@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Button, Row } from 'react-bootstrap';
+import { Navbar, Nav, Button } from 'react-bootstrap';
 import NavTabs from './NavTabs';
 import { animateScroll as scroll } from 'react-scroll';
 
