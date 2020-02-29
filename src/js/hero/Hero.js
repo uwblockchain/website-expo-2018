@@ -6,17 +6,12 @@ import { Link } from 'react-scroll';
 
 const Hero = () => (
   <div className="container-flex">
-    <Image src={heroBG} responsive className="hero-image" />
+    <Image src={heroBG} fluid className="hero-image" />
     <div className="text-center hero-text">
       <Container>
         <Row>
-          <Col lg={8} lgOffset={2}>
-            <img
-              className="img-responsive"
-              id="title-img"
-              src={title}
-              alt="title"
-            />
+          <Col lg={{ span: 8, offset: 2 }}>
+            <Image fluid src={title} id="title-img" alt="title" />
             <h4 id="hero-tagline">
               Connecting students and industry in blockchain
             </h4>
@@ -33,7 +28,7 @@ const Hero = () => (
           </Col>
         </Row>
         <Row className="hero-bottom">
-          <Col lg={6} lgOffset={6}>
+          <Col lg={{ span: 6, offset: 6 }}>
             <h1 className="hero-bottom-title">About the Expo</h1>
             <h4 className="hero-bottom-text">
               The UW Blockchain Society connects students and blockchain

@@ -5,7 +5,7 @@ const Video = () => (
   <div className="main-video container-flex">
     <div className="container">
       <Row>
-        <Col md={8} mdOffset={2} className="text-center">
+        <Col md={{ span: 8, offset: 2 }} className="text-center">
           <div className="embed-responsive embed-responsive-16by9">
             <iframe
               title="promo-video"

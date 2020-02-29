@@ -6,7 +6,7 @@ import { Element } from 'react-scroll';
 const SponsorImg = ({ src, imgClass }) => (
   <Col sm={10} smOffset={1}>
     <Image
-      responsive
+      fluid
       className={'sponsors-logo ' + imgClass}
       src={require('../../img/sponsors/' + src)}
     />

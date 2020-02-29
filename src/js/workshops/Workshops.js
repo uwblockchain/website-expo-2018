@@ -13,17 +13,27 @@ const Workshops = () => (
   <div className="container workshops">
     <Container style={{ paddingBottom: '5em', paddingTop: '5em' }}>
       <Row style={{ color: 'white' }}>
-        <h2 style={{ fontWeight: '600' }}>Workshops</h2>
-        <h4 className="workshop-description">
-          Workshops are extended interactive sessions with professionals
-          designed to <br />
-          facilitate learning opportunities and skill development. <br />
-          <br />
-          Choose various workshops from two different tracks:
-        </h4>
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            width: '100%'
+          }}
+        >
+          <h2 style={{ fontWeight: '600' }}>Workshops</h2>
+          <h4 className="workshop-description">
+            Workshops are extended interactive sessions with professionals
+            designed to <br />
+            facilitate learning opportunities and skill development. <br />
+            <br />
+            Choose various workshops from two different tracks:
+          </h4>
+        </div>
       </Row>
       <Row style={{ color: 'white', fontWeight: '600', paddingTop: '1.5em' }}>
-        <Col xs={4} smOffset={5} xsOffset={1}>
+        <Col xs={{ span: 4, offset: 1 }} sm={{ offset: 5 }}>
           <h3
             style={{
               marginLeft: '-3rem',
@@ -36,8 +46,8 @@ const Workshops = () => (
         </Col>
       </Row>
       <Row>
-        <Col sm={3} xs={4} xsOffset={0} smOffset={2}>
-          <Image src={computerImg} responsive width={128} heigh={128} />
+        <Col sm={{ span: 3, offset: 2 }} xs={{ span: 4, offset: 0 }}>
+          <Image src={computerImg} fluid width={128} heigh={128} />
         </Col>
         <Col sm={3} xs={4} style={{ color: 'white' }}>
           <Row style={styleRows}>Cryptography</Row>
@@ -60,13 +70,13 @@ const Workshops = () => (
       <Row
         style={{ color: 'white', paddingTop: '1.5em', paddingBottom: '0.5em' }}
       >
-        <Col xs={4} smOffset={5} xsOffset={1}>
+        <Col xs={{ span: 4, offset: 1 }} sm={{ offset: 5 }}>
           <h3 style={{ marginLeft: '-3rem', fontWeight: '600' }}>BUSINESS</h3>
         </Col>
       </Row>
       <Row>
-        <Col sm={3} xs={4} xsOffset={0} smOffset={2}>
-          <Image src={biziconImg} responsive width={128} heigh={128} />
+        <Col sm={{ span: 3, offset: 2 }} xs={{ span: 4, offset: 0 }}>
+          <Image src={biziconImg} fluid width={128} heigh={128} />
         </Col>
         <Col sm={3} xs={4} style={{ color: 'white' }}>
           <Row style={styleRows}>Blockchain 101</Row>
