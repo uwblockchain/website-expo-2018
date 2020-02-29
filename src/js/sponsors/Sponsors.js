@@ -77,9 +77,7 @@ const Sponsors = () => (
         </p>
       </Row>
       <Row>
-        <Element name="contact">
-          <Contact />
-        </Element>
+        <Contact />
       </Row>
     </Container>
   </div>
