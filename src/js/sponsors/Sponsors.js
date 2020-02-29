@@ -77,7 +77,9 @@ const Sponsors = () => (
         </p>
       </Row>
       <Row>
-        <Contact />
+        <Element name="contact" style={{ width: '100%' }}>
+          <Contact />
+        </Element>
       </Row>
     </Container>
   </div>
