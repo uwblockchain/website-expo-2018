@@ -1,22 +1,46 @@
 .under-construction {
-  color: white;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  margin-top: 30vh;
+
+  @media screen and (max-width: 1000px) {
+    margin-top: 30vh;
+  }
+
+  .spacer {
+    flex-grow: 1;
+  }
+
+  .content {
+    background-color: rgb(249, 246, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
 }
 
 .under-construction-header {
-  margin-top: 20%;
+  @media screen and (max-width: 1000px) {
+    font-size: 4rem;
+  }
 }
 
 .under-construction-date {
   margin-top: 1.5rem;
   font-size: 1.8rem;
+  @media screen and (max-width: 1000px) {
+    font-size: 3rem;
+  }
 }
 
 .under-construction-location {
   font-size: 1.5rem;
   font-weight: 300;
   margin-top: -0.3rem;
+  @media screen and (max-width: 1000px) {
+    font-size: 3rem;
+  }
 }

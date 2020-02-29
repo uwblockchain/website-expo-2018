@@ -2,11 +2,11 @@ import React from 'react';
 import BuyTicketCard from './BuyTicketCard';
 import { Row, Col } from 'react-bootstrap';
 import Newsletter from '../Newsletter';
-import WhyAttend from '../why-attend'
+import WhyAttend from '../why-attend';
 
 const BuyTickets = () => (
   <div className="container buy-tickets">
-    <WhyAttend/>
+    <WhyAttend />
     <Row>
       <Col md={4}>
         <BuyTicketCard
@@ -33,7 +33,7 @@ const BuyTickets = () => (
           fee="$13.15"
         />
       </Col>
-      <Col md={10} mdOffset={1}>
+      <Col md={{ span: 10, offset: 1 }}>
         <Newsletter />
       </Col>
     </Row>

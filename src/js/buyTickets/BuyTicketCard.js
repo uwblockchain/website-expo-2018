@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Row, Col } from 'react-bootstrap';
 
 const BuyTicketCard = props => (
-  <Card>
+  <Card style={{ padding: '1rem' }}>
     <div className="pl-4">
       <h3 className="card-title">{props.title}</h3>
       <h3 className="card-sub">{props.sub && props.sub} </h3>
@@ -13,7 +13,7 @@ const BuyTicketCard = props => (
           <h1 className="card-price text-right">{props.price}</h1>
         </Col>
         <Col xs={6}>
-          <h4 className="card-fee text-left py-4"> + {props.fee} fee</h4>
+          <h4 className="card-fee text-left"> + {props.fee} fee</h4>
         </Col>
       </Row>
     </div>
