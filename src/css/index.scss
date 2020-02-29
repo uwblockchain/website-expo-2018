@@ -1,9 +1,17 @@
+@import "./navbar";
+
 html,
 .App {
-  background: url('../img/background.png') no-repeat center center fixed;
+  /* background: url('../img/background.png') no-repeat center center fixed;
   background-color: rgb(249, 246, 238);
+  background-size: cover; */
+  background: linear-gradient(to top right, #18184b, #663399) no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  font-family: 'Exo', 'Open Sans', sans-serif !important;
+  font-family: "Exo", "Open Sans", sans-serif !important;
 }
 
 ::-webkit-scrollbar {
@@ -224,7 +232,7 @@ div.card-button a:focus {
 }
 .bot-left:before,
 .bot-left:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -5px;
   left: -5px;

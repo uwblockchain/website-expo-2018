@@ -24,7 +24,7 @@ class SpeakerPreview extends React.Component {
       <Col md={4} id="col">
         <div className="speaker-preview">
           <div onClick={this.handleShow}>
-            <Image src={imgSrc} responsive />
+            <Image src={imgSrc} fluid />
             <h3 className="speaker-preview-name">{name}</h3>
             <div className="speaker-preview-job">{job}</div>
           </div>

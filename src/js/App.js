@@ -36,8 +36,8 @@ export default class App extends React.Component {
       >
         {/* <img className="app-background" src={BackgroundImage} /> */}
         <div className="App">
-          <UnderConstruction></UnderConstruction>
-          {/* <Head />
+          {/* <UnderConstruction></UnderConstruction> */}
+          <Head />
           <Navigation />
           <Hero />
           <Video />
@@ -55,7 +55,7 @@ export default class App extends React.Component {
           <Element name="sponsors">
             <Sponsors />
           </Element>
-          <Footer /> */}
+          <Footer />
         </div>
       </LoadingScreen>
     );
