@@ -13,15 +13,7 @@ const Workshops = () => (
   <div className="container workshops">
     <Container style={{ paddingBottom: '5em', paddingTop: '5em' }}>
       <Row style={{ color: 'white' }}>
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'center',
-            width: '100%'
-          }}
-        >
+        <div>
           <h2 style={{ fontWeight: '600' }}>Workshops</h2>
           <h4 className="workshop-description">
             Workshops are extended interactive sessions with professionals

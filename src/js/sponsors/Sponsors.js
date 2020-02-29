@@ -4,7 +4,7 @@ import Contact from '../contact/Contact';
 import { Element } from 'react-scroll';
 
 const SponsorImg = ({ src, imgClass }) => (
-  <Col sm={10} smOffset={1}>
+  <Col sm={{ span: 10, offset: 1 }}>
     <Image
       fluid
       className={'sponsors-logo ' + imgClass}
@@ -17,12 +17,14 @@ const Sponsors = () => (
   <div className="sponsors container">
     <Container>
       <Row>
-        <h2 className="sponsors-title">Sponsors</h2>
-        <p className="sponsors-text">
-          This exposition would not be possible without
-          <br />
-          help from these great sponsors.
-        </p>
+        <div>
+          <h2 className="sponsors-title">Sponsors</h2>
+          <p className="sponsors-text">
+            This exposition would not be possible without
+            <br />
+            help from these great sponsors.
+          </p>
+        </div>
       </Row>
       <Row className="sponsors-images">
         <Container>
