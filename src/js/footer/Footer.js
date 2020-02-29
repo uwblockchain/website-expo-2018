@@ -6,7 +6,7 @@ const Footer = () => (
   <div className="container-flex footer">
     <div className="container">
       <Row className="">
-        <Col md={4} mdOffset={2} sm={6}>
+        <Col md={{ span: 4, offset: 2 }} sm={6}>
           <p className="footer-text" style={{ color: 'white' }}>
             Copyright © 2018 Blockchain Society at the UW
             <br />

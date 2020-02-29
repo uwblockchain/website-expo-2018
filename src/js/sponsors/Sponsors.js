@@ -1,12 +1,12 @@
 import React from 'react';
-import { Grid, Row, Image, Col } from 'react-bootstrap';
+import { Container, Row, Image, Col } from 'react-bootstrap';
 import Contact from '../contact/Contact';
 import { Element } from 'react-scroll';
 
 const SponsorImg = ({ src, imgClass }) => (
-  <Col sm={10} smOffset={1}>
+  <Col sm={{ span: 10, offset: 1 }}>
     <Image
-      responsive
+      fluid
       className={'sponsors-logo ' + imgClass}
       src={require('../../img/sponsors/' + src)}
     />
@@ -15,17 +15,19 @@ const SponsorImg = ({ src, imgClass }) => (
 
 const Sponsors = () => (
   <div className="sponsors container">
-    <Grid>
+    <Container>
       <Row>
-        <h2 className="sponsors-title">Sponsors</h2>
-        <p className="sponsors-text">
-          This exposition would not be possible without
-          <br />
-          help from these great sponsors.
-        </p>
+        <div>
+          <h2 className="sponsors-title">Sponsors</h2>
+          <p className="sponsors-text">
+            This exposition would not be possible without
+            <br />
+            help from these great sponsors.
+          </p>
+        </div>
       </Row>
       <Row className="sponsors-images">
-        <Grid>
+        <Container>
           <Row>
             <Col md={6}>
               <SponsorImg src={'alfa-logo.png'} imgClass="coMotion-logo logo" />
@@ -64,7 +66,7 @@ const Sponsors = () => (
               <SponsorImg src={'damm-logo.png'} imgClass="coMotion-logo logo" />
             </Col>
           </Row>
-        </Grid>
+        </Container>
       </Row>
       <Row>
         <p className="sponsors-text">
@@ -77,11 +79,11 @@ const Sponsors = () => (
         </p>
       </Row>
       <Row>
-        <Element name="contact">
+        <Element name="contact" style={{ width: '100%' }}>
           <Contact />
         </Element>
       </Row>
-    </Grid>
+    </Container>
   </div>
 );
 

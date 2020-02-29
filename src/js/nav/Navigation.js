@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, NavItem, Button } from 'react-bootstrap';
+import { Navbar, Nav, Button } from 'react-bootstrap';
 import NavTabs from './NavTabs';
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -7,9 +7,9 @@ const buttonLink =
   'https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604';
 
 export const NavButton = () => (
-  <NavItem href={buttonLink}>
+  <Nav.Item href={buttonLink}>
     <Button>Get Tickets</Button>
-  </NavItem>
+  </Nav.Item>
 );
 
 const NavDate = () => (
@@ -29,18 +29,17 @@ const NavTitle = () => (
 );
 
 const Navigation = () => (
-  <div className="main-navbar">
-    <Navbar fixedTop collapseOnSelect>
-      <Navbar.Header left="true">
+  <div className="main-navbar" style={{ justifyItems: 'space-between' }}>
+    <Navbar fixed="top" expand="lg" collapseOnSelect>
+      <div
+        style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}
+      >
         <NavTitle className="title" />
-        <Navbar.Toggle />
-      </Navbar.Header>
-      <NavDate className="date" />
-      <Navbar.Collapse>
-        <Nav pullRight>
-          <NavButton className="button navbar-button" />
-          <NavTabs className="tabs" />
-        </Nav>
+        <NavDate className="date" />
+      </div>
+      <Navbar.Collapse className="justify-content-end">
+        <NavButton className="button navbar-button" />
+        <NavTabs className="tabs" />
       </Navbar.Collapse>
     </Navbar>
   </div>

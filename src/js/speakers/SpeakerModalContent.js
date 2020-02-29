@@ -23,7 +23,7 @@ const SpeakerModalContent = ({
     <Col sm={4}>
       {btn}
       <div className="speaker-image">
-        <Image rounded responsive src={img} />
+        <Image rounded fluid src={img} />
       </div>
     </Col>
     <Col sm={8}>

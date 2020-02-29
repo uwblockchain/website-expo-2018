@@ -3,7 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 
 const WhyAttend = () => (
   <div className="container">
-    <Row>
+    <Row style={{ flexDirection: 'column', alignItems: 'center' }}>
       <h1 className="attend-title">Why Attend?</h1>
       <Col sm={8} style={{ paddingLeft: '0' }}>
         <p className="attend-description">

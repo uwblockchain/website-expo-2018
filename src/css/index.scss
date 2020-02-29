@@ -1,12 +1,17 @@
+@import "./navbar";
+
 html,
 .App {
+  /* background: url('../img/background.png') no-repeat center center fixed;
+  background-color: rgb(249, 246, 238);
+  background-size: cover; */
   background: linear-gradient(to top right, #18184b, #663399) no-repeat center
     center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: "Exo", "Open Sans", sans-serif !important;
 }
 
 ::-webkit-scrollbar {
@@ -152,6 +157,7 @@ h3.card-sub {
 
 h1.card-price {
   font-weight: bolder !important;
+  margin-top: 1.33rem;
 }
 
 h3.card-title {
@@ -227,7 +233,7 @@ div.card-button a:focus {
 }
 .bot-left:before,
 .bot-left:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -5px;
   left: -5px;
@@ -274,8 +280,19 @@ button.modal-button {
 
 img.hero-image {
   position: relative;
-  max-width: 1800px;
+  max-width: 100%;
   margin: auto;
+}
+
+.hero-alert {
+  background-color: #00a86b;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 5.7rem;
+  text-align: center;
 }
 
 .hero-text {
@@ -510,6 +527,7 @@ form input:focus {
 .contact {
   padding-top: 2em;
   padding-bottom: 1em;
+  width: 100%;
 }
 
 .workshops {
@@ -561,7 +579,7 @@ form input:focus {
     color: white;
     position: static;
     top: 0;
-    padding-top: 15rem;
+    padding-top: 10rem;
     width: 100%;
   }
 
