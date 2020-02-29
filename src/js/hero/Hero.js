@@ -6,6 +6,10 @@ import { Link } from 'react-scroll';
 
 const Hero = () => (
   <div className="container-flex">
+    <div className="hero-alert">
+      Announcing the Blockchain Expo 2020 at the University of Washington!
+      Estimated Date: May 24, 2020
+    </div>
     <Image src={heroBG} fluid className="hero-image" />
     <div className="text-center hero-text">
       <Container>

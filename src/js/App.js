@@ -22,7 +22,7 @@ export default class App extends React.Component {
   };
 
   componentDidMount() {
-    setTimeout(() => this.setState({ loading: false }), 100);
+    setTimeout(() => this.setState({ loading: false }), 300);
   }
 
   render() {

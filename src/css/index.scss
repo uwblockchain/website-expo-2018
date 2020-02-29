@@ -280,8 +280,19 @@ button.modal-button {
 
 img.hero-image {
   position: relative;
-  max-width: 1800px;
+  max-width: 100%;
   margin: auto;
+}
+
+.hero-alert {
+  background-color: #00a86b;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 5.7rem;
+  text-align: center;
 }
 
 .hero-text {
