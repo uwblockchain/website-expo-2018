@@ -6,7 +6,8 @@ import biziconImg from '../../img/workshops/bizicon.png';
 const styleRows = {
   marginBottom: '0.7rem',
   fontSize: '1.5rem',
-  fontWeight: '100'
+  fontWeight: '100',
+  wordBreak: 'break-all'
 };
 
 const Workshops = () => (
