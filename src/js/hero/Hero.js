@@ -27,7 +27,7 @@ const Hero = () => (
               Learn More
             </Link>
             <a
-              href="https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604"
+              href="https://www.eventbrite.com/e/university-of-washington-blockchain-exposition-2020-tickets-98153175791"
               target="#"
               className="btn btn-hero btn-purple"
             >
@@ -53,7 +53,7 @@ const Hero = () => (
               of Americas best university campuses.
             </h4>
             <a
-              href="https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604"
+              href="https://www.eventbrite.com/e/university-of-washington-blockchain-exposition-2020-tickets-98153175791"
               target="#"
               className="btn btn-hero btn-purple"
               style={{ marginLeft: '0em' }}

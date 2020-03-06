@@ -19,7 +19,7 @@ const BuyTicketCard = props => (
     </div>
     <div className="card-button text-center">
       <a
-        href="https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604"
+        href="https://www.eventbrite.com/e/university-of-washington-blockchain-exposition-2020-tickets-98153175791"
         target="#"
         className="btn btn-primary"
       >

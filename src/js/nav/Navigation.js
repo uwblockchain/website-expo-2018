@@ -4,7 +4,7 @@ import NavTabs from './NavTabs';
 import { animateScroll as scroll } from 'react-scroll';
 
 const buttonLink =
-  'https://www.eventbrite.com/e/uw-blockchain-expo-tickets-47000447604';
+  'https://www.eventbrite.com/e/university-of-washington-blockchain-exposition-2020-tickets-98153175791';
 
 export const NavButton = () => (
   <Nav.Item href={buttonLink}>
